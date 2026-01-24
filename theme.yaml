@@ -1,0 +1,49 @@
+---
+typography:
+  icons: https://www.nerdfonts.com/cheat-sheet
+  ascii_art: https://patorjk.com/software/taag/#p=display&f=ANSI%20Shadow&t=test
+  fonts:
+    - JetBrainsMono Nerd Font
+    - FiraCode Nerd Font
+    - Ubuntu Sans
+
+color:
+  dark:
+    name: Gruvbox Material Dark
+    variant: Hard
+    link: https://github.com/sainnhe/gruvbox-material
+    coolors: https://coolors.co/141617-1D2021-DDC7A1-EA6962-E78A4E-D8A657-A9B665-89B482-7DAEA3-D3869B
+    colors:
+      # cSpell: disable
+      background_dim: 141617
+      background: 1D2021
+      foreground: DDC7A1
+
+      red: EA6962
+      orange: E78A4E
+      yellow: D8A657
+      green: A9B665
+      cyan(aqua): 89B482
+      blue: 7DAEA3
+      purple(magenta,violet): D3869B
+      # cSpell: enable
+
+  light:
+    name: Everforest
+    variant: TODO
+    link: https://github.com/sainnhe/everforest
+    coolors: https://coolors.co/F2EFDF-FFFBEF-5C6A72-F85552-F57D26-DFA000-8DA101-35A77C-3A94C5-DF69BA
+    colors:
+      # cSpell: disable
+      background_dim: F2EFDF
+      background: FFFBEF
+      foreground: 5C6A72
+
+      red: F85552
+      orange: F57D26
+      yellow: DFA000
+      green: 8DA101
+      cyan(aqua): 35A77C
+      blue: 3A94C5
+      purple(magenta,violet): DF69BA
+      # cSpell: enable

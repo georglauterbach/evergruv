@@ -1,0 +1,57 @@
+{
+  "name": "evergruv",
+  "displayName": "Evergruv",
+  "version": "0.1.0",
+  "description": "A color theme combining Gruvbox Material Dark & Everforest Light",
+  "author": "georglauterbach (https://github.com/georglauterbach)",
+  "publisher": "georglauterbach",
+  "homepage": "https://github.com/georglauterbach/evergruv",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/georglauterbach/evergruv.git"
+  },
+  "bugs": {
+    "url": "https://github.com/georglauterbach/evergruv/issues"
+  },
+  "license": "GPL-3.0-or-later",
+  "icon": "assets/icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Evergruv (Everforest) Light",
+        "uiTheme": "vs",
+        "path": "./themes/Evergruv-Light.json"
+      },
+      {
+        "label": "Evergruv (Gruvbox Material) Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Evergruv-Dark.json"
+      }
+    ]
+  },
+  "keywords": [
+    "gruvbox material",
+    "everforest",
+    "theme"
+  ],
+  "galleryBanner": {
+    "color": "#1D2021",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.108"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    },
+    "virtualWorkspaces": true
+  }
+}

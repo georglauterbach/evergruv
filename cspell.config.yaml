@@ -1,0 +1,20 @@
+---
+version: '0.2'
+
+import: []
+
+ignorePaths: []
+dictionaryDefinitions: []
+
+dictionaries:
+  - en_US
+
+words: []
+
+ignoreWords:
+  - coolors
+  - Everforest
+  - Evergruv
+  - georglauterbach
+  - Gruvbox
+  - sainnhe

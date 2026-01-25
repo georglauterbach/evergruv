@@ -9,6 +9,7 @@ themes:
       # cSpell: disable
       background_dim: 141617
       background: 1D2021
+      grey: 282828
       foreground: DDC7A1
 
       red: EA6962
@@ -29,6 +30,7 @@ themes:
       # cSpell: disable
       background_dim: F2EFDF
       background: FFFBEF
+      grey: A6B0A0
       foreground: 5C6A72
 
       red: F85552

@@ -134,15 +134,15 @@
     "editorOverviewRuler.currentContentForeground": "#6cb3c6",
     "editorOverviewRuler.deletedForeground": "#f1706fa0",
     "editorOverviewRuler.errorForeground": "#f85552",
-    "editorOverviewRuler.findMatchForeground": "#6ec398",
+    "editorOverviewRuler.findMatchForeground": "#6ec39880",
     "editorOverviewRuler.incomingContentForeground": "#6ec398",
     "editorOverviewRuler.infoForeground": "#df69ba",
     "editorOverviewRuler.modifiedForeground": "#6cb3c6a0",
-    "editorOverviewRuler.rangeHighlightForeground": "#6ec398",
-    "editorOverviewRuler.selectionHighlightForeground": "#6ec398",
+    "editorOverviewRuler.rangeHighlightForeground": "#6ec39880",
+    "editorOverviewRuler.selectionHighlightForeground": "#6ec39880",
     "editorOverviewRuler.warningForeground": "#dfa000",
-    "editorOverviewRuler.wordHighlightForeground": "#e8e5d5",
-    "editorOverviewRuler.wordHighlightStrongForeground": "#e8e5d5",
+    "editorOverviewRuler.wordHighlightForeground": "#e8e5d580",
+    "editorOverviewRuler.wordHighlightStrongForeground": "#e8e5d580",
     "editorRuler.foreground": "#edeadaa0",
     "editorSuggestWidget.background": "#f2efdf",
     "editorSuggestWidget.border": "#f2efdf",
@@ -1107,15 +1107,13 @@
     {
       "scope": "punctuation.definition.heading.markdown",
       "settings": {
-        "foreground": "#939F91",
-        "fontStyle": "regular"
+        "foreground": "#939F91"
       }
     },
     {
       "scope": "string.other.link.title.markdown, constant.other.reference.link.markdown, string.other.link.description.markdown",
       "settings": {
-        "foreground": "#DF69BA",
-        "fontStyle": "regular"
+        "foreground": "#DF69BA"
       }
     },
     {
@@ -1134,8 +1132,7 @@
     {
       "scope": "punctuation.definition.bold.markdown",
       "settings": {
-        "foreground": "#939F91",
-        "fontStyle": "regular"
+        "foreground": "#939F91"
       }
     },
     {
@@ -1203,8 +1200,7 @@
     {
       "scope": "punctuation.definition.bold.restructuredtext",
       "settings": {
-        "foreground": "#939F91",
-        "fontStyle": "regular"
+        "foreground": "#939F91"
       }
     },
     {

@@ -135,15 +135,15 @@
     "editorOverviewRuler.currentContentForeground": "#68948a",
     "editorOverviewRuler.deletedForeground": "#b85651a0",
     "editorOverviewRuler.errorForeground": "#ea6962",
-    "editorOverviewRuler.findMatchForeground": "#72966c",
+    "editorOverviewRuler.findMatchForeground": "#72966c80",
     "editorOverviewRuler.incomingContentForeground": "#72966c",
     "editorOverviewRuler.infoForeground": "#d3869b",
     "editorOverviewRuler.modifiedForeground": "#68948aa0",
-    "editorOverviewRuler.rangeHighlightForeground": "#72966c",
-    "editorOverviewRuler.selectionHighlightForeground": "#72966c",
+    "editorOverviewRuler.rangeHighlightForeground": "#72966c80",
+    "editorOverviewRuler.selectionHighlightForeground": "#72966c80",
     "editorOverviewRuler.warningForeground": "#d8a657",
-    "editorOverviewRuler.wordHighlightForeground": "#665c54",
-    "editorOverviewRuler.wordHighlightStrongForeground": "#665c54",
+    "editorOverviewRuler.wordHighlightForeground": "#665c5480",
+    "editorOverviewRuler.wordHighlightStrongForeground": "#665c5480",
     "editorRuler.foreground": "#1D2021",
     "editorSuggestWidget.background": "#2e2c2b",
     "editorSuggestWidget.border": "#2e2c2b",
@@ -1108,15 +1108,13 @@
     {
       "scope": "punctuation.definition.heading.markdown",
       "settings": {
-        "foreground": "#928374",
-        "fontStyle": "regular"
+        "foreground": "#928374"
       }
     },
     {
       "scope": "string.other.link.title.markdown, constant.other.reference.link.markdown, string.other.link.description.markdown",
       "settings": {
-        "foreground": "#D3869B",
-        "fontStyle": "regular"
+        "foreground": "#D3869B"
       }
     },
     {
@@ -1135,8 +1133,7 @@
     {
       "scope": "punctuation.definition.bold.markdown",
       "settings": {
-        "foreground": "#928374",
-        "fontStyle": "regular"
+        "foreground": "#928374"
       }
     },
     {
@@ -1204,8 +1201,7 @@
     {
       "scope": "punctuation.definition.bold.restructuredtext",
       "settings": {
-        "foreground": "#928374",
-        "fontStyle": "regular"
+        "foreground": "#928374"
       }
     },
     {

@@ -1,10 +1,14 @@
 {
   "name": "evergruv",
   "displayName": "Evergruv",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A color theme combining Gruvbox Material Dark & Everforest Light",
   "author": "georglauterbach (https://github.com/georglauterbach)",
   "publisher": "georglauterbach",
+  "sponsor": {
+    "url": "https://github.com/sponsors/georglauterbach"
+  },
+  "pricing": "Free",
   "homepage": "https://github.com/georglauterbach/evergruv",
   "repository": {
     "type": "git",
@@ -13,8 +17,13 @@
   "bugs": {
     "url": "https://github.com/georglauterbach/evergruv/issues"
   },
-  "license": "GPL-3.0-or-later",
+  "license": "MIT",
   "icon": "assets/icon.png",
+  "files": [
+    "assets",
+    "themes",
+    "LICENSE"
+  ],
   "contributes": {
     "themes": [
       {
@@ -39,7 +48,7 @@
     "theme": "dark"
   },
   "engines": {
-    "vscode": "^1.108"
+    "vscode": "^1.108.0"
   },
   "categories": [
     "Themes"

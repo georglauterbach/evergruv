@@ -1,6 +1,51 @@
 {
   "$schema": "vscode://schemas/color-theme",
   "type": "light",
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "boolean": "#DF69BA",
+    "builtinType": "#DF69BA",
+    "class": "#3A94C5",
+    "comment": "#A6B0A0",
+    "*.documentation": {
+      "bold": true,
+      "italic": false
+    },
+    "const": "#5C6A72",
+    "static": "#5C6A72",
+    "decorator": "#DF69BA",
+    "enum": "#3A94C5",
+    "enumMember": "#5C6A72",
+    "event": "#ff0000", // TODO
+    "function": "#8DA101",
+    "function.async": {
+      "italic": true
+    },
+    "interface": "#3A94C5",
+    "keyword": "#F85552",
+    "label": "#ff0000", // TODO
+    "macro": "#DF69BA",
+    "method": "#8DA101",
+    "method.async": {
+      "italic": true
+    },
+    "namespace": "#35A77C",
+    "number": "#DF69BA",
+    "operator": "#F57D26",
+    "parameter": "#5C6A72",
+    "property": "#5C6A72",
+    "regexp": "#ff0000", // TODO
+    "string": "#DFA000",
+    "struct": "#3A94C5",
+    "type": "#ff0000", // TODO
+    "typeAlias": "#3A94C5",
+    "typeParameter": "#3A94C5",
+    "variable": "#5C6A72",
+    "*.deprecated": {
+      "foreground": "#A6B0A0",
+      "strikethrough": true
+    }
+  },
   "colors": {
     "activityBar.activeBorder": "#93b259d0",
     "activityBar.activeFocusBorder": "#93b259",

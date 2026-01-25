@@ -19,6 +19,8 @@ jobs:
           persist-credentials: false
 
       - uses: actions/setup-node@v6
+        with:
+          package-manager-cache: false
 
       - name: Publish to Visual Studio Marketplace
         uses: HaaLeo/publish-vscode-extension@v2

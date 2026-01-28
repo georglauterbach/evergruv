@@ -68,7 +68,7 @@
     "errorForeground": "#ea6962",
     "focusBorder": "#3d383500",
     "foreground": "#a89984",
-    // -----------------------------------------------
+    "sash.hoverBorder": "#7c6f64",
     // ----  1.1 Editor  -----------------------------
     // -----------------------------------------------
     // ----  Core
@@ -270,8 +270,6 @@
     "panelTitle.activeBorder": "#928374",
     "panelTitle.activeForeground": "#a89984",
     "panelTitle.inactiveForeground": "#7c6f64",
-    // ----  Divider Between Editor and Panel
-    "sash.hoverBorder": "#7c6f64",
     // ----  Miscellaneous
     "ports.iconRunningProcessForeground": "#A9B665",
     // ----  Status Bar
@@ -320,6 +318,8 @@
     // ----  1.4 Workbench General  ------------------
     // -----------------------------------------------
     // ----  Badges
+    "activityBarBadge.background": "#D8A657",
+    "activityBarBadge.foreground": "#1D2021",
     "badge.background": "#a89984",
     "badge.foreground": "#1D2021",
     // ----  Buttons
@@ -370,6 +370,40 @@
     "scrollbarSlider.hoverBackground": "#665c54",
     // ----  Selections Outside the Editor
     "selection.background": "#72966c60",
+    // ----  Symbols
+    "symbolIcon.colorForeground": "#d4be98",
+    "symbolIcon.snippetForeground": "#d4be98",
+    "symbolIcon.fieldForeground": "#d4be98",
+    "symbolIcon.fileForeground": "#d4be98",
+    "symbolIcon.folderForeground": "#d4be98",
+    "symbolIcon.textForeground": "#d4be98",
+    "symbolIcon.unitForeground": "#d4be98",
+    "symbolIcon.keywordForeground": "#ea6962",
+    "symbolIcon.operatorForeground": "#e78a4e",
+    "symbolIcon.classForeground": "#d8a657",
+    "symbolIcon.eventForeground": "#d8a657",
+    "symbolIcon.interfaceForeground": "#d8a657",
+    "symbolIcon.structForeground": "#d8a657",
+    "symbolIcon.functionForeground": "#a9b665",
+    "symbolIcon.keyForeground": "#a9b665",
+    "symbolIcon.methodForeground": "#a9b665",
+    "symbolIcon.stringForeground": "#a9b665",
+    "symbolIcon.constantForeground": "#89b482",
+    "symbolIcon.enumeratorMemberForeground": "#89b482",
+    "symbolIcon.nullForeground": "#89b482",
+    "symbolIcon.propertyForeground": "#89b482",
+    "symbolIcon.typeParameterForeground": "#89b482",
+    "symbolIcon.arrayForeground": "#7daea3",
+    "symbolIcon.referenceForeground": "#7daea3",
+    "symbolIcon.variableForeground": "#7daea3",
+    "symbolIcon.booleanForeground": "#d3869b",
+    "symbolIcon.constructorForeground": "#d3869b",
+    "symbolIcon.enumeratorForeground": "#d3869b",
+    "symbolIcon.moduleForeground": "#d3869b",
+    "symbolIcon.namespaceForeground": "#d3869b",
+    "symbolIcon.numberForeground": "#d3869b",
+    "symbolIcon.objectForeground": "#d3869b",
+    "symbolIcon.packageForeground": "#d3869b",
     // ----  Text Colors
     "textBlockQuote.background": "#2a2827",
     "textBlockQuote.border": "#a89984",

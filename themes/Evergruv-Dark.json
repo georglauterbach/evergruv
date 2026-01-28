@@ -149,7 +149,7 @@
     // ----  Minimap
     "minimap.errorHighlight": "#ea6962",
     "minimap.findMatchHighlight": "#333e34d0",
-    "minimap.infoHighlight": "#2e3b3b", // TODO adjust
+    "minimap.infoHighlight": "#7DAEA3A0",
     "minimap.selectionHighlight": "#7c6f6480",
     "minimap.warningHighlight": "#d8a657",
     "minimapGutter.addedBackground": "#8f9a52a0",
@@ -178,7 +178,7 @@
     "peekViewTitleDescription.foreground": "#c5b18d",
     "peekViewTitleLabel.foreground": "#a9b665",
     // ----  Rulers
-    "editorRuler.foreground": "#2B2B2B", // TODO make background_dim?
+    "editorRuler.foreground": "#2B2B2B",
     // ----  Tabs
     "tab.activeBackground": "#1D2021",
     "tab.activeBorder": "#a89984",

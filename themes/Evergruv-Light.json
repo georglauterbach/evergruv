@@ -1,7 +1,7 @@
 {
   // ! ref: https://code.visualstudio.com/api/references/theme-color
   "$schema": "vscode://schemas/color-theme",
-  "type": "dark",
+  "type": "light",
   // -----------------------------------------------
   // ----  0. Semantic Highlighting  ---------------
   // -----------------------------------------------
@@ -301,7 +301,7 @@
     "terminal.ansiBrightBlue": "#3a94c5",
     "terminal.ansiBrightCyan": "#35a77c",
     "terminal.ansiBrightGreen": "#8da101",
-    "terminal.ansiBrightMagenta": "#df69",
+    "terminal.ansiBrightMagenta": "#df69ba",
     "terminal.ansiBrightRed": "#f85552",
     "terminal.ansiBrightWhite": "#f8f5e4",
     "terminal.ansiBrightYellow": "#dfa000",

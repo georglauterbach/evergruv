@@ -21,8 +21,6 @@
   "icon": "assets/icon.png",
   "files": [
     "assets/icon.png",
-    "assets/gruvbox_material_dark.png",
-    "assets/everforest_light.png",
     "themes",
     "LICENSE"
   ],

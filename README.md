@@ -1,6 +1,6 @@
 # Evergruv Material
 
-A color theme based on and combining [@sainnhe](https://github.com/sainnhe)'s [Gruvbox Material Dark](https://github.com/sainnhe/gruvbox-material) for the dark variant and [Everforest Light](https://github.com/sainnhe/everforest) for the light variant.
+A color theme based on and combining [@sainnhe](https://github.com/sainnhe)'s [Gruvbox Material Dark](https://github.com/sainnhe/gruvbox-material) for the dark variant and [Everforest Light](https://github.com/sainnhe/everforest) for the light variant. The color palette has been kept, but the application of the colors is (slightly) different.
 
 To install this extension, run `code --install-extension georglauterbach.evergruv` in your terminal or `ext install georglauterbach.evergruv` in `Ctrl+p` inside VS Code.
 

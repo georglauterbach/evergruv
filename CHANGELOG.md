@@ -9,4 +9,3 @@ All notable changes to this project will be documented in this file. The format 
 ## [0.1.0](https://github.com/georglauterbach/evergruv/releases/tag/0.1.0)
 
 - Initial release
-

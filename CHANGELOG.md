@@ -10,6 +10,7 @@ All notable changes to this project will be documented in this file. The format 
   - [Semantic Highlighting](https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide) ([#1](https://github.com/georglauterbach/evergruv/pull/1))
 - **Changed**
   - [Application of colors](https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide) ([#1](https://github.com/georglauterbach/evergruv/pull/1))
+  - [Color codes uppercase]([#2](https://github.com/georglauterbach/evergruv/pull/2))
 
 ## [0.1.0](https://github.com/georglauterbach/evergruv/releases/tag/0.1.0)
 

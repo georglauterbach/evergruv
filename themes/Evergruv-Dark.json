@@ -69,6 +69,7 @@
     "focusBorder": "#3d383500",
     "foreground": "#a89984",
     "sash.hoverBorder": "#7c6f64",
+    // -----------------------------------------------
     // ----  1.1 Editor  -----------------------------
     // -----------------------------------------------
     // ----  Core
@@ -137,18 +138,18 @@
     // ----  Hints & Inlay Hints
     "editorHint.foreground": "#ab6c7d",
     "editorInlayHint.background": "#1D202100",
-    "editorInlayHint.foreground": "#665c54",
+    "editorInlayHint.foreground": "#665c54A0",
     "editorInlayHint.parameterBackground": "#1D202100",
-    "editorInlayHint.parameterForeground": "#665c54",
+    "editorInlayHint.parameterForeground": "#665c54A0",
     "editorInlayHint.typeBackground": "#1D202100",
-    "editorInlayHint.typeForeground": "#665c54",
+    "editorInlayHint.typeForeground": "#665c54A0",
     // ----  Hovers
     "editorHoverWidget.background": "#2a2827",
     "editorHoverWidget.border": "#46403d",
     // ----  Minimap
     "minimap.errorHighlight": "#ea6962",
     "minimap.findMatchHighlight": "#333e34d0",
-    "minimap.infoHighlight": "#2e3b3b",
+    "minimap.infoHighlight": "#2e3b3b", // TODO adjust
     "minimap.selectionHighlight": "#7c6f6480",
     "minimap.warningHighlight": "#d8a657",
     "minimapGutter.addedBackground": "#8f9a52a0",
@@ -177,7 +178,7 @@
     "peekViewTitleDescription.foreground": "#c5b18d",
     "peekViewTitleLabel.foreground": "#a9b665",
     // ----  Rulers
-    "editorRuler.foreground": "#2B2B2B",
+    "editorRuler.foreground": "#2B2B2B", // TODO make background_dim?
     // ----  Tabs
     "tab.activeBackground": "#1D2021",
     "tab.activeBorder": "#a89984",
@@ -284,7 +285,7 @@
     "statusBarItem.activeBackground": "#32302fa0",
     "statusBarItem.errorBackground": "#070808",
     "statusBarItem.errorForeground": "#ea6962",
-    "statusBarItem.hoverBackground": "#32302f",
+    "statusBarItem.hoverBackground": "#32302fA0",
     "statusBarItem.prominentBackground": "#070808",
     "statusBarItem.prominentForeground": "#d4be98",
     "statusBarItem.prominentHoverBackground": "#32302fa0",
@@ -523,9 +524,12 @@
     "pickerGroup.foreground": "#d4be98",
     "quickInputTitle.background": "#32302f"
   },
+  // -----------------------------------------------
+  // ----  2. Tokens  ------------------------------
+  // -----------------------------------------------
   "tokenColors": [
     // -----------------------------------------------
-    // ----  General  --------------------------------
+    // ----  2.0 General  ----------------------------
     // -----------------------------------------------
     {
       "name": "Arguments & Variables",
@@ -612,7 +616,7 @@
       }
     },
     // -----------------------------------------------
-    // ----  Markup  ---------------------------------
+    // ----  2.1 Markup  -----------------------------
     // -----------------------------------------------
     {
       "name": "Markup | Italic",
@@ -636,9 +640,9 @@
       }
     },
     // -----------------------------------------------
-    // ----  Languages  ------------------------------
+    // ----  2.2 Languages  --------------------------
     // -----------------------------------------------
-    // * Asciidoc
+    // ----  Asciidoc
     {
       "name": "Asciidoc | Heading 0",
       "scope": "markup.heading.heading-0.asciidoc",
@@ -688,7 +692,7 @@
         "foreground": "#928374"
       }
     },
-    // * CSS
+    // ----  CSS
     {
       "name": "CSS | Strings",
       "scope": "constant.other.color.rgb-value.hex.css, support.constant.property-value.css, meta.property-value.css",
@@ -710,7 +714,7 @@
         "foreground": "#89B482"
       }
     },
-    // * Diff
+    // ----  Diff
     {
       "name": "Diff | Separator",
       "scope": "punctuation.definition.separator.diff",
@@ -774,7 +778,7 @@
         "foreground": "#7DAEA3"
       }
     },
-    // * EditorConfig
+    // ----  EditorConfig
     {
       "name": "EditorConfig | Keys",
       "scope": "meta.section.editorconfig, keyword.other.definition.charset.editorconfig, keyword.other.definition.end_of_line.editorconfig, keyword.other.definition.indent_size.editorconfig, keyword.other.definition.indent_style.editorconfig, keyword.other.definition.insert_final_newline.editorconfig, keyword.other.definition.root.editorconfig, keyword.other.definition.tab_width.editorconfig, keyword.other.definition.max_line_length.editorconfig , keyword.other.definition.trim_trailing_whitespace.editorconfig, keyword.other.definition.custom.editorconfig",
@@ -796,7 +800,7 @@
         "foreground": "#89B482"
       }
     },
-    // * Ini
+    // ----  Ini
     {
       "name": "Ini | Section Titles",
       "scope": "entity.name.section.group-title.ini, punctuation.definition.entity.ini, meta.embedded.block.ini",
@@ -811,7 +815,7 @@
         "foreground": "#E78A4E"
       }
     },
-    // * JSON
+    // ----  JSON
     {
       "name": "JSON | Keys",
       "scope": "support.type.property-name",
@@ -819,7 +823,7 @@
         "foreground": "#E78A4E"
       }
     },
-    // * Markdown
+    // ----  Markdown
     {
       "name": "Markdown | Code Fences",
       "scope": "fenced_code.block.language, punctuation.definition.markdown, punctuation.definition.raw.markdown",
@@ -911,7 +915,7 @@
         "fontStyle": "underline"
       }
     },
-    // * Shell
+    // ----  Shell
     {
       "name": "Shell | Builtin Functions & Methods",
       "scope": "support.function.builtin.shell, entity.name.command.shell, entity.name.function.shell",
@@ -940,7 +944,7 @@
         "foreground": "#D3869B"
       }
     },
-    // * YAML
+    // ----  YAML
     {
       "name": "YAML | Begin-of-Document ---",
       "scope": "entity.other.document.begin.yaml",

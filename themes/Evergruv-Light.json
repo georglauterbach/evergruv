@@ -23,7 +23,7 @@
     "deriveHelper:rust": "#DFA000",
     "enum": "#3A94C5",
     "enumMember": "#5C6A72",
-    "event": "#ff0000", // TODO
+    "event": "#ff0000",
     "formatSpecifier": "#DFA000",
     "function": "#35A77C",
     "function.async": {
@@ -33,7 +33,7 @@
     "interface": "#3A94C5",
     "key": "#F57D26",
     "keyword": "#F85552",
-    "label": "#ff0000", // TODO
+    "label": "#ff0000",
     "lifetime:rust": "#F57D26",
     "macro": "#DFA000",
     "method": "#35A77C",
@@ -45,11 +45,11 @@
     "operator": "#F57D26",
     "parameter": "#5C6A72",
     "property": "#5C6A72",
-    "regexp": "#ff0000", // TODO
+    "regexp": "#ff0000",
     "string": "#8DA101",
     "struct": "#3A94C5",
     "table": "#35A77C",
-    "type": "#ff0000", // TODO
+    "type": "#ff0000",
     "typeAlias": "#3A94C5",
     "typeParameter": "#DFA000",
     "variable": "#5C6A72",
@@ -105,7 +105,7 @@
     // ----  Breadcrumbs
     "breadcrumb.activeSelectionForeground": "#5c6a72",
     "breadcrumb.focusForeground": "#5C6A72",
-    "breadcrumb.foreground": "#939f91",
+    "breadcrumb.foreground": "#818780",
     // ----  Code Lens
     "editorCodeLens.foreground": "#a4ad9ea0",
     // ----  Cursor
@@ -149,7 +149,7 @@
     // ----  Minimap
     "minimap.errorHighlight": "#F8555280",
     "minimap.findMatchHighlight": "#6ec39860",
-    "minimap.infoHighlight": "#2e3b3b80", // TODO adjust
+    "minimap.infoHighlight": "#3A94C5a0",
     "minimap.selectionHighlight": "#e8e5d5f0",
     "minimap.warningHighlight": "#DFA00080",
     "minimapGutter.addedBackground": "#a4bb4aa0",
@@ -178,7 +178,7 @@
     "peekViewTitleDescription.foreground": "#5c6a72",
     "peekViewTitleLabel.foreground": "#8DA101",
     // ----  Rulers
-    "editorRuler.foreground": "#F2EFDF", // TODO adjust
+    "editorRuler.foreground": "#F2EFDF",
     // ----  Tabs
     "tab.activeBackground": "#FFFBEF",
     "tab.activeBorder": "#93b259d0",
@@ -189,7 +189,7 @@
     "tab.inactiveBackground": "#FFFBEF",
     "tab.inactiveForeground": "#a4ad9e",
     "tab.lastPinnedBorder": "#93b259d0",
-    "tab.unfocusedActiveBorder": "#939f91",
+    "tab.unfocusedActiveBorder": "#818780",
     "tab.unfocusedActiveForeground": "#879686",
     "tab.unfocusedHoverForeground": "#5c6a72",
     "tab.unfocusedInactiveForeground": "#a4ad9e",
@@ -215,7 +215,7 @@
     // -----------------------------------------------
     // ----  Core
     "sideBar.background": "#F2EFDF",
-    "sideBar.foreground": "#939f91",
+    "sideBar.foreground": "#818780",
     "sideBarSectionHeader.background": "#FFFBEF00",
     "sideBarSectionHeader.foreground": "#879686",
     "sideBarTitle.foreground": "#879686",
@@ -242,19 +242,20 @@
     "inputValidation.infoForeground": "#5c6a72",
     "inputValidation.warningBackground": "#e4b649",
     "inputValidation.warningBorder": "#DFA000",
-    "inputValidation.warningForeground": "#5c6a72",
+    "inputValidation.warningForeground": "#525a5f",
     // ----  List & List GUides
     "list.activeSelectionBackground": "#f2efdf80",
     "list.activeSelectionForeground": "#5c6a72",
     "list.dropBackground": "#f8f5e480",
     "list.errorForeground": "#f85552",
-    "list.focusBackground": "#f2efdf80",
-    "list.focusForeground": "#5c6a72",
+    "list.focusAndSelectionOutline": "#FFFBEF",
+    "list.focusBackground": "#FFFBEF",
+    "list.focusForeground": "#4e585e",
     "list.highlightForeground": "#8da101",
-    "list.hoverBackground": "#fffbef00",
+    "list.hoverBackground": "#fffbef",
     "list.hoverForeground": "#5c6a72",
-    "list.inactiveFocusBackground": "#f2efdf80",
-    "list.inactiveSelectionBackground": "#f2efdf80",
+    "list.inactiveFocusBackground": "#00000000",
+    "list.inactiveSelectionBackground": "#f2efdf97",
     "list.inactiveSelectionForeground": "#879686",
     "list.invalidItemForeground": "#f1706f",
     "list.warningForeground": "#dfa000",
@@ -270,7 +271,7 @@
     "panelSectionHeader.background": "#f8f5e4",
     "panelTitle.activeBorder": "#93b259d0",
     "panelTitle.activeForeground": "#5c6a72",
-    "panelTitle.inactiveForeground": "#939f91",
+    "panelTitle.inactiveForeground": "#818780",
     // ----  Miscellaneous
     "ports.iconRunningProcessForeground": "#8DA101",
     // ----  Status Bar
@@ -335,7 +336,7 @@
     "checkbox.border": "#e8e5d5",
     "checkbox.foreground": "#F57D26",
     // ----  Description Texts
-    "descriptionForeground": "#939f91",
+    "descriptionForeground": "#818780",
     // ----  Icons
     "icon.foreground": "#DFA000",
     // ----  Keybinding Labels for Commands
@@ -446,7 +447,7 @@
     "gitDecoration.addedResourceForeground": "#8DA101a0",
     "gitDecoration.conflictingResourceForeground": "#DF69BAa0",
     "gitDecoration.deletedResourceForeground": "#F85552a0",
-    "gitDecoration.ignoredResourceForeground": "#e8e5d5",
+    "gitDecoration.ignoredResourceForeground": "#b1baaf",
     "gitDecoration.modifiedResourceForeground": "#3A94C5a0",
     "gitDecoration.stageDeletedResourceForeground": "#35A77Ca0",
     "gitDecoration.stageModifiedResourceForeground": "#35A77Ca0",
@@ -689,7 +690,7 @@
       "name": "Asciidoc | Heading Punctuation",
       "scope": "markup.heading.marker.asciidoc",
       "settings": {
-        "foreground": "#928374" // TODO Change
+        "foreground": "#5C6A72A0"
       }
     },
     // ----  CSS
@@ -719,7 +720,7 @@
       "name": "Diff | Separator",
       "scope": "punctuation.definition.separator.diff",
       "settings": {
-        "foreground": "#928374" // TODO Change
+        "foreground": "#5C6A72A0"
       }
     },
     {
@@ -883,7 +884,7 @@
       "name": "Markdown | Heading Punctuation",
       "scope": "punctuation.definition.heading.markdown",
       "settings": {
-        "foreground": "#928374" // TODO Change
+        "foreground": "#5C6A72A0"
       }
     },
     {
@@ -904,7 +905,7 @@
       "name": "Markdown | Toned Down Elements",
       "scope": "punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.bold.markdown, punctuation.definition.italic.markdown, punctuation.definition.quote.begin.markdown, punctuation.definition.metadata.markdown, punctuation.separator.key-value.markdown, punctuation.definition.constant.markdown, meta.separator.markdown, punctuation.definition.constant.begin.markdown, punctuation.definition.constant.end.markdown",
       "settings": {
-        "foreground": "#928374" // TODO Change
+        "foreground": "#5C6A72A0"
       }
     },
     {

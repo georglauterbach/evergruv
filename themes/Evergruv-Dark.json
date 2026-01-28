@@ -23,7 +23,7 @@
     "deriveHelper:rust": "#D8A657",
     "enum": "#7DAEA3",
     "enumMember": "#DDC7A1",
-    "event": "#ff0000", // TODO
+    "event": "#ff0000",
     "formatSpecifier": "#D8A657",
     "function": "#89B482",
     "function.async": {
@@ -33,7 +33,7 @@
     "interface": "#7DAEA3",
     "key": "#E78A4E",
     "keyword": "#EA6962",
-    "label": "#ff0000", // TODO
+    "label": "#ff0000",
     "lifetime:rust": "#E78A4E",
     "macro": "#D8A657",
     "method": "#89B482",
@@ -45,11 +45,11 @@
     "operator": "#E78A4E",
     "parameter": "#DDC7A1",
     "property": "#DDC7A1",
-    "regexp": "#ff0000", // TODO
+    "regexp": "#ff0000",
     "string": "#A9B665",
     "struct": "#7DAEA3",
     "table": "#89B482",
-    "type": "#ff0000", // TODO
+    "type": "#ff0000",
     "typeAlias": "#7DAEA3",
     "typeParameter": "#D8A657",
     "variable": "#DDC7A1",
@@ -248,12 +248,13 @@
     "list.activeSelectionForeground": "#d4be98",
     "list.dropBackground": "#2a282780",
     "list.errorForeground": "#ea6962",
-    "list.focusBackground": "#2a2827c0",
+    "list.focusAndSelectionOutline": "#1D2021",
+    "list.focusBackground": "#1D2021",
     "list.focusForeground": "#d4be98",
     "list.highlightForeground": "#a9b665",
     "list.hoverBackground": "#13141400",
     "list.hoverForeground": "#d4be98",
-    "list.inactiveFocusBackground": "#2a2827c0",
+    "list.inactiveFocusBackground": "#00000000",
     "list.inactiveSelectionBackground": "#2a2827c0",
     "list.inactiveSelectionForeground": "#a89984",
     "list.invalidItemForeground": "#b85651",
@@ -689,7 +690,7 @@
       "name": "Asciidoc | Heading Punctuation",
       "scope": "markup.heading.marker.asciidoc",
       "settings": {
-        "foreground": "#928374"
+        "foreground": "#DDC7A1A0"
       }
     },
     // ----  CSS
@@ -719,7 +720,7 @@
       "name": "Diff | Separator",
       "scope": "punctuation.definition.separator.diff",
       "settings": {
-        "foreground": "#928374"
+        "foreground": "#DDC7A1A0"
       }
     },
     {
@@ -883,7 +884,7 @@
       "name": "Markdown | Heading Punctuation",
       "scope": "punctuation.definition.heading.markdown",
       "settings": {
-        "foreground": "#928374"
+        "foreground": "#DDC7A1A0"
       }
     },
     {
@@ -904,7 +905,7 @@
       "name": "Markdown | Toned Down Elements",
       "scope": "punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.bold.markdown, punctuation.definition.italic.markdown, punctuation.definition.quote.begin.markdown, punctuation.definition.metadata.markdown, punctuation.separator.key-value.markdown, punctuation.definition.constant.markdown, meta.separator.markdown, punctuation.definition.constant.begin.markdown, punctuation.definition.constant.end.markdown",
       "settings": {
-        "foreground": "#928374"
+        "foreground": "#DDC7A1A0"
       }
     },
     {

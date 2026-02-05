@@ -655,6 +655,13 @@
         "fontStyle": "underline"
       }
     },
+    {
+      "name": "Markup | Inline Raw Strings",
+      "scope": "markup.inline.raw.string, markup.raw.monospace",
+      "settings": {
+        "foreground": "#A9B665"
+      }
+    },
     // -----------------------------------------------
     // ----  2.2 Languages  --------------------------
     // -----------------------------------------------

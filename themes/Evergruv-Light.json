@@ -555,9 +555,16 @@
     },
     {
       "name": "Comments",
-      "scope": "comment, string.comment, punctuation.definition.comment",
+      "scope": "comment, string.comment, punctuation.definition.comment, punctuation.definition.tag.begin, punctuation.definition.tag.end",
       "settings": {
         "foreground": "#A6B0A0"
+      }
+    },
+    {
+      "name": "Entity Name Tags",
+      "scope": "entity.name.tag",
+      "settings": {
+        "foreground": "#F57D26"
       }
     },
     {
@@ -638,6 +645,14 @@
       "scope": "markup.bold markup.italic, markup.italic markup.bold",
       "settings": {
         "fontStyle": "italic bold"
+      }
+    },
+    {
+      "name": "Markup | Links",
+      "scope": "markup.link, markup.underline.link",
+      "settings": {
+        "foreground": "#DF69BA",
+        "fontStyle": "underline"
       }
     },
     // -----------------------------------------------
@@ -881,17 +896,10 @@
       }
     },
     {
-      "name": "Markdown | Heading Punctuation",
-      "scope": "punctuation.definition.heading.markdown",
-      "settings": {
-        "foreground": "#5C6A72A0"
-      }
-    },
-    {
       "name": "Markdown | Links",
       "scope": "string.other.link.title.markdown, string.other.link.description.markdown",
       "settings": {
-        "foreground": "#DF69BA"
+        "foreground": "#8DA101"
       }
     },
     {
@@ -903,17 +911,9 @@
     },
     {
       "name": "Markdown | Toned Down Elements",
-      "scope": "punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.bold.markdown, punctuation.definition.italic.markdown, punctuation.definition.quote.begin.markdown, punctuation.definition.metadata.markdown, punctuation.separator.key-value.markdown, punctuation.definition.constant.markdown, meta.separator.markdown, punctuation.definition.constant.begin.markdown, punctuation.definition.constant.end.markdown",
+      "scope": "punctuation.definition.heading.markdown, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.bold.markdown, punctuation.definition.italic.markdown, punctuation.definition.quote.begin.markdown, punctuation.definition.metadata.markdown, punctuation.separator.key-value.markdown, punctuation.definition.constant.markdown, meta.separator.markdown, punctuation.definition.constant.begin.markdown, punctuation.definition.constant.end.markdown",
       "settings": {
         "foreground": "#5C6A72A0"
-      }
-    },
-    {
-      "name": "Markdown | Underlined Links",
-      "scope": "markup.underline.link.image.markdown, markup.underline.link.markdown",
-      "settings": {
-        "foreground": "#8DA101",
-        "fontStyle": "underline"
       }
     },
     // ----  Shell
@@ -952,13 +952,6 @@
       "settings": {
         "foreground": "#DFA000",
         "fontStyle": "bold"
-      }
-    },
-    {
-      "name": "YAML | Keys",
-      "scope": "entity.name.tag.yaml",
-      "settings": {
-        "foreground": "#F57D26"
       }
     }
   ]

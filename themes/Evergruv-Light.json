@@ -540,6 +540,14 @@
       }
     },
     {
+      "name": "Builtin Functions",
+      "scope": "support.function.builtin",
+      "settings": {
+        "foreground": "#35A77C",
+        "fontStyle": "bold"
+      }
+    },
+    {
       "name": "Builtin Primitive Types",
       "scope": "storage.type.built-in",
       "settings": {
@@ -568,17 +576,17 @@
       }
     },
     {
-      "name": "Function Definitions",
+      "name": "Functions | Definition",
       "scope": "storage.type.function",
       "settings": {
         "foreground": "#F85552"
       }
     },
     {
-      "name": "Functions",
-      "scope": "entity.name.function, support.function, meta.function, meta.function-call.generic, meta.definition.method",
+      "name": "Functions | Usage",
+      "scope": "entity.name.function, support.function, meta.function, meta.function-call.generic, meta.definition.method, entity.name.command",
       "settings": {
-        "foreground": "#8DA101"
+        "foreground": "#35A77C"
       }
     },
     {
@@ -838,6 +846,13 @@
         "foreground": "#F57D26"
       }
     },
+    {
+      "name": "Ini | Values",
+      "scope": "meta.embedded.block.ini",
+      "settings": {
+        "foreground": "#8DA101"
+      }
+    },
     // ----  JSON
     {
       "name": "JSON | Keys",
@@ -925,13 +940,6 @@
     },
     // ----  Shell
     {
-      "name": "Shell | Builtin Functions & Methods",
-      "scope": "support.function.builtin.shell, entity.name.command.shell, entity.name.function.shell",
-      "settings": {
-        "foreground": "#35A77C"
-      }
-    },
-    {
       "name": "Shell | Flags",
       "scope": "constant.other.option",
       "settings": {
@@ -946,8 +954,8 @@
       }
     },
     {
-      "name": "Shell | Variables & HEREDOC",
-      "scope": "punctuation.definition.string.heredoc.delimiter.shell, punctuation.definition.string.heredoc.quote.shell, variable.other.normal.shell, punctuation.definition.variable.shell, variable.other.special.shell, variable.other.positional.shell, variable.other.bracket.shell",
+      "name": "Shell | Variables, HEREDOCs & Subshells",
+      "scope": "punctuation.definition.string.heredoc.delimiter.shell, punctuation.definition.string.heredoc.quote.shell, variable.other.normal.shell, punctuation.definition.variable.shell, variable.other.special.shell, variable.other.positional.shell, variable.other.bracket.shell, punctuation.definition.subshell.single.shell",
       "settings": {
         "foreground": "#DF69BA"
       }

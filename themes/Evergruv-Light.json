@@ -243,23 +243,29 @@
     "inputValidation.warningBackground": "#E4B649",
     "inputValidation.warningBorder": "#DFA000",
     "inputValidation.warningForeground": "#525A5F",
-    // ----  List & List GUides
-    "list.activeSelectionBackground": "#F2EFDF80",
-    "list.activeSelectionForeground": "#5C6A72",
+    // ----  List & List Guides
     "list.dropBackground": "#F8F5E480",
     "list.errorForeground": "#F85552",
-    "list.focusAndSelectionOutline": "#FFFBEF",
-    "list.focusBackground": "#FFFBEF",
-    "list.focusForeground": "#4E585E",
     "list.highlightForeground": "#8DA101",
-    "list.hoverBackground": "#FFFBEF",
-    "list.hoverForeground": "#5C6A72",
-    "list.inactiveFocusBackground": "#00000000",
-    "list.inactiveSelectionBackground": "#F2EFDF97",
-    "list.inactiveSelectionForeground": "#879686",
+    "tree.indentGuidesStroke": "#A4AD9E",
     "list.invalidItemForeground": "#F1706F",
     "list.warningForeground": "#DFA000",
-    "tree.indentGuidesStroke": "#A4AD9E",
+    // ---- ---- hover
+    "list.hoverBackground": "#5C6A7220",
+    "list.hoverForeground": "#5C6A72",
+    // ---- ---- focus on the list::selection
+    "list.focusBackground": "#5C6A7220",
+    "list.focusForeground": "#5C6A72",
+    "list.focusOutline": "#00000000",
+    // ---- ---- focus on the list::active item in the editor
+    "list.activeSelectionBackground": "#5C6A7210",
+    "list.activeSelectionForeground": "#5C6A72",
+    "list.focusAndSelectionOutline": "#5C6A7280",
+    // ---- ---- focus not on the list::active item in the editor
+    "list.inactiveSelectionBackground": "#FFFBEF",
+    "list.inactiveSelectionForeground": "#5C6A72",
+    // ---- ---- focus not on the list::last selection
+    "list.inactiveFocusBackground": "#5C6A7220",
     // -----------------------------------------------
     // ----  1.3 Panel  ------------------------------
     // -----------------------------------------------

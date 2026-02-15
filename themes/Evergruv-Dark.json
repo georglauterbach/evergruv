@@ -84,7 +84,7 @@
     "editor.lineHighlightBackground": "#2E2C2B90",
     "editor.lineHighlightBorder": "#3D383500",
     "editor.rangeHighlightBackground": "#2E2C2B80",
-    "editor.selectionBackground": "#7DAEA334",
+    "editor.selectionBackground": "#7DAEA340",
     "editor.selectionHighlightBackground": "#7DAEA318",
     "editor.snippetFinalTabstopHighlightBackground": "#8F9A5240",
     "editor.snippetFinalTabstopHighlightBorder": "#1D2021",
@@ -229,11 +229,15 @@
     "extensionIcon.starForeground": "#89B482",
     "extensionIcon.verifiedForeground": "#A9B665",
     // ----  Input Fields
-    "input.background": "#1D202100",
-    "input.border": "#3D3835",
-    "input.foreground": "#D4BE98",
-    "input.placeholderForeground": "#7C6F64",
-    "inputOption.activeBorder": "#89B482",
+    "input.background": "#00000000",
+    "input.border": "#DDC7A140",
+    "input.foreground": "#DDC7A1",
+    "input.placeholderForeground": "#DDC7A180",
+    "inputOption.activeBackground": "#00000000",
+    "inputOption.activeBorder": "#D8A657",
+    "inputOption.activeForeground": "#D8A657",
+    "inputOption.hoverBackground": "#D8A65740",
+    // ----  Input Validation
     "inputValidation.errorBackground": "#B85651",
     "inputValidation.errorBorder": "#EA6962",
     "inputValidation.errorForeground": "#D4BE98",
@@ -325,6 +329,8 @@
     // -----------------------------------------------
     // ----  1.4 Workbench General  ------------------
     // -----------------------------------------------
+    // ----  Selections Outside the Editor
+    "selection.background": "#7DAEA340",
     // ----  Badges
     "activityBarBadge.background": "#D8A657",
     "activityBarBadge.foreground": "#1D2021",
@@ -376,8 +382,6 @@
     "scrollbarSlider.activeBackground": "#A89984",
     "scrollbarSlider.background": "#665C5480",
     "scrollbarSlider.hoverBackground": "#665C54",
-    // ----  Selections Outside the Editor
-    "selection.background": "#72966C60",
     // ----  Symbols
     "symbolIcon.colorForeground": "#D4BE98",
     "symbolIcon.snippetForeground": "#D4BE98",

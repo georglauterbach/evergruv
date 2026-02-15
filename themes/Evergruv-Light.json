@@ -84,7 +84,7 @@
     "editor.lineHighlightBackground": "#F2EFDF70",
     "editor.lineHighlightBorder": "#E8E5D500",
     "editor.rangeHighlightBackground": "#F2EFDF80",
-    "editor.selectionBackground": "#3A94C534",
+    "editor.selectionBackground": "#3A94C540",
     "editor.selectionHighlightBackground": "#3A94C518",
     "editor.snippetFinalTabstopHighlightBackground": "#A4BB4A40",
     "editor.snippetFinalTabstopHighlightBorder": "#FFFBEF",
@@ -229,11 +229,15 @@
     "extensionIcon.starForeground": "#35A77C",
     "extensionIcon.verifiedForeground": "#8DA101",
     // ----  Input Fields
-    "input.background": "#FFFBEF00",
-    "input.border": "#E8E5D5",
+    "input.background": "#00000000",
+    "input.border": "#5C6A7240",
     "input.foreground": "#5C6A72",
-    "input.placeholderForeground": "#A4AD9E",
-    "inputOption.activeBorder": "#35A77C",
+    "input.placeholderForeground": "#5C6A7280",
+    "inputOption.activeBackground": "#00000000",
+    "inputOption.activeBorder": "#DFA000",
+    "inputOption.activeForeground": "#DFA000",
+    "inputOption.hoverBackground": "#DFA00040",
+    // ----  Input Validation
     "inputValidation.errorBackground": "#F1706F",
     "inputValidation.errorBorder": "#F85552",
     "inputValidation.errorForeground": "#5C6A72",
@@ -325,6 +329,8 @@
     // -----------------------------------------------
     // ----  1.4 Workbench General  ------------------
     // -----------------------------------------------
+    // ----  Selections Outside the Editor
+    "selection.background": "#3A94C540",
     // ----  Badges
     "activityBarBadge.background": "#DFA000",
     "activityBarBadge.foreground": "#FFFBEF",
@@ -376,8 +382,6 @@
     "scrollbarSlider.activeBackground": "#879686",
     "scrollbarSlider.background": "#E8E5D580",
     "scrollbarSlider.hoverBackground": "#E8E5D5",
-    // ----  Selections Outside the Editor
-    "selection.background": "#EDEADAC0",
     // ----  Symbols
     "symbolIcon.colorForeground": "#5C6A72",
     "symbolIcon.snippetForeground": "#35A77C",

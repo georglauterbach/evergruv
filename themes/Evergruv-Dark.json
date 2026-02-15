@@ -83,6 +83,7 @@
     "editor.inactiveSelectionBackground": "#7DAEA310",
     "editor.lineHighlightBackground": "#2E2C2B90",
     "editor.lineHighlightBorder": "#3D383500",
+    "editorOverviewRuler.border": "#00000000",
     "editor.rangeHighlightBackground": "#2E2C2B80",
     "editor.selectionBackground": "#7DAEA340",
     "editor.selectionHighlightBackground": "#7DAEA318",
@@ -305,6 +306,7 @@
     "statusBarItem.warningBackground": "#070808",
     "statusBarItem.warningForeground": "#D8A657",
     // ----  Terminal
+    "terminalOverviewRuler.border": "#00000000",
     "terminal.ansiBlack": "#141617",
     "terminal.ansiBlue": "#7DAEA3",
     "terminal.ansiBrightBlack": "#928374",

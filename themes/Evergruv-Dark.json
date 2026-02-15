@@ -378,10 +378,11 @@
     "notificationsInfoIcon.foreground": "#7DAEA3",
     "notificationsWarningIcon.foreground": "#D8A657",
     // ----  Scroll Bars
-    "scrollbar.shadow": "#00000070",
-    "scrollbarSlider.activeBackground": "#A89984",
-    "scrollbarSlider.background": "#665C5480",
-    "scrollbarSlider.hoverBackground": "#665C54",
+    "scrollbar.shadow": "#282828",
+    "scrollbarSlider.background": "#89B48240",
+    "scrollbarSlider.hoverBackground": "#89B48260",
+    "scrollbarSlider.activeBackground": "#89B48280",
+    "scrollbar.background": "#00000000",
     // ----  Symbols
     "symbolIcon.colorForeground": "#D4BE98",
     "symbolIcon.snippetForeground": "#D4BE98",

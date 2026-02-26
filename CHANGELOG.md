@@ -8,6 +8,11 @@ All notable changes to this project will be documented in this file. The format 
 >
 > Changes listed in this section have not been published yet!
 
+## [0.2.6](https://github.com/georglauterbach/evergruv/releases/tag/0.2.6)
+
+- **Changed**
+  - lowered version requirement from 1.108 to 1.105 ([`b2ee369`](https://github.com/georglauterbach/evergruv/commit/b2ee369))
+
 ## [0.2.5](https://github.com/georglauterbach/evergruv/releases/tag/0.2.5)
 
 - **Fixed**

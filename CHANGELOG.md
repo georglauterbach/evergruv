@@ -2,11 +2,29 @@
 
 All notable changes to this project will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/georglauterbach/evergruv/compare/0.2.1...HEAD)
+## [Unreleased](https://github.com/georglauterbach/evergruv/compare/0.2.4...HEAD)
 
 > [!NOTE]
 >
 > Changes listed in this section have not been published yet!
+
+## [0.2.4](https://github.com/georglauterbach/evergruv/releases/tag/0.2.4)
+
+- **Fixed**
+  - fixed publishing to OpenVSX ([`fce44fb`](https://github.com/georglauterbach/evergruv/commit/fce44fb))
+
+## [0.2.3](https://github.com/georglauterbach/evergruv/releases/tag/0.2.3)
+
+- **Added**
+  - added OpenVSX support ([`71576b3`](https://github.com/georglauterbach/evergruv/commit/71576b3))
+  - added a Dependabot definition ([`35ad1ca`](https://github.com/georglauterbach/evergruv/commit/35ad1ca))
+
+## [0.2.2](https://github.com/georglauterbach/evergruv/releases/tag/0.2.2)
+
+- **Changed**
+  - improved input field colors ([`7e5be99`](https://github.com/georglauterbach/evergruv/commit/7e5be99))
+  - improved scrollbar visibility ([`8e023c6`](https://github.com/georglauterbach/evergruv/commit/8e023c6))
+  - removed borders from terminal scroll bar ([`fbd6053`](https://github.com/georglauterbach/evergruv/commit/fbd6053))
 
 ## [0.2.1](https://github.com/georglauterbach/evergruv/releases/tag/0.2.1)
 

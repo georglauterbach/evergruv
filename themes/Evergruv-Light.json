@@ -181,8 +181,8 @@
     // ----  Rulers
     "editorRuler.foreground": "#F2EFDF",
     // ----  Tabs
-    "tab.activeBackground": "#FFFBEF",
-    "tab.activeBorder": "#93B259D0",
+    "tab.activeBackground": "#F7F4E9",
+    "tab.activeBorder": "#93B259",
     "tab.activeForeground": "#5C6A72",
     "tab.border": "#FFFBEF",
     "tab.hoverBackground": "#FFFBEF",
@@ -216,10 +216,19 @@
     // -----------------------------------------------
     // ----  Core
     "sideBar.background": "#F2EFDF",
-    "sideBar.foreground": "#818780",
+    "sideBar.foreground": "#6E746D",
     "sideBarSectionHeader.background": "#FFFBEF00",
     "sideBarSectionHeader.foreground": "#879686",
     "sideBarTitle.foreground": "#879686",
+    // ----  Activity Bar
+    "activityBar.background": "#FFFBEF",
+    "activityBar.foreground": "#22272A",
+    "activityBar.activeBackground": "#00000000",
+    "activityBar.activeFocusBorder": "#00000000",
+    "activityBar.activeBorder": "#00000000",
+    "activityBar.inactiveForeground": "#94A092",
+    "activityBarBadge.background": "#DFA000",
+    "activityBarBadge.foreground": "#FFFBEF",
     // ----  Extensions
     "extensionBadge.remoteBackground": "#93B259",
     "extensionBadge.remoteForeground": "#FFFBEF",
@@ -334,8 +343,6 @@
     // ----  Selections Outside the Editor
     "selection.background": "#3A94C540",
     // ----  Badges
-    "activityBarBadge.background": "#DFA000",
-    "activityBarBadge.foreground": "#FFFBEF",
     "badge.background": "#93B259",
     "badge.foreground": "#FFFBEF",
     // ----  Buttons
@@ -460,7 +467,7 @@
     "gitDecoration.addedResourceForeground": "#8DA101A0",
     "gitDecoration.conflictingResourceForeground": "#DF69BAA0",
     "gitDecoration.deletedResourceForeground": "#F85552A0",
-    "gitDecoration.ignoredResourceForeground": "#B1BAAF",
+    "gitDecoration.ignoredResourceForeground": "#94A092",
     "gitDecoration.modifiedResourceForeground": "#3A94C5A0",
     "gitDecoration.stageDeletedResourceForeground": "#35A77CA0",
     "gitDecoration.stageModifiedResourceForeground": "#35A77CA0",

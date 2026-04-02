@@ -8,6 +8,11 @@ All notable changes to this project will be documented in this file. The format 
 >
 > Changes listed in this section have not been published yet!
 
+## [0.2.7](https://github.com/georglauterbach/evergruv/releases/tag/0.2.7)
+
+- **Changed**
+  - miscellaneous smaller readability and contrast improvements ([`0bfb12f`](https://github.com/georglauterbach/evergruv/commit/0bfb12f))
+
 ## [0.2.6](https://github.com/georglauterbach/evergruv/releases/tag/0.2.6)
 
 - **Changed**

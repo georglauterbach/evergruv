@@ -8,6 +8,13 @@ All notable changes to this project will be documented in this file. The format 
 >
 > Changes listed in this section have not been published yet!
 
+## [0.3.1](https://github.com/georglauterbach/evergruv/releases/tag/0.3.1)
+
+- **Changed**
+  - git file decorations (colors) have more contrast now ([`7fed322`](https://github.com/georglauterbach/evergruv/commit/7fed322))
+- **Added**
+  - hover widgets and suggestions now have an orange border ([`7ac5a0a`](https://github.com/georglauterbach/evergruv/commit/7ac5a0a))
+
 ## [0.3.0](https://github.com/georglauterbach/evergruv/releases/tag/0.3.0)
 
 - **Changed**

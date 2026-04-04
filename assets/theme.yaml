@@ -1,5 +1,26 @@
 ---
 themes:
+  light:
+    name: Everforest
+    variant: Hard
+    link: https://github.com/sainnhe/everforest
+    coolors: https://coolors.co/EBEBE4-F5F5F2-5C6A72-F85552-F57D26-D69A00-8DA101-35A77C-3A94C5-DF69BA
+    colors:
+      # cSpell: disable
+      background_dim: EBEBE4
+      background: F5F5F2
+      grey: A6B0A0
+      foreground: 5C6A72
+
+      red: F85552
+      orange: F57D26
+      yellow: D69A00
+      green: 8DA101
+      cyan(aqua): 35A77C
+      blue: 3A94C5
+      purple(magenta,violet): DF69BA
+      # cSpell: enable
+
   dark:
     name: Gruvbox Material Dark
     variant: Hard
@@ -19,25 +40,4 @@ themes:
       cyan(aqua): 89B482
       blue: 7DAEA3
       purple(magenta,violet): D3869B
-      # cSpell: enable
-
-  light:
-    name: Everforest
-    variant: Hard
-    link: https://github.com/sainnhe/everforest
-    coolors: https://coolors.co/F2EFDF-FFFBEF-5C6A72-F85552-F57D26-DFA000-8DA101-35A77C-3A94C5-DF69BA
-    colors:
-      # cSpell: disable
-      background_dim: F2EFDF
-      background: FFFBEF
-      grey: A6B0A0
-      foreground: 5C6A72
-
-      red: F85552
-      orange: F57D26
-      yellow: DFA000
-      green: 8DA101
-      cyan(aqua): 35A77C
-      blue: 3A94C5
-      purple(magenta,violet): DF69BA
       # cSpell: enable

@@ -65,34 +65,30 @@
     // -----------------------------------------------
     // ----  1.0 Defaults  ---------------------------
     // -----------------------------------------------
-    "errorForeground": "#EA6962",
-    "focusBorder": "#3D383500",
     "foreground": "#A89984",
+    "errorForeground": "#EA6962",
+    "focusBorder": "#00000000",
     "sash.hoverBorder": "#7C6F64",
     // -----------------------------------------------
     // ----  1.1 Editor  -----------------------------
     // -----------------------------------------------
     // ----  Core
     "editor.background": "#1D2021",
-    "editor.findMatchBackground": "#BD6F3E40",
-    "editor.findMatchHighlightBackground": "#8F9A5240",
-    "editor.findRangeHighlightBackground": "#72966C20",
-    "editor.foldBackground": "#3D383580",
     "editor.foreground": "#D4BE98",
-    "editor.hoverHighlightBackground": "#46403DB0",
-    "editor.inactiveSelectionBackground": "#7DAEA310",
     "editor.lineHighlightBackground": "#2E2C2B90",
-    "editor.lineHighlightBorder": "#3D383500",
+    "editor.inactiveLineHighlightBackground": "#2E2C2B50",
     "editorOverviewRuler.border": "#00000000",
-    "editor.rangeHighlightBackground": "#2E2C2B80",
-    "editor.selectionBackground": "#7DAEA340",
-    "editor.selectionHighlightBackground": "#7DAEA318",
-    "editor.snippetFinalTabstopHighlightBackground": "#8F9A5240",
-    "editor.snippetFinalTabstopHighlightBorder": "#1D2021",
-    "editor.snippetTabstopHighlightBackground": "#3D3835A0",
-    "editor.symbolHighlightBackground": "#68948A40",
-    "editor.wordHighlightBackground": "#46403D58",
-    "editor.wordHighlightStrongBackground": "#46403DB0",
+    // ----  General Highlights
+    "editor.wordHighlightBackground": "#7DAEA310",
+    "editor.hoverHighlightBackground": "#E78A4E18",
+    // ----  Selections
+    "editor.selectionBackground": "#7DAEA330",
+    "editor.selectionHighlightBackground": "#7DAEA310",
+    "editor.inactiveSelectionBackground": "#7DAEA310",
+    // ----  Search
+    "editor.findMatchBackground": "#A9B66540",
+    "editor.findMatchHighlightBackground": "#A9B66520",
+    "editor.rangeHighlightBackground": "#A9B66510",
     // ----  Brackets
     "editorBracketHighlight.foreground1": "#D8A657",
     "editorBracketHighlight.foreground2": "#A9B665",
@@ -181,10 +177,11 @@
     // ----  Rulers
     "editorRuler.foreground": "#2B2B2B",
     // ----  Tabs
-    "tab.activeBackground": "#1D2021",
-    "tab.activeBorder": "#A89984",
-    "tab.activeForeground": "#D4BE98",
     "tab.border": "#1D2021",
+    "tab.activeBackground": "#1D2021",
+    "tab.activeForeground": "#D4BE98",
+    "tab.activeBorder": "#A89984",
+    "tab.activeBorderTop": "#00000000",
     "tab.hoverBackground": "#1D2021",
     "tab.hoverForeground": "#D4BE98",
     "tab.inactiveBackground": "#1D2021",
@@ -206,6 +203,7 @@
     "editorSuggestWidget.background": "#2E2C2B",
     "editorSuggestWidget.border": "#2E2C2B",
     "editorSuggestWidget.foreground": "#D4BE98",
+    "editorSuggestWidget.focusHighlightForeground": "#D4BE98",
     "editorSuggestWidget.highlightForeground": "#A9B665",
     "editorSuggestWidget.selectedBackground": "#3D3835",
     "editorWidget.background": "#1D2021",
@@ -220,6 +218,15 @@
     "sideBarSectionHeader.background": "#1D202100",
     "sideBarSectionHeader.foreground": "#A89984",
     "sideBarTitle.foreground": "#A89984",
+    // ----  Activity Bar
+    "activityBar.background": "#1D2021",
+    "activityBar.foreground": "#DDC7A1",
+    "activityBar.activeBackground": "#00000000",
+    "activityBar.activeFocusBorder": "#00000000",
+    "activityBar.activeBorder": "#00000000",
+    "activityBar.inactiveForeground": "#94A092",
+    "activityBarBadge.background": "#D8A657",
+    "activityBarBadge.foreground": "#1D2021",
     // ----  Extensions
     "extensionBadge.remoteBackground": "#A89984",
     "extensionBadge.remoteForeground": "#1D2021",
@@ -334,8 +341,6 @@
     // ----  Selections Outside the Editor
     "selection.background": "#7DAEA340",
     // ----  Badges
-    "activityBarBadge.background": "#D8A657",
-    "activityBarBadge.foreground": "#1D2021",
     "badge.background": "#A89984",
     "badge.foreground": "#1D2021",
     // ----  Buttons

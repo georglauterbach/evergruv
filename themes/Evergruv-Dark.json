@@ -7,56 +7,61 @@
   // -----------------------------------------------
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "boolean": "#D8A657",
-    "builtinAttribute": "#D8A657",
-    "builtinType": "#D8A657",
+    // standard token types
+    //
+    // REF https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide#standard-token-types-and-modifiers
+    "namespace": "#D3869B",
     "class": "#7DAEA3",
-    "comment": "#7C6F64",
-    "*.documentation": {
-      "bold": true,
-      "italic": false
-    },
-    "const": "#DDC7A1",
-    "static": "#DDC7A1",
-    "decorator": "#D8A657",
-    "derive:rust": "#89B482",
-    "deriveHelper:rust": "#D8A657",
     "enum": "#7DAEA3",
+    "interface": "#7DAEA3",
+    "struct": "#7DAEA3",
+    "typeParameter": "#D8A657",
+    "type": "#FF0000",
+    "parameter": "#DDC7A1",
+    "variable": "#DDC7A1",
+    "property": "#DDC7A1",
     "enumMember": "#DDC7A1",
+    "decorator": "#D8A657",
     "event": "#FF0000",
-    "formatSpecifier": "#D8A657",
     "function": "#89B482",
     "function.async": {
       "italic": true
     },
-    "generic:rust": "#D8A657",
-    "interface": "#7DAEA3",
-    "key": "#E78A4E",
-    "keyword": "#EA6962",
-    "label": "#FF0000",
-    "lifetime:rust": "#E78A4E",
-    "macro": "#D8A657",
     "method": "#89B482",
     "method.async": {
       "italic": true
     },
-    "namespace": "#D3869B",
-    "number": "#D3869B",
-    "operator": "#E78A4E",
-    "parameter": "#DDC7A1",
-    "property": "#DDC7A1",
-    "regexp": "#FF0000",
+    "macro": "#D8A657",
+    "label": "#FF0000",
+    "comment": "#7C6F64",
     "string": "#A9B665",
-    "struct": "#7DAEA3",
-    "table": "#89B482",
-    "type": "#FF0000",
-    "typeAlias": "#7DAEA3",
-    "typeParameter": "#D8A657",
-    "variable": "#DDC7A1",
+    "keyword": "#EA6962",
+    "number": "#D3869B",
+    "regexp": "#D8A657",
+    "operator": "#E78A4E",
+    // custom token types
+    "boolean": "#D8A657",
+    "builtinAttribute": "#D8A657",
+    "builtinType": "#D8A657",
+    "const": "#DDC7A1",
     "*.deprecated": {
       "foreground": "#282828",
       "strikethrough": true
-    }
+    },
+    "*.documentation": {
+      "bold": true,
+      "italic": false
+    },
+    "formatSpecifier": "#D8A657",
+    "key": "#E78A4E",
+    "static": "#DDC7A1",
+    "table": "#89B482",
+    "typeAlias": "#7DAEA3",
+    // language-specific token types
+    "derive:rust": "#89B482",
+    "deriveHelper:rust": "#D8A657",
+    "generic:rust": "#D8A657",
+    "lifetime:rust": "#E78A4E",
   },
   // -----------------------------------------------
   // ----  1. Workbench  ---------------------------
@@ -98,7 +103,7 @@
     "editorBracketHighlight.foreground6": "#EA6962",
     "editorBracketHighlight.unexpectedBracket.foreground": "#DDC7A1",
     "editorBracketMatch.background": "#7C6F6480",
-    "editorBracketMatch.border": "#1D202100",
+    "editorBracketMatch.border": "#00000000",
     // ----  Breadcrumbs
     "breadcrumb.activeSelectionForeground": "#D4BE98",
     "breadcrumb.focusForeground": "#DDC7A1",
@@ -128,21 +133,22 @@
     "editorGroupHeader.tabsBackground": "#1D2021",
     // ----  Gutters
     "editorGutter.addedBackground": "#8F9A52A0",
-    "editorGutter.background": "#1D202100",
+    "editorGutter.background": "#00000000",
     "editorGutter.commentRangeForeground": "#7C6F64",
     "editorGutter.deletedBackground": "#B85651A0",
     "editorGutter.modifiedBackground": "#68948AA0",
     // ----  Hints & Inlay Hints
     "editorHint.foreground": "#AB6C7D",
-    "editorInlayHint.background": "#1D202100",
+    "editorInlayHint.background": "#00000000",
     "editorInlayHint.foreground": "#665C54A0",
-    "editorInlayHint.parameterBackground": "#1D202100",
+    "editorInlayHint.parameterBackground": "#00000000",
     "editorInlayHint.parameterForeground": "#665C54A0",
-    "editorInlayHint.typeBackground": "#1D202100",
+    "editorInlayHint.typeBackground": "#00000000",
     "editorInlayHint.typeForeground": "#665C54A0",
     // ----  Hovers
-    "editorHoverWidget.background": "#2A2827",
-    "editorHoverWidget.border": "#46403D",
+    "editorHoverWidget.background": "#282828",
+    "editorHoverWidget.border": "#E78A4E80",
+    "editorHoverWidget.foreground": "#DDC7A1",
     // ----  Minimap
     "minimap.errorHighlight": "#EA6962",
     "minimap.findMatchHighlight": "#333E34D0",
@@ -180,19 +186,19 @@
     "tab.border": "#1D2021",
     "tab.activeBackground": "#1D2021",
     "tab.activeForeground": "#D4BE98",
-    "tab.activeBorder": "#A89984",
+    "tab.activeBorder": "#A9B665",
     "tab.activeBorderTop": "#00000000",
     "tab.hoverBackground": "#1D2021",
     "tab.hoverForeground": "#D4BE98",
     "tab.inactiveBackground": "#1D2021",
     "tab.inactiveForeground": "#7C6F64",
-    "tab.lastPinnedBorder": "#A89984",
+    "tab.lastPinnedBorder": "#00000000",
     "tab.unfocusedActiveBorder": "#928374",
     "tab.unfocusedActiveForeground": "#A89984",
     "tab.unfocusedHoverForeground": "#D4BE98",
     "tab.unfocusedInactiveForeground": "#7C6F64",
     // ----  Text
-    "editorGhostText.background": "#1D202100",
+    "editorGhostText.background": "#00000000",
     "editorGhostText.foreground": "#665C54",
     // ----  Unnecessary Code
     "editorUnnecessaryCode.border": "#1D2021",
@@ -215,7 +221,7 @@
     // ----  Core
     "sideBar.background": "#141617",
     "sideBar.foreground": "#9E9380",
-    "sideBarSectionHeader.background": "#1D202100",
+    "sideBarSectionHeader.background": "#00000000",
     "sideBarSectionHeader.foreground": "#A89984",
     "sideBarTitle.foreground": "#A89984",
     // ----  Activity Bar
@@ -359,7 +365,7 @@
     // ----  Icons
     "icon.foreground": "#D8A657",
     // ----  Keybinding Labels for Commands
-    "keybindingLabel.background": "#1D202100",
+    "keybindingLabel.background": "#00000000",
     "keybindingLabel.border": "#131414",
     "keybindingLabel.bottomBorder": "#070808",
     "keybindingLabel.foreground": "#D4BE98",
@@ -476,7 +482,7 @@
     "diffEditor.insertedTextBackground": "#72966C40",
     "diffEditor.removedTextBackground": "#B8565140",
     // ----  Merging
-    "merge.border": "#1D202100",
+    "merge.border": "#00000000",
     "merge.currentContentBackground": "#68948A40",
     "merge.currentHeaderBackground": "#68948A80",
     "merge.incomingContentBackground": "#72966C40",
@@ -541,7 +547,6 @@
     // ---- Quick Picker
     "pickerGroup.border": "#DDC7A11A",
     "pickerGroup.foreground": "#D4BE98",
-    "quickInputTitle.background": "#32302F"
   },
   // -----------------------------------------------
   // ----  2. Tokens  ------------------------------

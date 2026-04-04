@@ -468,16 +468,16 @@
     // -----------------------------------------------
     // ----  1.6 Git  --------------------------------
     // -----------------------------------------------
-    // ----  Decorations
-    "gitDecoration.addedResourceForeground": "#8DA101A0",
-    "gitDecoration.conflictingResourceForeground": "#DF69BAA0",
-    "gitDecoration.deletedResourceForeground": "#F85552A0",
-    "gitDecoration.ignoredResourceForeground": "#94A092",
-    "gitDecoration.modifiedResourceForeground": "#3A94C5A0",
-    "gitDecoration.stageDeletedResourceForeground": "#35A77CA0",
-    "gitDecoration.stageModifiedResourceForeground": "#35A77CA0",
-    "gitDecoration.submoduleResourceForeground": "#F57D26A0",
-    "gitDecoration.untrackedResourceForeground": "#D69A00A0",
+    // ----  Editor Decorations
+    "gitDecoration.addedResourceForeground": "#8DA101",
+    "gitDecoration.conflictingResourceForeground": "#DF69BA",
+    "gitDecoration.deletedResourceForeground": "#F85552",
+    "gitDecoration.ignoredResourceForeground": "#5C6A72A0",
+    "gitDecoration.modifiedResourceForeground": "#3A94C5",
+    "gitDecoration.stageDeletedResourceForeground": "#35A77C",
+    "gitDecoration.stageModifiedResourceForeground": "#35A77C",
+    "gitDecoration.submoduleResourceForeground": "#F57D26",
+    "gitDecoration.untrackedResourceForeground": "#D69A00",
     // ----  Diff
     "diffEditor.diagonalFill": "#E8E5D5",
     "diffEditor.insertedTextBackground": "#6EC39830",

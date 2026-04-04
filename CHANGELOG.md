@@ -8,6 +8,11 @@ All notable changes to this project will be documented in this file. The format 
 >
 > Changes listed in this section have not been published yet!
 
+## [0.3.0](https://github.com/georglauterbach/evergruv/releases/tag/0.3.0)
+
+- **Changed**
+  - reworked the light theme, especially the background colors, to be less yellow (and more white) to be more neutral overall; aligned usage of color in the dark theme with the light theme ([`0a0a063`](https://github.com/georglauterbach/evergruv/commit/0a0a063), [`cbfd480`](https://github.com/georglauterbach/evergruv/commit/cbfd480))
+
 ## [0.2.7](https://github.com/georglauterbach/evergruv/releases/tag/0.2.7)
 
 - **Changed**

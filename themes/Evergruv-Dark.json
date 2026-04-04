@@ -147,7 +147,7 @@
     "editorInlayHint.typeForeground": "#665C54A0",
     // ----  Hovers
     "editorHoverWidget.background": "#282828",
-    "editorHoverWidget.border": "#E78A4E80",
+    "editorHoverWidget.border": "#E78A4E40",
     "editorHoverWidget.foreground": "#DDC7A1",
     // ----  Minimap
     "minimap.errorHighlight": "#EA6962",
@@ -207,7 +207,7 @@
     "editorWhitespace.foreground": "#3D3835",
     // ----  Widgets
     "editorSuggestWidget.background": "#2E2C2B",
-    "editorSuggestWidget.border": "#2E2C2B",
+    "editorSuggestWidget.border": "#E78A4E40",
     "editorSuggestWidget.foreground": "#D4BE98",
     "editorSuggestWidget.focusHighlightForeground": "#D4BE98",
     "editorSuggestWidget.highlightForeground": "#A9B665",

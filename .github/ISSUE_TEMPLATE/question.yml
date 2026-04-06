@@ -1,0 +1,23 @@
+name: Other
+description: Miscellaneous questions and reports
+title: 'other: '
+labels:
+  - meta/help wanted
+
+body:
+  - type: dropdown
+    id: subject
+    attributes:
+      label: Subject
+      options:
+        - I would like to contribute to the project
+        - I would like ask a question
+        - Something else that requires maintainers' attention
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    validations:
+      required: true
+    attributes:
+      label: Description

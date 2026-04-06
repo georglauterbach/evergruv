@@ -1,0 +1,27 @@
+name: Bug Report
+description: Submit a bug report
+title: 'bug: '
+labels:
+  - kind/bug/report
+  - meta/needs triage
+
+body:
+  - type: checkboxes
+    id: preliminary-checks
+    attributes:
+      label: Preliminary Checks
+      options:
+        - label: I am using the latest version.
+          required: true
+  - type: textarea
+    id: describe-the-issue
+    attributes:
+      label: Describe the Issue
+      placeholder: The contrast of the side panel text is too low.
+    validations:
+      required: true
+  - type: textarea
+    id: suggestions-for-improvement
+    attributes:
+      label: Suggestions for Improvement
+      placeholder: Increase the contrast of the side panel text.

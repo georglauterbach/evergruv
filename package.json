@@ -1,8 +1,8 @@
 {
   "name": "evergruv",
   "displayName": "Evergruv",
-  "version": "0.3.1",
-  "description": "A color theme based on and combining Gruvbox Material Dark & Everforest Light",
+  "version": "0.4.0",
+  "description": "A color theme based on @sainnhe's excellent Gruvbox Material Dark & Everforest Light",
   "author": "georglauterbach (https://github.com/georglauterbach)",
   "publisher": "georglauterbach",
   "sponsor": {

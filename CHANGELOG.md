@@ -8,6 +8,13 @@ All notable changes to this project will be documented in this file. The format 
 >
 > Changes listed in this section have not been published yet!
 
+## [0.4.0](https://github.com/georglauterbach/evergruv/releases/tag/0.4.0)
+
+- **Added**
+  - programmatic theme generation from a template ([`946eec4`](https://github.com/georglauterbach/evergruv/commit/946eec4))
+- **Changed**
+  - reworked application of colors in both themes and unified them based on the new programmatic color application ([`946eec4`](https://github.com/georglauterbach/evergruv/commit/946eec4))
+
 ## [0.3.1](https://github.com/georglauterbach/evergruv/releases/tag/0.3.1)
 
 - **Changed**

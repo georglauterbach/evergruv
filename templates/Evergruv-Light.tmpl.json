@@ -1,0 +1,879 @@
+// VS Code color scheme definition for the theme Evergruv
+//
+// REF https://github.com/georglauterbach/evergruv
+//     https://code.visualstudio.com/api/references/theme-color
+{
+  "$schema": "vscode://schemas/color-theme",
+  "type": "{{VARIANT}}",
+  // ! SEMANTIC HIGHLIGHTING
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    // * -- standard token types
+    // REF https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide#standard-token-types-and-modifiers
+    "namespace": "#{{CYAN}}",
+    "class": "#{{BLUE}}",
+    "enum": "#{{BLUE}}",
+    "interface": {
+      "foreground": "#{{BLUE}}",
+      "italic": true
+    },
+    "struct": "#{{BLUE}}",
+    "typeParameter": "#{{ORANGE}}",
+    "type": "#{{BLUE}}",
+    "parameter": "#{{FG}}",
+    "variable": "#{{FG}}",
+    "property": "#{{FG}}",
+    "enumMember": "#{{FG}}",
+    "decorator": "#{{GREEN}}",
+    "event": "#{{CYAN}}",
+    "function": "#{{GREEN}}",
+    "function.async": {
+      "italic": true
+    },
+    "method": "#{{GREEN}}",
+    "method.async": {
+      "italic": true
+    },
+    "macro": "#{{PURPLE}}",
+    "label": "#{{PURPLE}}",
+    "comment": "#{{FG}}{{T_5}}",
+    "string": "#{{YELLOW}}",
+    "keyword": "#{{RED}}",
+    "number": "#{{FG}}",
+    "regexp": "#{{ORANGE}}",
+    "operator": "#{{ORANGE}}",
+    // * -- custom token types
+    "boolean": {
+      "foreground": "#{{FG}}",
+      "italic": true
+    },
+    "builtinAttribute": "#{{RED}}",
+    "builtinType": "#{{BLUE}}",
+    "const": "#{{FG}}",
+    "*.deprecated": {
+      "strikethrough": true
+    },
+    "*.documentation": {
+      "bold": true,
+      "italic": false
+    },
+    "formatSpecifier": "#{{ORANGE}}",
+    "key": "#{{PURPLE}}",
+    "static": "#{{FG}}",
+    "table": "#{{CYAN}}",
+    "typeAlias": "#{{BLUE}}",
+    // * -- language-specific token types
+    // Rust
+    "derive:rust": "#{{PURPLE}}",
+    "deriveHelper:rust": "#{{FG}}",
+    "generic:rust": "#{{FG}}",
+    "lifetime:rust": "#{{ORANGE}}",
+  },
+  // ! WORKBENCH
+  "colors": {
+    "foreground": "#{{FG}}{{T_7}}",
+    "descriptionForeground": "#{{FG}}{{T_7}}",
+    "focusBorder": "#{{ACCENT}}",
+    // ! Activity Bar
+    //   -- note: contains symbols for file explorer, search, etc.
+    "activityBar.background": "#{{BG}}",
+    "activityBar.foreground": "#{{FG}}",
+    "activityBar.activeBackground": "#{{T_0}}",
+    "activityBar.activeFocusBorder": "#{{T_0}}",
+    "activityBar.activeBorder": "#{{T_0}}",
+    "activityBar.inactiveForeground": "#{{FG}}{{T_3}}",
+    "activityBarBadge.background": "#{{ACCENT}}",
+    "activityBarBadge.foreground": "#{{BG_DIM}}",
+    // ! Badges
+    "badge.background": "#{{ACCENT}}",
+    "badge.foreground": "#{{BG_DIM}}",
+    // ! Buttons
+    "button.background": "#{{ACCENT}}{{T_7}}",
+    "button.foreground": "#{{BG_DIM}}",
+    "button.border": "#{{BORDER_COLORED}}",
+    "button.hoverBackground": "#{{ACCENT}}",
+    "button.secondaryBackground": "#{{BG_DIM}}",
+    "button.secondaryForeground": "#{{FG}}",
+    "button.secondaryBorder": "#{{BORDER_COLORED}}",
+    "button.secondaryHoverBackground": "#{{FG}}{{T_1}}",
+    "button.separator": "#{{T_0}}",
+    // ! Charts
+    "charts.foreground": "#{{FG}}",
+    "charts.blue": "#{{BLUE}}",
+    "charts.green": "#{{GREEN}}",
+    "charts.orange": "#{{ORANGE}}",
+    "charts.purple": "#{{PURPLE}}",
+    "charts.red": "#{{RED}}",
+    "charts.yellow": "#{{YELLOW}}",
+    // ! Checkboxes
+    "checkbox.background": "#{{BG_DIM}}",
+    "checkbox.border": "#{{BORDER}}",
+    "checkbox.foreground": "#{{ACCENT}}",
+    // ! Debugging
+    // * -- editor
+    "editor.stackFrameHighlightBackground": "#{{ACCENT}}{{T_1}}",
+    // * -- bar icons
+    "debugIcon.startForeground": "#{{GREEN}}",
+    "debugIcon.continueForeground": "#{{BLUE}}",
+    "debugIcon.pauseForeground": "#{{BLUE}}",
+    "debugIcon.stepIntoForeground": "#{{BLUE}}",
+    "debugIcon.stepOutForeground": "#{{BLUE}}",
+    "debugIcon.stepBackForeground": "#{{BLUE}}",
+    "debugIcon.stepOverForeground": "#{{BLUE}}",
+    "debugIcon.restartForeground": "#{{CYAN}}",
+    "debugIcon.stopForeground": "#{{RED}}",
+    "debugIcon.disconnectForeground": "#{{PURPLE}}",
+    // * -- breakpoints
+    "debugIcon.breakpointUnverifiedForeground": "#{{RED}}",
+    "debugIcon.breakpointDisabledForeground": "#{{FG}}",
+    "debugIcon.breakpointForeground": "#{{ACCENT}}",
+    // * -- console
+    "debugConsole.infoForeground": "#{{BLUE}}",
+    "debugConsole.warningForeground": "#{{YELLOW}}",
+    "debugConsole.errorForeground": "#{{RED}}",
+    "debugConsole.sourceForeground": "#{{FG}}",
+    // * -- tokens
+    "debugTokenExpression.boolean": "#{{FG}}",
+    "debugTokenExpression.error": "#{{RED}}",
+    "debugTokenExpression.name": "#{{FG}}",
+    "debugTokenExpression.number": "#{{PURPLE}}",
+    "debugTokenExpression.string": "#{{GREEN}}",
+    "debugTokenExpression.value": "#{{FG}}",
+    "debugTokenExpression.type": "#{{CYAN}}",
+    // ! Dropdown Menus
+    "dropdown.background": "#{{BG_DIM}}",
+    "dropdown.border": "#{{BORDER_COLORED}}",
+    "dropdown.foreground": "#{{FG}}",
+    // ! Editor
+    // * -- core
+    "editor.background": "#{{BG}}",
+    "editor.foreground": "#{{FG}}", // applies to all editor windows
+    "editorCursor.foreground": "#{{BLUE}}", // cursor color
+    "editorWhitespace.foreground": "#{{FG}}{{T_1}}", // whitespace indicator color
+    "editorLightBulb.foreground": "#{{YELLOW}}", // light bulb color
+    "editorLink.activeForeground": "#{{ACCENT}}", // CTRL+mouse -> go to definition / declaration
+    // * -- active lines & line numbers
+    "editor.lineHighlightBackground": "#{{FG}}{{T_03}}",
+    "editor.inactiveLineHighlightBackground": "#{{FG}}{{T_02}}",
+    "editorLineNumber.activeForeground": "#{{FG}}{{T_5}}",
+    "editorLineNumber.foreground": "#{{FG}}{{T_2}}",
+    // * -- highlights
+    // * -- -- same Word
+    "editor.wordHighlightBackground": "#{{FG}}{{T_04}}",
+    "editor.wordHighlightStrongBackground": "#{{FG}}{{T_1}}",
+    // * -- -- selections
+    "editor.selectionBackground": "#{{FG}}{{T_1}}",
+    "editor.selectionHighlightBackground": "#{{FG}}{{T_04}}",
+    "editor.inactiveSelectionBackground": "#{{FG}}{{T_03}}",
+    // * -- -- hover
+    "editor.hoverHighlightBackground": "#{{FG}}{{T_1}}",
+    // * -- -- search (& replace)
+    "editor.findMatchBackground": "#{{FG}}{{T_3}}",
+    "editor.findMatchHighlightBackground": "#{{FG}}{{T_1}}",
+    // * -- -- brackets
+    "editorBracketHighlight.foreground1": "#{{FG}}",
+    "editorBracketHighlight.foreground2": "#{{FG}}",
+    "editorBracketHighlight.foreground3": "#{{FG}}",
+    "editorBracketHighlight.foreground4": "#{{FG}}",
+    "editorBracketHighlight.foreground5": "#{{FG}}",
+    "editorBracketHighlight.foreground6": "#{{FG}}",
+    "editorBracketMatch.background": "#{{FG}}{{T_3}}",
+    "editorBracketMatch.border": "#{{T_0}}",
+    "editorBracketPairGuide.activeBackground1": "#{{YELLOW}}",
+    "editorBracketPairGuide.activeBackground2": "#{{GREEN}}",
+    "editorBracketPairGuide.activeBackground3": "#{{CYAN}}",
+    "editorBracketPairGuide.activeBackground4": "#{{BLUE}}",
+    "editorBracketPairGuide.activeBackground5": "#{{PURPLE}}",
+    "editorBracketPairGuide.activeBackground6": "#{{BLUE}}",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#{{RED}}",
+    // * -- breadcrumbs
+    "breadcrumb.background": "#{{T_0}}",
+    "breadcrumb.foreground": "#{{FG}}{{T_5}}",
+    "breadcrumb.focusForeground": "#{{FG}}{{T_7}}",
+    "breadcrumb.activeSelectionForeground": "#{{FG}}",
+    "breadcrumbPicker.background": "#{{BG_DIM}}",
+    // * -- hints, ..., warnings, error
+    "editorHint.foreground": "#{{GREEN}}",
+    "editorInfo.background": "#{{T_0}}",
+    "editorInfo.foreground": "#{{BLUE}}",
+    "editorWarning.background": "#{{T_0}}",
+    "editorWarning.foreground": "#{{YELLOW}}",
+    "editorError.background": "#{{T_0}}",
+    "editorError.foreground": "#{{RED}}",
+    // * -- groups (of tabs)
+    "editorGroupHeader.tabsBackground": "#{{BG_DIM}}",
+    "editorGroupHeader.noTabsBackground": "#{{BG_DIM}}",
+    "editorGroup.border": "#{{T_0}}",
+    "editorGroup.dropBackground": "#{{FG}}{{T_1}}",
+    // * -- tabs
+    "tab.border": "#{{T_0}}",
+    "tab.activeBackground": "#{{BG}}",
+    "tab.activeForeground": "#{{FG}}",
+    "tab.inactiveBackground": "#{{BG_DIM}}",
+    "tab.inactiveForeground": "#{{FG}}{{T_5}}",
+    "tab.hoverBackground": "#{{BG_DIM}}",
+    "tab.hoverForeground": "#{{FG}}",
+    "tab.unfocusedActiveBackground": "#{{BG}}",
+    "tab.unfocusedActiveForeground": "#{{BORDER}}",
+    "tab.unfocusedHoverBackground": "#{{BG_DIM}}",
+    "tab.unfocusedHoverForeground": "#{{FG}}",
+    "tab.unfocusedInactiveForeground": "#{{BORDER}}",
+    // * -- gutters (contains line numbers and other symbols)
+    "editorGutter.background": "#{{BG}}",
+    "editorGutter.addedBackground": "#{{GREEN}}{{T_6}}",
+    "editorGutter.deletedBackground": "#{{RED}}{{T_6}}",
+    "editorGutter.modifiedBackground": "#{{BLUE}}{{T_6}}",
+    // * -- hovers (references)
+    "editorHoverWidget.background": "#{{BG_DIM}}",
+    "editorHoverWidget.foreground": "#{{FG}}",
+    "editorHoverWidget.border": "#{{BORDER_COLORED}}",
+    // * -- suggest widget
+    "editorSuggestWidget.background": "#{{BG_DIM}}",
+    "editorSuggestWidget.foreground": "#{{FG}}",
+    "editorSuggestWidget.border": "#{{BORDER_COLORED}}",
+    // * -- widgets (e.g. search & replace)
+    "editorWidget.background": "#{{BG_DIM}}",
+    "editorWidget.border": "#{{BORDER_COLORED}}",
+    "editorWidget.foreground": "#{{FG}}",
+    // * -- minimap
+    "minimap.infoHighlight": "#{{BLUE}}{{T_6}}",
+    "minimap.warningHighlight": "#{{YELLOW}}{{T_6}}",
+    "minimap.errorHighlight": "#{{RED}}{{T_6}}",
+    "minimap.findMatchHighlight": "#{{FG}}{{T_7}}",
+    "minimap.selectionHighlight": "#{{FG}}{{T_2}}",
+    "minimapGutter.addedBackground": "#{{GREEN}}{{T_7}}",
+    "minimapGutter.deletedBackground": "#{{RED}}{{T_7}}",
+    "minimapGutter.modifiedBackground": "#{{BLUE}}{{T_7}}",
+    // * -- scroll bar (top)
+    "scrollbar.background": "#{{T_0}}",
+    "scrollbar.shadow": "#{{BG_DIM}}{{T_5}}",
+    // * -- scroll bar slider
+    "scrollbarSlider.background": "#{{FG}}{{T_2}}",
+    "scrollbarSlider.hoverBackground": "#{{ACCENT}}{{T_2}}",
+    "scrollbarSlider.activeBackground": "#{{ACCENT}}{{T_3}}",
+    // * -- peek view (top to bottom, left to right)
+    "peekView.border": "#{{BORDER_COLORED}}",
+    "peekViewTitle.background": "#{{BG_DIM}}",
+    "peekViewTitleLabel.foreground": "#{{FG}}",
+    "peekViewTitleDescription.foreground": "#{{FG}}",
+    "peekViewEditorGutter.background": "#{{BG_DIM}}",
+    "peekViewEditor.background": "#{{BG_DIM}}",
+    "peekViewResult.background": "#{{BG_DIM}}",
+    "peekViewEditor.matchHighlightBackground": "#{{FG}}{{T_2}}",
+    "peekViewResult.lineForeground": "#{{FG}}{{T_6}}",
+    "peekViewResult.fileForeground": "#{{FG}}",
+    "peekViewResult.matchHighlightBackground": "#{{T_0}}",
+    "peekViewResult.selectionBackground": "#{{T_0}}",
+    "peekViewResult.selectionForeground": "#{{FG}}",
+    // * -- inline hints
+    "editorInlayHint.background": "#{{T_0}}",
+    "editorInlayHint.foreground": "#{{FG}}{{T_3}}",
+    "editorInlayHint.parameterBackground": "#{{T_0}}",
+    "editorInlayHint.parameterForeground": "#{{FG}}{{T_3}}",
+    "editorInlayHint.typeBackground": "#{{T_0}}",
+    "editorInlayHint.typeForeground": "#{{FG}}{{T_3}}",
+    // * -- rulers (vertical lines after X characters)
+    "editorRuler.foreground": "#{{FG}}{{T_04}}",
+    // ! git
+    // * -- diff editor
+    "diffEditor.diagonalFill": "#{{FG}}{{T_4}}",
+    "diffEditor.insertedTextBackground": "#{{GREEN}}{{T_1}}",
+    "diffEditor.insertedLineBackground": "#{{GREEN}}{{T_1}}",
+    "diffEditor.removedTextBackground": "#{{RED}}{{T_1}}",
+    "diffEditor.removedLineBackground": "#{{RED}}{{T_1}}",
+    // * -- resource decorations
+    "gitDecoration.ignoredResourceForeground": "#{{FG}}{{T_6}}",
+    "gitDecoration.addedResourceForeground": "#{{GREEN}}",
+    "gitDecoration.modifiedResourceForeground": "#{{BLUE}}",
+    "gitDecoration.renamedResourceForeground": "#{{CYAN}}",
+    "gitDecoration.deletedResourceForeground": "#{{RED}}",
+    "gitDecoration.conflictingResourceForeground": "#{{PURPLE}}",
+    // ! Icons
+    "icon.foreground": "#{{FG}}{{T_7}}",
+    // ! Input
+    "input.background": "#{{T_0}}",
+    "input.foreground": "#{{FG}}",
+    "input.border": "#{{BORDER}}",
+    "input.placeholderForeground": "#{{BORDER}}",
+    "inputOption.activeBackground": "#{{ACCENT}}",
+    "inputOption.activeBorder": "#{{T_0}}",
+    "inputOption.activeForeground": "#{{BG_DIM}}",
+    "inputOption.hoverBackground": "#{{ACCENT}}{{T_2}}",
+    "inputValidation.infoBackground": "#{{T_0}}",
+    "inputValidation.infoForeground": "#{{BLUE}}",
+    "inputValidation.infoBorder": "#{{T_0}}",
+    "inputValidation.warningBackground": "#{{T_0}}",
+    "inputValidation.warningForeground": "#{{YELLOW}}",
+    "inputValidation.warningBorder": "#{{T_0}}",
+    "inputValidation.errorBackground": "#{{T_0}}",
+    "inputValidation.errorForeground": "#{{BLUE}}",
+    "inputValidation.errorBorder": "#{{T_0}}",
+    // ! Links
+    "textLink.foreground": "#{{FG}}{{T_6}}",
+    "textLink.activeForeground": "#{{ACCENT}}",
+    // ! Lists
+    //   -- note: especially important for the file explorer
+    "list.warningForeground": "#{{YELLOW}}",
+    "list.errorForeground": "#{{RED}}",
+    "list.dropBackground": "#{{FG}}{{T_2}}",
+    "list.invalidItemForeground": "#{{RED}}",
+    "tree.indentGuidesStroke": "#{{FG}}{{T_3}}",
+    // color that shows the already present text match
+    "list.highlightForeground": "#{{ACCENT}}",
+    // hover
+    "list.hoverBackground": "#{{FG}}{{T_1}}",
+    "list.hoverForeground": "#{{FG}}",
+    // focus on the list::selection
+    "list.focusBackground": "#{{FG}}{{T_1}}",
+    "list.focusForeground": "#{{FG}}",
+    "list.focusOutline": "#{{T_0}}",
+    // focus on the list::active item in the editor
+    "list.activeSelectionBackground": "#{{BG}}",
+    "list.activeSelectionForeground": "#{{FG}}",
+    "list.focusAndSelectionOutline": "#{{BORDER}}",
+    // focus not on the list::active item in the editor
+    "list.inactiveSelectionBackground": "#{{BG}}",
+    "list.inactiveSelectionForeground": "#{{FG}}",
+    // focus not on the list::last selection
+    "list.inactiveFocusBackground": "#{{FG}}{{T_04}}",
+    "list.inactiveFocusOutline": "#{{FG}}{{T_1}}",
+    // ! Notifications
+    "notificationCenterHeader.background": "#{{BG_DIM}}",
+    "notificationCenterHeader.foreground": "#{{FG}}",
+    "notifications.background": "#{{BG}}",
+    "notifications.foreground": "#{{FG}}",
+    "notifications.border": "#{{BORDER_COLORED}}",
+    // ! Panel
+    //   -- position: typically below the editor, holds the "Problems", "Output", etc. panes
+    // * -- core
+    "panel.background": "#{{BG_DIM}}",
+    "panel.border": "#{{T_0}}",
+    // * -- tabs
+    "panelTitle.activeBorder": "#{{T_0}}",
+    "panelTitle.activeForeground": "#{{FG}}",
+    "panelTitle.inactiveForeground": "#{{FG}}{{T_5}}",
+    // * -- pane "Problems"
+    "problemsInfoIcon.foreground": "#{{BLUE}}",
+    "problemsWarningIcon.foreground": "#{{YELLOW}}",
+    "problemsErrorIcon.foreground": "#{{RED}}",
+    // ! Progress Bar
+    "progressBar.background": "#{{ACCENT}}",
+    // ! Sash
+    //   -- note: divider bar to resize adjacent UI elements
+    "sash.hoverBorder": "#{{T_0}}",
+    // ! Selections (Outside of the Editor)
+    "selection.background": "#{{FG}}{{T_2}}",
+    // ! Settings
+    // * -- general
+    "settings.dropdownBackground": "#{{BG_DIM}}",
+    "settings.dropdownBorder": "#{{BORDER}}",
+    "settings.numberInputBackground": "#{{BG_DIM}}",
+    "settings.numberInputBorder": "#{{BORDER}}",
+    "settings.modifiedItemIndicator": "#{{BLUE}}",
+    "settings.textInputForeground": "#{{GREEN}}",
+    "settings.textInputBorder": "#{{BORDER}}",
+    "settings.rowHoverBackground": "#{{FG}}{{T_02}}",
+    // * -- keybinding
+    "keybindingTable.headerBackground": "#{{BG_DIM}}",
+    "keybindingLabel.foreground": "#{{FG}}",
+    "keybindingTable.rowsBackground": "#{{BG_DIM}}",
+    // ! Side Bar (contains file explorer, search, etc.)
+    // * -- core
+    "sideBar.background": "#{{BG_DIM}}",
+    "sideBar.foreground": "#{{FG}}",
+    "sideBarTitle.foreground": "#{{FG}}",
+    "sideBarSectionHeader.background": "#{{T_0}}",
+    "sideBarSectionHeader.foreground": "#{{FG}}{{T_7}}",
+    // * -- extensions
+    "extensionIcon.preReleaseForeground": "#{{ACCENT}}",
+    "extensionIcon.privateForeground": "#{{ACCENT}}",
+    "extensionIcon.starForeground": "#{{ACCENT}}",
+    "extensionIcon.verifiedForeground": "#{{ACCENT}}",
+    "extensionBadge.remoteBackground": "#{{FG}}",
+    "extensionBadge.remoteForeground": "#{{BG_DIM}}",
+    // ! Status Bar
+    //   -- position: bottom-most bar
+    "statusBar.background": "#{{BG_DIM}}",
+    "statusBar.foreground": "#{{FG}}{{T_6}}",
+    "statusBar.border": "#{{T_0}}",
+    "statusBarItem.hoverBackground": "#{{BG_DIM}}",
+    "statusBarItem.hoverForeground": "#{{FG}}",
+    "statusBarItem.activeBackground": "#{{BG_DIM}}",
+    "statusBarItem.remoteBackground": "#{{FG}}",
+    "statusBarItem.remoteForeground": "#{{BG_DIM}}",
+    "statusBarItem.remoteHoverBackground": "#{{FG}}",
+    "statusBarItem.remoteHoverForeground": "#{{BG_DIM}}",
+    "statusBar.debuggingBackground": "#{{BG_DIM}}",
+    "statusBar.noFolderBackground": "#{{BG_DIM}}",
+    // ! Symbols
+    //   -- note: symbols are aligned with semantic token colors
+    // * -- standard types
+    "symbolIcon.namespaceForeground": "#{{CYAN}}",
+    "symbolIcon.classForeground": "#{{BLUE}}",
+    "symbolIcon.enumeratorForeground": "#{{BLUE}}",
+    "symbolIcon.interfaceForeground": "#{{BLUE}}",
+    "symbolIcon.structForeground": "#{{BLUE}}",
+    "symbolIcon.typeParameterForeground": "#{{ORANGE}}",
+    "symbolIcon.variableForeground": "#{{FG}}",
+    "symbolIcon.propertyForeground": "#{{FG}}",
+    "symbolIcon.enumeratorMemberForeground": "#{{FG}}",
+    "symbolIcon.eventForeground": "#{{CYAN}}",
+    "symbolIcon.functionForeground": "#{{GREEN}}",
+    "symbolIcon.methodForeground": "#{{GREEN}}",
+    "symbolIcon.stringForeground": "#{{YELLOW}}",
+    "symbolIcon.keywordForeground": "#{{RED}}",
+    "symbolIcon.numberForeground": "#{{FG}}",
+    "symbolIcon.operatorForeground": "#{{ORANGE}}",
+    // * -- additional types
+    "symbolIcon.textForeground": "#{{FG}}",
+    // ! Terminal
+    "terminalOverviewRuler.border": "#{{T_0}}",
+    "terminal.ansiBlack": "#928374",
+    "terminal.ansiBlue": "#8CB0A8",
+    "terminal.ansiBrightBlack": "#{{BG_DIM}}",
+    "terminal.ansiBrightBlue": "#{{BLUE}}",
+    "terminal.ansiBrightCyan": "#{{CYAN}}",
+    "terminal.ansiBrightGreen": "#{{GREEN}}",
+    "terminal.ansiBrightMagenta": "#{{PURPLE}}",
+    "terminal.ansiBrightRed": "#{{RED}}",
+    "terminal.ansiBrightWhite": "#{{FG}}",
+    "terminal.ansiBrightYellow": "#{{YELLOW}}",
+    "terminal.ansiCyan": "#98B593",
+    "terminal.ansiGreen": "#ABB578",
+    "terminal.ansiMagenta": "#D699A9",
+    "terminal.ansiRed": "#E3746F",
+    "terminal.ansiWhite": "#DCCDB5",
+    "terminal.ansiYellow": "#D6AC67",
+    "terminal.background": "#{{BG}}",
+    "terminal.foreground": "#{{FG}}",
+    "terminalCursor.foreground": "#{{FG}}",
+    // ! Testing
+    // * -- icons
+    "testing.iconErrored": "#{{RED}}",
+    "testing.iconFailed": "#{{RED}}",
+    "testing.iconPassed": "#{{GREEN}}",
+    "testing.iconQueued": "#{{BLUE}}",
+    "testing.iconSkipped": "#{{PURPLE}}",
+    "testing.iconUnset": "#{{FG}}",
+    "testing.runAction": "#{{GREEN}}",
+    // ! Text
+    // * -- monospaced
+    "textPreformat.foreground": "#{{FG}}",
+    "textPreformat.background": "#{{T_0}}",
+    // ! Title Bar
+    //   -- position: top-most bar
+    "titleBar.activeBackground": "#{{BG}}",
+    "titleBar.activeForeground": "#{{FG}}",
+    "titleBar.inactiveBackground": "#{{BG}}",
+    "titleBar.inactiveForeground": "#{{FG}}",
+    // ! Widgets
+    "widget.shadow": "#{{BG_DIM}}"
+  },
+  // ! TEXTMATE TOKENS
+  //   -- note: tokens are aligned with semantic token colors
+  "tokenColors": [
+    // standard semantic token types
+    {
+      "name": "namespace",
+      "scope": "entity.name.namespace",
+      "settings": {
+        "foreground": "#{{CYAN}}"
+      }
+    },
+    {
+      "name": "class",
+      "scope": "entity.name.class",
+      "settings": {
+        "foreground": "#{{BLUE}}"
+      }
+    },
+    {
+      "name": "type",
+      "scope": "entity.name.type,entity.name.type.enum,support.type,support.class",
+      "settings": {
+        "foreground": "#{{BLUE}}"
+      }
+    },
+    {
+      "name": "variable",
+      "scope": "variable,variable.parameter,variable.language",
+      "settings": {
+        "foreground": "#{{FG}}"
+      }
+    },
+    {
+      "name": "Property",
+      "scope": "meta.attribute",
+      "settings": {
+        "foreground": "#{{FG}}"
+      }
+    },
+    {
+      "name": "Decorator",
+      "scope": "entity.name.function.decorator",
+      "settings": {
+        "foreground": "#{{GREEN}}"
+      }
+    },
+    {
+      "name": "function",
+      "scope": "entity.name.function,support.function,meta.function-call",
+      "settings": {
+        "foreground": "#{{GREEN}}"
+      }
+    },
+    {
+      "name": "method",
+      "scope": "entity.name.method",
+      "settings": {
+        "foreground": "#{{GREEN}}"
+      }
+    },
+    {
+      "name": "macro",
+      "scope": "entity.name.function.macro",
+      "settings": {
+        "foreground": "#{{PURPLE}}"
+      }
+    },
+    {
+      "name": "comment",
+      "scope": "comment,string.comment,punctuation.definition.comment,punctuation.definition.tag.begin,punctuation.definition.tag.end,string.quoted.docstring",
+      "settings": {
+        "foreground": "#{{FG}}{{T_5}}"
+      }
+    },
+    {
+      "name": "string",
+      "scope": "string",
+      "settings": {
+        "foreground": "#{{YELLOW}}"
+      }
+    },
+    {
+      "name": "keyword",
+      "scope": "keyword,keyword.control,keyword.operator,storage,storage.modifier,storage.type",
+      "settings": {
+        "foreground": "#{{RED}}"
+      }
+    },
+    {
+      "name": "operator",
+      "scope": "keyword.operator",
+      "settings": {
+        "foreground": "#{{ORANGE}}"
+      }
+    },
+    // custom semantic token types
+    {
+      "name": "const",
+      "scope": "constant,constant.language,constant.numeric",
+      "settings": {
+        "foreground": "#{{FG}}"
+      }
+    },
+    // * -- generic token types
+    {
+      "name": "Text",
+      "scope": "text",
+      "settings": {
+        "foreground": "#{{FG}}"
+      }
+    },
+    {
+      "name": "Separator",
+      "scope": "punctuation.separator",
+      "settings": {
+        "foreground": "#{{ORANGE}}"
+      }
+    },
+    {
+      "name": "Toned Down Elements", // e.g. punctuation
+      "scope": "punctuation.support.type.property-name",
+      "settings": {
+        "foreground": "#{{FG}}{{T_5}}"
+      }
+    },
+    {
+      "name": "Tags",
+      "scope": "entity.name.tag,entity.other.attribute-name",
+      "settings": {
+        "foreground": "#{{FG}}"
+      }
+    },
+    // * -- markup
+    {
+      "name": "Markup | Italic",
+      "scope": "markup.italic",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Markup | Bold",
+      "scope": "markup.bold",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markup | Bold Italic",
+      "scope": "markup.bold markup.italic,markup.italic markup.bold",
+      "settings": {
+        "fontStyle": "italic bold"
+      }
+    },
+    {
+      "name": "Markup | Links",
+      "scope": "markup.link,markup.underline.link",
+      "settings": {
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "name": "Markup | Inline Raw Strings",
+      "scope": "markup.inline.raw.string,markup.raw.monospace",
+      "settings": {
+        "foreground": "#{{GREEN}}"
+      }
+    },
+    // * -- languages
+    // Asciidoc
+    {
+      "name": "Asciidoc | Heading 0",
+      "scope": "markup.heading.heading-0.asciidoc",
+      "settings": {
+        "foreground": "#{{RED}}",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Asciidoc | Heading 1",
+      "scope": "markup.heading.heading-1.asciidoc",
+      "settings": {
+        "foreground": "#{{ORANGE}}",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Asciidoc | Heading 2",
+      "scope": "markup.heading.heading-2.asciidoc",
+      "settings": {
+        "foreground": "#{{YELLOW}}",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Asciidoc | Heading 3",
+      "scope": "markup.heading.heading-3.asciidoc",
+      "settings": {
+        "foreground": "#{{GREEN}}",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Asciidoc | Heading 4",
+      "scope": "markup.heading.heading-4.asciidoc",
+      "settings": {
+        "foreground": "#{{BLUE}}",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Asciidoc | Heading 5",
+      "scope": "markup.heading.heading-5.asciidoc",
+      "settings": {
+        "foreground": "#{{PURPLE}}",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Asciidoc | Heading Punctuation",
+      "scope": "markup.heading.marker.asciidoc",
+      "settings": {
+        "foreground": "#{{FG}}{{T_5}}"
+      }
+    },
+    // Diff
+    {
+      "name": "Diff | Separator",
+      "scope": "punctuation.definition.separator.diff",
+      "settings": {
+        "foreground": "#{{FG}}{{T_5}}"
+      }
+    },
+    {
+      "name": "Diff | From-File Symbol",
+      "scope": "punctuation.definition.from-file.diff",
+      "settings": {
+        "foreground": "#{{RED}}"
+      }
+    },
+    {
+      "name": "Diff | To-File Symbol",
+      "scope": "punctuation.definition.to-file.diff",
+      "settings": {
+        "foreground": "#{{GREEN}}"
+      }
+    },
+    {
+      "name": "Diff | From-File & To-File Name",
+      "scope": "meta.diff.header.from-file,meta.diff.header.to-file",
+      "settings": {
+        "foreground": "#{{FG}}"
+      }
+    },
+    {
+      "name": "Diff | @@",
+      "scope": "meta.diff.range.context,punctuation.definition.range.diff",
+      "settings": {
+        "foreground": "#{{ORANGE}}"
+      }
+    },
+    {
+      "name": "Diff | Line Number",
+      "scope": "meta.toc-list.line-number.diff",
+      "settings": {
+        "foreground": "#{{PURPLE}}"
+      }
+    },
+    {
+      "name": "Diff | Deleted Line",
+      "scope": "markup.deleted.diff,punctuation.definition.deleted.diff",
+      "settings": {
+        "foreground": "#{{RED}}"
+      }
+    },
+    {
+      "name": "Diff | Added Line",
+      "scope": "markup.inserted.diff,punctuation.definition.inserted.diff",
+      "settings": {
+        "foreground": "#{{GREEN}}"
+      }
+    },
+    {
+      "name": "Diff | Changed Line",
+      "scope": "markup.changed.diff,punctuation.definition.changed.diff",
+      "settings": {
+        "foreground": "#{{BLUE}}"
+      }
+    },
+    // EditorConfig
+    {
+      "name": "EditorConfig | Section Title",
+      "scope": "entity.name.section.group-title.editorconfig,keyword.operator.glob.wildcard.editorconfig",
+      "settings": {
+        "foreground": "#{{FG}}"
+      }
+    },
+    // JSON
+    {
+      "name": "JSON | Key",
+      "scope": "support.type.property-name",
+      "settings": {
+        "foreground": "#{{FG}}"
+      }
+    },
+    // Markdown
+    {
+      "name": "Markdown | Code Fence",
+      "scope": "fenced_code.block.language,punctuation.definition.markdown,punctuation.definition.raw.markdown",
+      "settings": {
+        "foreground": "#{{PURPLE}}"
+      }
+    },
+    {
+      "name": "Markdown | Heading 1",
+      "scope": "heading.1.markdown,markup.heading.setext.1.markdown",
+      "settings": {
+        "foreground": "#{{RED}}",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown | Heading 2",
+      "scope": "heading.2.markdown,markup.heading.setext.2.markdown",
+      "settings": {
+        "foreground": "#{{ORANGE}}",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown | Heading 3",
+      "scope": "heading.3.markdown",
+      "settings": {
+        "foreground": "#{{YELLOW}}",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown | Heading 4",
+      "scope": "heading.4.markdown",
+      "settings": {
+        "foreground": "#{{GREEN}}",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown | Heading 5",
+      "scope": "heading.5.markdown",
+      "settings": {
+        "foreground": "#{{BLUE}}",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown | Heading 6",
+      "scope": "heading.6.markdown",
+      "settings": {
+        "foreground": "#{{PURPLE}}",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown | List",
+      "scope": "punctuation.definition.list.begin.markdown",
+      "settings": {
+        "foreground": "#{{RED}}"
+      }
+    },
+    {
+      "name": "Markdown | Toned Down Elements",
+      "scope": "punctuation.definition.heading.markdown,punctuation.definition.string.begin.markdown,punctuation.definition.string.end.markdown,punctuation.definition.bold.markdown,punctuation.definition.italic.markdown,punctuation.definition.quote.begin.markdown,punctuation.definition.metadata.markdown,punctuation.separator.key-value.markdown,punctuation.definition.constant.markdown,meta.separator.markdown,punctuation.definition.constant.begin.markdown,punctuation.definition.constant.end.markdown,punctuation.definition.link.markdown",
+      "settings": {
+        "foreground": "#{{FG}}{{T_5}}"
+      }
+    },
+    // Shell
+    {
+      "name": "Shell | Variable, HEREDOC & Subshell",
+      "scope": "punctuation.definition.string.heredoc.delimiter.shell,punctuation.definition.string.heredoc.quote.shell,punctuation.definition.variable.shell,variable.other.special.shell,variable.other.positional.shell,variable.other.bracket.shell,punctuation.definition.subshell.single.shell,punctuation.definition.subshell.single.shell",
+      "settings": {
+        "foreground": "#{{ORANGE}}"
+      }
+    },
+    {
+      "name": "Shell | Dash Flag & Redirection",
+      "scope": "constant.other.option",
+      "settings": {
+        "foreground": "#{{FG}}"
+      }
+    },
+    {
+      "name": "Shell | Builtin",
+      "scope": "support.function.builtin.shell",
+      "settings": {
+        "foreground": "#{{PURPLE}}"
+      }
+    },
+    // YAML
+    {
+      "name": "YAML | Begin-of-Document ---",
+      "scope": "entity.other.document.begin.yaml",
+      "settings": {
+        "foreground": "#{{ORANGE}}",
+        "fontStyle": "bold"
+      }
+    }
+  ]
+}

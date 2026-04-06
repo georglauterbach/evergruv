@@ -2,8 +2,8 @@ name: Bug Report
 description: Submit a bug report
 title: 'bug: '
 labels:
-  - kind/bug/report
-  - meta/needs triage
+  - kind::bug/report
+  - meta::needs triage
 
 body:
   - type: checkboxes

@@ -1,43 +1,37 @@
 ---
 themes:
   light:
-    name: Everforest
-    variant: Hard
-    link: https://github.com/sainnhe/everforest
+    based on: Everforest (Hard) <https://github.com/sainnhe/everforest>
     coolors: https://coolors.co/EBEBE4-F5F5F2-5C6A72-F85552-F57D26-D69A00-8DA101-35A77C-3A94C5-DF69BA
     colors:
       # cSpell: disable
       background_dim: EBEBE4
       background: F5F5F2
-      grey: A6B0A0
       foreground: 5C6A72
 
       red: F85552
       orange: F57D26
       yellow: D69A00
       green: 8DA101
-      cyan(aqua): 35A77C
+      cyan: 35A77C # == aqua
       blue: 3A94C5
-      purple(magenta,violet): DF69BA
+      purple: DF69BA # == magenta, violet
       # cSpell: enable
 
   dark:
-    name: Gruvbox Material Dark
-    variant: Hard
-    link: https://github.com/sainnhe/gruvbox-material
+    based on: Gruvbox Material Dark (Hard) <https://github.com/sainnhe/gruvbox-material>
     coolors: https://coolors.co/141617-1D2021-DDC7A1-EA6962-E78A4E-D8A657-A9B665-89B482-7DAEA3-D3869B
     colors:
       # cSpell: disable
       background_dim: 141617
       background: 1D2021
-      grey: 282828
       foreground: DDC7A1
 
       red: EA6962
       orange: E78A4E
       yellow: D8A657
       green: A9B665
-      cyan(aqua): 89B482
+      cyan: 89B482 # == aqua
       blue: 7DAEA3
-      purple(magenta,violet): D3869B
+      purple: D3869B # == magenta, violet
       # cSpell: enable

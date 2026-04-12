@@ -168,8 +168,8 @@
     // * -- -- hover
     "editor.hoverHighlightBackground": "#{{FG}}{{T_1}}",
     // * -- -- search (& replace)
-    "editor.findMatchBackground": "#{{FG}}{{T_3}}",
-    "editor.findMatchHighlightBackground": "#{{FG}}{{T_1}}",
+    "editor.findMatchBackground": "#{{FG}}{{T_1}}",
+    "editor.findMatchHighlightBackground": "#{{FG}}{{T_04}}",
     "editor.rangeHighlightBackground": "#{{ACTIVE}}",
     "editor.findRangeHighlightBackground": "#{{ACTIVE}}",
     // * -- -- brackets

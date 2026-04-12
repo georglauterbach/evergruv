@@ -221,8 +221,11 @@
     // * -- gutters (contains line numbers and other symbols)
     "editorGutter.background": "#{{BG}}",
     "editorGutter.addedBackground": "#{{GREEN}}{{T_6}}",
+    "editorGutter.addedSecondaryBackground": "#{{GREEN}}{{T_6}}",
     "editorGutter.deletedBackground": "#{{RED}}{{T_6}}",
+    "editorGutter.deletedSecondaryBackground": "#{{RED}}{{T_6}}",
     "editorGutter.modifiedBackground": "#{{BLUE}}{{T_6}}",
+    "editorGutter.modifiedSecondaryBackground": "#{{BLUE}}{{T_6}}",
     // * -- hovers (references)
     "editorHoverWidget.background": "#{{BG_DIM}}",
     "editorHoverWidget.foreground": "#{{FG}}",
@@ -283,11 +286,15 @@
     "diffEditor.removedLineBackground": "#{{RED}}{{T_1}}",
     // * -- resource decorations
     "gitDecoration.ignoredResourceForeground": "#{{FG}}{{T_6}}",
+    "gitDecoration.untrackedResourceForeground": "#{{GREEN}}",
     "gitDecoration.addedResourceForeground": "#{{GREEN}}",
     "gitDecoration.modifiedResourceForeground": "#{{BLUE}}",
+    "gitDecoration.stageModifiedResourceForeground": "#{{BLUE}}",
     "gitDecoration.renamedResourceForeground": "#{{CYAN}}",
     "gitDecoration.deletedResourceForeground": "#{{RED}}",
+    "gitDecoration.stageDeletedResourceForeground": "#{{RED}}",
     "gitDecoration.conflictingResourceForeground": "#{{PURPLE}}",
+    "gitDecoration.submoduleResourceForeground": "#{{FG}}",
     // ! Icons
     "icon.foreground": "#{{FG}}{{T_7}}",
     // ! Input

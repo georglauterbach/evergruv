@@ -221,8 +221,11 @@
     // * -- gutters (contains line numbers and other symbols)
     "editorGutter.background": "#1D2021",
     "editorGutter.addedBackground": "#A9B665C0",
+    "editorGutter.addedSecondaryBackground": "#A9B665C0",
     "editorGutter.deletedBackground": "#EA6962C0",
+    "editorGutter.deletedSecondaryBackground": "#EA6962C0",
     "editorGutter.modifiedBackground": "#7DAEA3C0",
+    "editorGutter.modifiedSecondaryBackground": "#7DAEA3C0",
     // * -- hovers (references)
     "editorHoverWidget.background": "#141617",
     "editorHoverWidget.foreground": "#DDC7A1",
@@ -283,11 +286,15 @@
     "diffEditor.removedLineBackground": "#EA696220",
     // * -- resource decorations
     "gitDecoration.ignoredResourceForeground": "#DDC7A160",
+    "gitDecoration.untrackedResourceForeground": "#A9B665",
     "gitDecoration.addedResourceForeground": "#A9B665",
     "gitDecoration.modifiedResourceForeground": "#7DAEA3",
+    "gitDecoration.stageModifiedResourceForeground": "#7DAEA3",
     "gitDecoration.renamedResourceForeground": "#89B482",
     "gitDecoration.deletedResourceForeground": "#EA6962",
+    "gitDecoration.stageDeletedResourceForeground": "#EA6962",
     "gitDecoration.conflictingResourceForeground": "#D3869B",
+    "gitDecoration.submoduleResourceForeground": "#DDC7A1",
     // ! Icons
     "icon.foreground": "#DDC7A1E0",
     // ! Input

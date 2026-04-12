@@ -240,6 +240,8 @@
     "editorWidget.background": "#{{BG_DIM}}",
     "editorWidget.border": "#{{BORDER_COLORED}}",
     "editorWidget.foreground": "#{{FG}}",
+    "widget.border": "#{{FG}}{{T_04}}",
+    "widget.shadow": "#{{T_0}}",
     // * -- minimap
     "minimap.infoHighlight": "#{{BLUE}}{{T_6}}",
     "minimap.warningHighlight": "#{{YELLOW}}{{T_6}}",
@@ -474,9 +476,7 @@
     "titleBar.activeBackground": "#{{BG}}",
     "titleBar.activeForeground": "#{{FG}}",
     "titleBar.inactiveBackground": "#{{BG}}",
-    "titleBar.inactiveForeground": "#{{FG}}",
-    // ! Widgets
-    "widget.shadow": "#{{BG_DIM}}"
+    "titleBar.inactiveForeground": "#{{FG}}"
   },
   // ! TEXTMATE TOKENS
   //   -- note: tokens are aligned with semantic token colors

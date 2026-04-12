@@ -328,25 +328,25 @@
     "list.errorForeground": "#{{RED}}",
     "list.dropBackground": "#{{ACTIVE}}",
     "list.invalidItemForeground": "#{{RED}}",
-    "tree.indentGuidesStroke": "#{{FG}}{{T_3}}",
+    "tree.indentGuidesStroke": "#{{FG}}{{T_4}}",
     // color that shows the already present text match
     "list.highlightForeground": "#{{ACCENT}}",
     // hover
     "list.hoverBackground": "#{{ACTIVE}}",
     "list.hoverForeground": "#{{FG}}",
-    // focus on the list::selection
-    "list.focusBackground": "#{{FG}}{{T_1}}",
+    // focus on the list::selection (not the active editor item)
+    "list.focusBackground": "#{{BG}}",
     "list.focusForeground": "#{{FG}}",
     "list.focusOutline": "#{{T_0}}",
     // focus on the list::active item in the editor
     "list.activeSelectionBackground": "#{{BG}}",
     "list.activeSelectionForeground": "#{{FG}}",
-    "list.focusAndSelectionOutline": "#{{BORDER}}",
+    "list.focusAndSelectionOutline": "#{{BORDER_COLORED}}",
     // focus not on the list::active item in the editor
     "list.inactiveSelectionBackground": "#{{ACTIVE}}",
     "list.inactiveSelectionForeground": "#{{FG}}",
     // focus not on the list::last selection
-    "list.inactiveFocusBackground": "#{{FG}}{{T_04}}",
+    "list.inactiveFocusBackground": "#{{BG}}{{T_5}}",
     "list.inactiveFocusOutline": "#{{FG}}{{T_1}}",
     // ! Notifications
     "notificationCenterHeader.background": "#{{BG_DIM}}",

@@ -95,7 +95,7 @@
     "button.secondaryBackground": "#{{BG_DIM}}",
     "button.secondaryForeground": "#{{FG}}",
     "button.secondaryBorder": "#{{BORDER_COLORED}}",
-    "button.secondaryHoverBackground": "#{{FG}}{{T_1}}",
+    "button.secondaryHoverBackground": "#{{BG}}",
     "button.separator": "#{{T_0}}",
     // ! Charts
     "charts.foreground": "#{{FG}}",

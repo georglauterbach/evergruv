@@ -152,6 +152,8 @@
     "editorWhitespace.foreground": "#{{FG}}{{T_1}}", // whitespace indicator color
     "editorLightBulb.foreground": "#{{YELLOW}}", // light bulb color
     "editorLink.activeForeground": "#{{ACCENT}}", // CTRL+mouse -> go to definition / declaration
+    // * -- sticky scroll
+    "editorStickyScroll.shadow": "#{{BG_DIM}}{{T_4}}",
     // * -- active lines & line numbers
     "editor.lineHighlightBackground": "#{{FG}}{{T_03}}",
     "editor.inactiveLineHighlightBackground": "#{{FG}}{{T_02}}",

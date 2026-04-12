@@ -36,7 +36,7 @@
     },
     "macro": "#{{PURPLE}}",
     "label": "#{{PURPLE}}",
-    "comment": "#{{FG}}{{T_3}}",
+    "comment": "#{{FG}}{{T_3}}", // ~~~
     "string": "#{{YELLOW}}",
     "keyword": "#{{RED}}",
     "number": "#{{FG}}",
@@ -153,12 +153,12 @@
     "editorLightBulb.foreground": "#{{YELLOW}}", // light bulb color
     "editorLink.activeForeground": "#{{ACCENT}}", // CTRL+mouse -> go to definition / declaration
     // * -- sticky scroll
-    "editorStickyScroll.shadow": "#{{BG_DIM}}{{T_4}}",
+    "editorStickyScroll.shadow": "#{{BG_DIM}}{{T_4}}", // ~~~
     // * -- active lines & line numbers
     "editor.lineHighlightBackground": "#{{FG}}{{T_03}}",
     "editor.inactiveLineHighlightBackground": "#{{FG}}{{T_02}}",
     "editorLineNumber.activeForeground": "#{{FG}}{{T_6}}",
-    "editorLineNumber.foreground": "#{{FG}}{{T_2}}",
+    "editorLineNumber.foreground": "#{{FG}}{{T_2}}", // ~~~
     // * -- highlights
     // * -- -- same Word
     "editor.wordHighlightBackground": "#{{FG}}{{T_04}}",
@@ -170,8 +170,8 @@
     // * -- -- hover
     "editor.hoverHighlightBackground": "#{{FG}}{{T_1}}",
     // * -- -- search (& replace)
-    "editor.findMatchBackground": "#{{FG}}{{T_3}}",
-    "editor.findMatchHighlightBackground": "#{{FG}}{{T_1}}",
+    "editor.findMatchBackground": "#{{FG}}{{T_3}}", // ~~~
+    "editor.findMatchHighlightBackground": "#{{FG}}{{T_1}}", // ~~~
     "editor.rangeHighlightBackground": "#{{ACTIVE}}",
     "editor.findRangeHighlightBackground": "#{{ACTIVE}}",
     // * -- -- brackets
@@ -294,7 +294,7 @@
     "diffEditor.removedTextBackground": "#{{RED}}{{T_1}}",
     "diffEditor.removedLineBackground": "#{{RED}}{{T_1}}",
     // * -- resource decorations
-    "gitDecoration.ignoredResourceForeground": "#{{FG}}{{T_3}}",
+    "gitDecoration.ignoredResourceForeground": "#{{FG}}{{T_3}}", // ~~~
     "gitDecoration.untrackedResourceForeground": "#{{GREEN}}",
     "gitDecoration.addedResourceForeground": "#{{GREEN}}",
     "gitDecoration.modifiedResourceForeground": "#{{BLUE}}",
@@ -396,8 +396,8 @@
     // ! Side Bar (contains file explorer, search, etc.)
     // * -- core
     "sideBar.background": "#{{BG_DIM}}",
-    "sideBar.foreground": "#{{FG}}{{T_6}}",
-    "sideBar.border": "#{{T_0}}",
+    "sideBar.foreground": "#{{FG}}{{T_6}}", // ~~~
+    "sideBar.border": "#{{T_0}}", // ~~~
     "sideBarTitle.foreground": "#{{FG}}",
     "sideBarSectionHeader.background": "#{{T_0}}",
     "sideBarSectionHeader.foreground": "#{{FG}}{{T_7}}",
@@ -447,14 +447,14 @@
     "terminalOverviewRuler.border": "#{{T_0}}",
     "terminal.ansiBlack": "#{{BG_DIM}}",
     "terminal.ansiBlue": "#{{BLUE}}",
-    "terminal.ansiBrightBlack": "#928374",
-    "terminal.ansiBrightBlue": "#8CB0A8",
-    "terminal.ansiBrightCyan": "#98B593",
-    "terminal.ansiBrightGreen": "#ABB578",
-    "terminal.ansiBrightMagenta": "#D699A9",
-    "terminal.ansiBrightRed": "#E3746F",
-    "terminal.ansiBrightWhite": "#DCCDB5",
-    "terminal.ansiBrightYellow": "#D6AC67",
+    "terminal.ansiBrightBlack": "#928374", // ~~~
+    "terminal.ansiBrightBlue": "#8CB0A8", // ~~~
+    "terminal.ansiBrightCyan": "#98B593", // ~~~
+    "terminal.ansiBrightGreen": "#ABB578", // ~~~
+    "terminal.ansiBrightMagenta": "#D699A9", // ~~~
+    "terminal.ansiBrightRed": "#E3746F", // ~~~
+    "terminal.ansiBrightWhite": "#DCCDB5", // ~~~
+    "terminal.ansiBrightYellow": "#D6AC67", // ~~~
     "terminal.ansiCyan": "#{{CYAN}}",
     "terminal.ansiGreen": "#{{GREEN}}",
     "terminal.ansiMagenta": "#{{PURPLE}}",
@@ -555,7 +555,7 @@
       "name": "comment",
       "scope": "comment,string.comment,punctuation.definition.comment,punctuation.definition.tag.begin,punctuation.definition.tag.end,string.quoted.docstring",
       "settings": {
-        "foreground": "#{{FG}}{{T_3}}"
+        "foreground": "#{{FG}}{{T_3}}" // ~~~
       }
     },
     {

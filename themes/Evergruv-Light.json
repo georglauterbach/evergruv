@@ -36,7 +36,7 @@
     },
     "macro": "#DF69BA",
     "label": "#DF69BA",
-    "comment": "#5C6A72A0",
+    "comment": "#5C6A72A0", // ~~~
     "string": "#D69A00",
     "keyword": "#F85552",
     "number": "#5C6A72",
@@ -95,7 +95,7 @@
     "button.secondaryBackground": "#EBEBE4",
     "button.secondaryForeground": "#5C6A72",
     "button.secondaryBorder": "#8DA10180",
-    "button.secondaryHoverBackground": "#5C6A7220",
+    "button.secondaryHoverBackground": "#F5F5F2",
     "button.separator": "#00000000",
     // ! Charts
     "charts.foreground": "#5C6A72",
@@ -152,11 +152,13 @@
     "editorWhitespace.foreground": "#5C6A7220", // whitespace indicator color
     "editorLightBulb.foreground": "#D69A00", // light bulb color
     "editorLink.activeForeground": "#8DA101", // CTRL+mouse -> go to definition / declaration
+    // * -- sticky scroll
+    "editorStickyScroll.shadow": "#5C6A7220", // ~~~
     // * -- active lines & line numbers
     "editor.lineHighlightBackground": "#5C6A720A",
     "editor.inactiveLineHighlightBackground": "#5C6A7208",
-    "editorLineNumber.activeForeground": "#5C6A72A0",
-    "editorLineNumber.foreground": "#5C6A7240",
+    "editorLineNumber.activeForeground": "#5C6A72C0",
+    "editorLineNumber.foreground": "#5C6A7260", // ~~~
     // * -- highlights
     // * -- -- same Word
     "editor.wordHighlightBackground": "#5C6A720C",
@@ -168,8 +170,10 @@
     // * -- -- hover
     "editor.hoverHighlightBackground": "#5C6A7220",
     // * -- -- search (& replace)
-    "editor.findMatchBackground": "#5C6A7260",
-    "editor.findMatchHighlightBackground": "#5C6A7220",
+    "editor.findMatchBackground": "#5C6A7220", // ~~~
+    "editor.findMatchHighlightBackground": "#5C6A720C", // ~~~
+    "editor.rangeHighlightBackground": "#8DA10120",
+    "editor.findRangeHighlightBackground": "#8DA10120",
     // * -- -- brackets
     "editorBracketHighlight.foreground1": "#5C6A72",
     "editorBracketHighlight.foreground2": "#5C6A72",
@@ -187,8 +191,8 @@
     "editorBracketPairGuide.activeBackground6": "#3A94C5",
     "editorBracketHighlight.unexpectedBracket.foreground": "#F85552",
     // * -- breadcrumbs
-    "breadcrumb.background": "#00000000",
-    "breadcrumb.foreground": "#5C6A72A0",
+    "breadcrumb.background": "#F5F5F2",
+    "breadcrumb.foreground": "#5C6A72C0",
     "breadcrumb.focusForeground": "#5C6A72E0",
     "breadcrumb.activeSelectionForeground": "#5C6A72",
     "breadcrumbPicker.background": "#EBEBE4",
@@ -203,8 +207,11 @@
     // * -- groups (of tabs)
     "editorGroupHeader.tabsBackground": "#EBEBE4",
     "editorGroupHeader.noTabsBackground": "#EBEBE4",
+    "editorGroupHeader.border": "#F5F5F2",
+    "editorGroupHeader.tabsBorder": "#F5F5F2",
     "editorGroup.border": "#00000000",
-    "editorGroup.dropBackground": "#5C6A7220",
+    "editorGroup.focusedEmptyBorder": "#8DA10180",
+    "editorGroup.dropBackground": "#8DA10120",
     // * -- tabs
     "tab.border": "#00000000",
     "tab.activeBackground": "#F5F5F2",
@@ -238,6 +245,8 @@
     "editorWidget.background": "#EBEBE4",
     "editorWidget.border": "#8DA10180",
     "editorWidget.foreground": "#5C6A72",
+    "widget.border": "#5C6A720C",
+    "widget.shadow": "#00000000",
     // * -- minimap
     "minimap.infoHighlight": "#3A94C5C0",
     "minimap.warningHighlight": "#D69A00C0",
@@ -285,7 +294,7 @@
     "diffEditor.removedTextBackground": "#F8555220",
     "diffEditor.removedLineBackground": "#F8555220",
     // * -- resource decorations
-    "gitDecoration.ignoredResourceForeground": "#5C6A72C0",
+    "gitDecoration.ignoredResourceForeground": "#5C6A72C0", // ~~~
     "gitDecoration.untrackedResourceForeground": "#8DA101",
     "gitDecoration.addedResourceForeground": "#8DA101",
     "gitDecoration.modifiedResourceForeground": "#3A94C5",
@@ -322,27 +331,27 @@
     //   -- note: especially important for the file explorer
     "list.warningForeground": "#D69A00",
     "list.errorForeground": "#F85552",
-    "list.dropBackground": "#5C6A7240",
+    "list.dropBackground": "#8DA10120",
     "list.invalidItemForeground": "#F85552",
-    "tree.indentGuidesStroke": "#5C6A7260",
+    "tree.indentGuidesStroke": "#5C6A7280",
     // color that shows the already present text match
     "list.highlightForeground": "#8DA101",
     // hover
-    "list.hoverBackground": "#5C6A7220",
+    "list.hoverBackground": "#8DA10120",
     "list.hoverForeground": "#5C6A72",
-    // focus on the list::selection
-    "list.focusBackground": "#5C6A7220",
+    // focus on the list::selection (not the active editor item)
+    "list.focusBackground": "#F5F5F2",
     "list.focusForeground": "#5C6A72",
     "list.focusOutline": "#00000000",
     // focus on the list::active item in the editor
     "list.activeSelectionBackground": "#F5F5F2",
     "list.activeSelectionForeground": "#5C6A72",
-    "list.focusAndSelectionOutline": "#5C6A7280",
+    "list.focusAndSelectionOutline": "#8DA10180",
     // focus not on the list::active item in the editor
-    "list.inactiveSelectionBackground": "#F5F5F2",
+    "list.inactiveSelectionBackground": "#8DA10120",
     "list.inactiveSelectionForeground": "#5C6A72",
     // focus not on the list::last selection
-    "list.inactiveFocusBackground": "#5C6A720C",
+    "list.inactiveFocusBackground": "#F5F5F2A0",
     "list.inactiveFocusOutline": "#5C6A7220",
     // ! Notifications
     "notificationCenterHeader.background": "#EBEBE4",
@@ -387,7 +396,8 @@
     // ! Side Bar (contains file explorer, search, etc.)
     // * -- core
     "sideBar.background": "#EBEBE4",
-    "sideBar.foreground": "#5C6A72",
+    "sideBar.foreground": "#5C6A72", // ~~~
+    "sideBar.border": "#5C6A720C", // ~~~
     "sideBarTitle.foreground": "#5C6A72",
     "sideBarSectionHeader.background": "#00000000",
     "sideBarSectionHeader.foreground": "#5C6A72E0",
@@ -437,14 +447,14 @@
     "terminalOverviewRuler.border": "#00000000",
     "terminal.ansiBlack": "#EBEBE4",
     "terminal.ansiBlue": "#3A94C5",
-    "terminal.ansiBrightBlack": "#EBEBE4",
-    "terminal.ansiBrightBlue": "#3A94C5",
-    "terminal.ansiBrightCyan": "#35A77C",
-    "terminal.ansiBrightGreen": "#8DA101",
-    "terminal.ansiBrightMagenta": "#DF69BA",
-    "terminal.ansiBrightRed": "#F85552",
-    "terminal.ansiBrightWhite": "#5C6A72",
-    "terminal.ansiBrightYellow": "#D69A00",
+    "terminal.ansiBrightBlack": "#EBEBE4", // ~~~
+    "terminal.ansiBrightBlue": "#3A94C5", // ~~~
+    "terminal.ansiBrightCyan": "#35A77C", // ~~~
+    "terminal.ansiBrightGreen": "#8DA101", // ~~~
+    "terminal.ansiBrightMagenta": "#DF69BA", // ~~~
+    "terminal.ansiBrightRed": "#F85552", // ~~~
+    "terminal.ansiBrightWhite": "#5C6A72", // ~~~
+    "terminal.ansiBrightYellow": "#D69A00", // ~~~
     "terminal.ansiCyan": "#35A77C",
     "terminal.ansiGreen": "#8DA101",
     "terminal.ansiMagenta": "#DF69BA",
@@ -472,9 +482,7 @@
     "titleBar.activeBackground": "#F5F5F2",
     "titleBar.activeForeground": "#5C6A72",
     "titleBar.inactiveBackground": "#F5F5F2",
-    "titleBar.inactiveForeground": "#5C6A72",
-    // ! Widgets
-    "widget.shadow": "#EBEBE4"
+    "titleBar.inactiveForeground": "#5C6A72"
   },
   // ! TEXTMATE TOKENS
   //   -- note: tokens are aligned with semantic token colors
@@ -547,7 +555,7 @@
       "name": "comment",
       "scope": "comment,string.comment,punctuation.definition.comment,punctuation.definition.tag.begin,punctuation.definition.tag.end,string.quoted.docstring",
       "settings": {
-        "foreground": "#5C6A72A0"
+        "foreground": "#5C6A72A0" // ~~~
       }
     },
     {

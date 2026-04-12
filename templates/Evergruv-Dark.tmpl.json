@@ -155,7 +155,7 @@
     // * -- active lines & line numbers
     "editor.lineHighlightBackground": "#{{FG}}{{T_03}}",
     "editor.inactiveLineHighlightBackground": "#{{FG}}{{T_02}}",
-    "editorLineNumber.activeForeground": "#{{FG}}{{T_5}}",
+    "editorLineNumber.activeForeground": "#{{FG}}{{T_6}}",
     "editorLineNumber.foreground": "#{{FG}}{{T_2}}",
     // * -- highlights
     // * -- -- same Word

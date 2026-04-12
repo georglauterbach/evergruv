@@ -392,6 +392,7 @@
     // * -- core
     "sideBar.background": "#{{BG_DIM}}",
     "sideBar.foreground": "#{{FG}}{{T_6}}",
+    "sideBar.border": "#{{T_0}}",
     "sideBarTitle.foreground": "#{{FG}}",
     "sideBarSectionHeader.background": "#{{T_0}}",
     "sideBarSectionHeader.foreground": "#{{FG}}{{T_7}}",

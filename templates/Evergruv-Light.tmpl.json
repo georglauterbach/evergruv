@@ -391,6 +391,7 @@
     // ! Side Bar (contains file explorer, search, etc.)
     // * -- core
     "sideBar.background": "#{{BG_DIM}}",
+    "sideBar.border": "#{{FG}}{{T_04}}",
     "sideBar.foreground": "#{{FG}}",
     "sideBarTitle.foreground": "#{{FG}}",
     "sideBarSectionHeader.background": "#{{T_0}}",

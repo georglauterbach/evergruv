@@ -170,6 +170,8 @@
     // * -- -- search (& replace)
     "editor.findMatchBackground": "#{{FG}}{{T_3}}",
     "editor.findMatchHighlightBackground": "#{{FG}}{{T_1}}",
+    "editor.rangeHighlightBackground": "#{{ACTIVE}}",
+    "editor.findRangeHighlightBackground": "#{{ACTIVE}}",
     // * -- -- brackets
     "editorBracketHighlight.foreground1": "#{{FG}}",
     "editorBracketHighlight.foreground2": "#{{FG}}",

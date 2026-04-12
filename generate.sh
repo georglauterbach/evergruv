@@ -43,6 +43,7 @@ case "${VARIANT,,}" in
     readonly PURPLE='DF69BA'
 
     readonly ACCENT=${GREEN}
+    readonly ACTIVE=${ACCENT}${T_1}
 
     readonly BORDER=${FG}${T_4}
     readonly BORDER_COLORED=${ACCENT}${T_4}
@@ -63,6 +64,7 @@ case "${VARIANT,,}" in
     readonly PURPLE='D3869B'
 
     readonly ACCENT=${YELLOW}
+    readonly ACTIVE=${ACCENT}${T_1}
 
     readonly BORDER=${FG}${T_4}
     readonly BORDER_COLORED=${ACCENT}${T_4}
@@ -115,6 +117,7 @@ sed \
   --expression "s|{{BLUE}}|${BLUE}|g"                     \
   --expression "s|{{PURPLE}}|${PURPLE}|g"                 \
   --expression "s|{{ACCENT}}|${ACCENT}|g"                 \
+  --expression "s|{{ACTIVE}}|${ACTIVE}|g"                 \
   --expression "s|{{BORDER}}|${BORDER}|g"                 \
   --expression "s|{{BORDER_COLORED}}|${BORDER_COLORED}|g" \
   "${INPUT_FILE}" >"${OUTPUT_FILE}"

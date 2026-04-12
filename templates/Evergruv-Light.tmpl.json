@@ -111,7 +111,7 @@
     "checkbox.foreground": "#{{ACCENT}}",
     // ! Debugging
     // * -- editor
-    "editor.stackFrameHighlightBackground": "#{{ACCENT}}{{T_1}}",
+    "editor.stackFrameHighlightBackground": "#{{ACTIVE}}",
     // * -- bar icons
     "debugIcon.startForeground": "#{{GREEN}}",
     "debugIcon.continueForeground": "#{{BLUE}}",
@@ -206,7 +206,7 @@
     "editorGroupHeader.tabsBackground": "#{{BG_DIM}}",
     "editorGroupHeader.noTabsBackground": "#{{BG_DIM}}",
     "editorGroup.border": "#{{T_0}}",
-    "editorGroup.dropBackground": "#{{FG}}{{T_1}}",
+    "editorGroup.dropBackground": "#{{ACTIVE}}",
     // * -- tabs
     "tab.border": "#{{T_0}}",
     "tab.activeBackground": "#{{BG}}",
@@ -324,13 +324,13 @@
     //   -- note: especially important for the file explorer
     "list.warningForeground": "#{{YELLOW}}",
     "list.errorForeground": "#{{RED}}",
-    "list.dropBackground": "#{{FG}}{{T_2}}",
+    "list.dropBackground": "#{{ACTIVE}}",
     "list.invalidItemForeground": "#{{RED}}",
     "tree.indentGuidesStroke": "#{{FG}}{{T_3}}",
     // color that shows the already present text match
     "list.highlightForeground": "#{{ACCENT}}",
     // hover
-    "list.hoverBackground": "#{{FG}}{{T_1}}",
+    "list.hoverBackground": "#{{ACTIVE}}",
     "list.hoverForeground": "#{{FG}}",
     // focus on the list::selection
     "list.focusBackground": "#{{FG}}{{T_1}}",
@@ -341,7 +341,7 @@
     "list.activeSelectionForeground": "#{{FG}}",
     "list.focusAndSelectionOutline": "#{{BORDER}}",
     // focus not on the list::active item in the editor
-    "list.inactiveSelectionBackground": "#{{BG}}",
+    "list.inactiveSelectionBackground": "#{{ACTIVE}}",
     "list.inactiveSelectionForeground": "#{{FG}}",
     // focus not on the list::last selection
     "list.inactiveFocusBackground": "#{{FG}}{{T_04}}",

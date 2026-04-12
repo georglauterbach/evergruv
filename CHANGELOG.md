@@ -8,6 +8,24 @@ All notable changes to this project will be documented in this file. The format 
 >
 > Changes listed in this section have not been published yet!
 
+- **Changed**
+  - integrated another linter for the CI ([`dc66f0d`](https://github.com/georglauterbach/evergruv/commit/dc66f0d))
+  - unify button.secondaryHoverBackground to use BG ([`8a627e3`](https://github.com/georglauterbach/evergruv/commit/8a627e3))
+  - add more ACTIVE colors ([`209a7b1`](https://github.com/georglauterbach/evergruv/commit/209a7b1))
+  - update `widget` colors ([`48079eb`](https://github.com/georglauterbach/evergruv/commit/48079eb))
+  - tone down find match background in light them ([`d28c28d`](https://github.com/georglauterbach/evergruv/commit/d28c28d))
+  - update tree and list colors to make them more coherent ([`c880221`](https://github.com/georglauterbach/evergruv/commit/c880221))
+  - make line numbers more visible ([`4489f29`](https://github.com/georglauterbach/evergruv/commit/4489f29))
+  - update breadcrumb colors ([`8f902ee`](https://github.com/georglauterbach/evergruv/commit/8f902ee))
+  - make colors of `editorGroupHeader` and tabs more consistent ([`52a56a7`](https://github.com/georglauterbach/evergruv/commit/52a56a7))
+  - update terminal colors in light theme ([`0657dbd`](https://github.com/georglauterbach/evergruv/commit/0657dbd))
+- **Added**
+  - completed editor gutter and git decoration colors ([`f62dca5`](https://github.com/georglauterbach/evergruv/commit/f62dca5))
+  - add proper `rangeHighlight` colors ([`03fa95c`](https://github.com/georglauterbach/evergruv/commit/03fa95c))
+  - add `sidebar.border` ([`e7fa085`](https://github.com/georglauterbach/evergruv/commit/e7fa085))
+  - add colors for sticky scrolls in the editor ([`0fedae8`](https://github.com/georglauterbach/evergruv/commit/0fedae8))
+  - add indicators of difference between light and dark ([`7987a16`](https://github.com/georglauterbach/evergruv/commit/7987a16))
+
 ## [0.4.0](https://github.com/georglauterbach/evergruv/releases/tag/0.4.0)
 
 - **Added**

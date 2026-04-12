@@ -189,8 +189,8 @@
     "editorBracketPairGuide.activeBackground6": "#{{BLUE}}",
     "editorBracketHighlight.unexpectedBracket.foreground": "#{{RED}}",
     // * -- breadcrumbs
-    "breadcrumb.background": "#{{T_0}}",
-    "breadcrumb.foreground": "#{{FG}}{{T_5}}",
+    "breadcrumb.background": "#{{BG}}",
+    "breadcrumb.foreground": "#{{FG}}{{T_6}}",
     "breadcrumb.focusForeground": "#{{FG}}{{T_7}}",
     "breadcrumb.activeSelectionForeground": "#{{FG}}",
     "breadcrumbPicker.background": "#{{BG_DIM}}",

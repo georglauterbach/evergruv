@@ -205,7 +205,10 @@
     // * -- groups (of tabs)
     "editorGroupHeader.tabsBackground": "#{{BG_DIM}}",
     "editorGroupHeader.noTabsBackground": "#{{BG_DIM}}",
+    "editorGroupHeader.border": "#{{BG}}",
+    "editorGroupHeader.tabsBorder": "#{{BG}}",
     "editorGroup.border": "#{{T_0}}",
+    "editorGroup.focusedEmptyBorder": "#{{BORDER_COLORED}}",
     "editorGroup.dropBackground": "#{{ACTIVE}}",
     // * -- tabs
     "tab.border": "#{{T_0}}",
@@ -216,10 +219,10 @@
     "tab.hoverBackground": "#{{BG_DIM}}",
     "tab.hoverForeground": "#{{FG}}",
     "tab.unfocusedActiveBackground": "#{{BG}}",
-    "tab.unfocusedActiveForeground": "#{{BORDER}}",
+    "tab.unfocusedActiveForeground": "#{{FG}}{{T_4}}",
     "tab.unfocusedHoverBackground": "#{{BG_DIM}}",
     "tab.unfocusedHoverForeground": "#{{FG}}",
-    "tab.unfocusedInactiveForeground": "#{{BORDER}}",
+    "tab.unfocusedInactiveForeground": "#{{FG}}{{T_4}}",
     // * -- gutters (contains line numbers and other symbols)
     "editorGutter.background": "#{{BG}}",
     "editorGutter.addedBackground": "#{{GREEN}}{{T_6}}",

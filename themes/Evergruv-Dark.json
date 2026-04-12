@@ -325,8 +325,8 @@
     "inputValidation.errorForeground": "#7DAEA3",
     "inputValidation.errorBorder": "#00000000",
     // ! Links
-    "textLink.foreground": "#DDC7A1C0",
-    "textLink.activeForeground": "#D8A657",
+    "textLink.foreground": "#7DAEA3",
+    "textLink.activeForeground": "#7DAEA3",
     // ! Lists
     //   -- note: especially important for the file explorer
     "list.warningForeground": "#D8A657",

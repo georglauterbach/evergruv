@@ -325,8 +325,8 @@
     "inputValidation.errorForeground": "#{{BLUE}}",
     "inputValidation.errorBorder": "#{{T_0}}",
     // ! Links
-    "textLink.foreground": "#{{FG}}{{T_6}}",
-    "textLink.activeForeground": "#{{ACCENT}}",
+    "textLink.foreground": "#{{BLUE}}",
+    "textLink.activeForeground": "#{{BLUE}}",
     // ! Lists
     //   -- note: especially important for the file explorer
     "list.warningForeground": "#{{YELLOW}}",

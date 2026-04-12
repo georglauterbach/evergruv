@@ -2,11 +2,13 @@
 
 All notable changes to this project will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/georglauterbach/evergruv/compare/0.2.5...HEAD)
+## [Unreleased](https://github.com/georglauterbach/evergruv/compare/0.5.0...HEAD)
 
 > [!NOTE]
 >
 > Changes listed in this section have not been published yet!
+
+## [0.5.0](https://github.com/georglauterbach/evergruv/releases/tag/0.5.0)
 
 - **Changed**
   - integrated another linter for the CI ([`dc66f0d`](https://github.com/georglauterbach/evergruv/commit/dc66f0d))
@@ -19,6 +21,7 @@ All notable changes to this project will be documented in this file. The format 
   - update breadcrumb colors ([`8f902ee`](https://github.com/georglauterbach/evergruv/commit/8f902ee))
   - make colors of `editorGroupHeader` and tabs more consistent ([`52a56a7`](https://github.com/georglauterbach/evergruv/commit/52a56a7))
   - update terminal colors in light theme ([`0657dbd`](https://github.com/georglauterbach/evergruv/commit/0657dbd))
+  - make links in text blue ([`8b1351e`](https://github.com/georglauterbach/evergruv/commit/8b1351e))
 - **Added**
   - completed editor gutter and git decoration colors ([`f62dca5`](https://github.com/georglauterbach/evergruv/commit/f62dca5))
   - add proper `rangeHighlight` colors ([`03fa95c`](https://github.com/georglauterbach/evergruv/commit/03fa95c))

@@ -2,11 +2,16 @@
 
 All notable changes to this project will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/georglauterbach/evergruv/compare/0.5.0...HEAD)
+## [Unreleased](https://github.com/georglauterbach/evergruv/compare/0.5.1...HEAD)
 
 > [!NOTE]
 >
 > Changes listed in this section have not been published yet!
+
+## [0.5.1](https://github.com/georglauterbach/evergruv/releases/tag/0.5.1)
+
+- **Changed**
+  - make accent color more transparent in dark theme ([`078bc3c`](https://github.com/georglauterbach/evergruv/commit/078bc3c))
 
 ## [0.5.0](https://github.com/georglauterbach/evergruv/releases/tag/0.5.0)
 

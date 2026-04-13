@@ -21,6 +21,7 @@ readonly T_01='04'
 readonly T_02='08'
 readonly T_03='0A'
 readonly T_04='0C'
+readonly T_05='10'
 readonly T_1='20'
 readonly T_2='40'
 readonly T_3='60'
@@ -67,7 +68,7 @@ case "${VARIANT,,}" in
     readonly PURPLE='D3869B'
 
     readonly ACCENT=${YELLOW}
-    readonly ACTIVE=${ACCENT}${T_1}
+    readonly ACTIVE=${ACCENT}${T_05}
 
     readonly BORDER=${FG}${T_4}
     readonly BORDER_COLORED=${ACCENT}${T_4}
@@ -104,6 +105,7 @@ sed \
   --expression "s|{{T_02}}|${T_02}|g"                     \
   --expression "s|{{T_03}}|${T_03}|g"                     \
   --expression "s|{{T_04}}|${T_04}|g"                     \
+  --expression "s|{{T_05}}|${T_05}|g"                     \
   --expression "s|{{T_1}}|${T_1}|g"                       \
   --expression "s|{{T_2}}|${T_2}|g"                       \
   --expression "s|{{T_3}}|${T_3}|g"                       \
@@ -111,9 +113,9 @@ sed \
   --expression "s|{{T_5}}|${T_5}|g"                       \
   --expression "s|{{T_6}}|${T_6}|g"                       \
   --expression "s|{{T_7}}|${T_7}|g"                       \
-  --expression "s|{{BG_DIM}}|${BG_DIM}|g" \
-  --expression "s|{{BG}}|${BG}|g"         \
-  --expression "s|{{FG}}|${FG}|g"         \
+  --expression "s|{{BG_DIM}}|${BG_DIM}|g"                 \
+  --expression "s|{{BG}}|${BG}|g"                         \
+  --expression "s|{{FG}}|${FG}|g"                         \
   --expression "s|{{RED}}|${RED}|g"                       \
   --expression "s|{{ORANGE}}|${ORANGE}|g"                 \
   --expression "s|{{YELLOW}}|${YELLOW}|g"                 \

@@ -111,7 +111,7 @@
     "checkbox.foreground": "#D8A657",
     // ! Debugging
     // * -- editor
-    "editor.stackFrameHighlightBackground": "#D8A65720",
+    "editor.stackFrameHighlightBackground": "#D8A65710",
     // * -- bar icons
     "debugIcon.startForeground": "#A9B665",
     "debugIcon.continueForeground": "#7DAEA3",
@@ -172,8 +172,8 @@
     // * -- -- search (& replace)
     "editor.findMatchBackground": "#DDC7A160", // ~~~
     "editor.findMatchHighlightBackground": "#DDC7A120", // ~~~
-    "editor.rangeHighlightBackground": "#D8A65720",
-    "editor.findRangeHighlightBackground": "#D8A65720",
+    "editor.rangeHighlightBackground": "#D8A65710",
+    "editor.findRangeHighlightBackground": "#D8A65710",
     // * -- -- brackets
     "editorBracketHighlight.foreground1": "#DDC7A1",
     "editorBracketHighlight.foreground2": "#DDC7A1",
@@ -211,7 +211,7 @@
     "editorGroupHeader.tabsBorder": "#1D2021",
     "editorGroup.border": "#00000000",
     "editorGroup.focusedEmptyBorder": "#D8A65780",
-    "editorGroup.dropBackground": "#D8A65720",
+    "editorGroup.dropBackground": "#D8A65710",
     // * -- tabs
     "tab.border": "#00000000",
     "tab.activeBackground": "#1D2021",
@@ -331,13 +331,13 @@
     //   -- note: especially important for the file explorer
     "list.warningForeground": "#D8A657",
     "list.errorForeground": "#EA6962",
-    "list.dropBackground": "#D8A65720",
+    "list.dropBackground": "#D8A65710",
     "list.invalidItemForeground": "#EA6962",
     "tree.indentGuidesStroke": "#DDC7A180",
     // color that shows the already present text match
     "list.highlightForeground": "#D8A657",
     // hover
-    "list.hoverBackground": "#D8A65720",
+    "list.hoverBackground": "#D8A65710",
     "list.hoverForeground": "#DDC7A1",
     // focus on the list::selection (not the active editor item)
     "list.focusBackground": "#1D2021",
@@ -348,7 +348,7 @@
     "list.activeSelectionForeground": "#DDC7A1",
     "list.focusAndSelectionOutline": "#D8A65780",
     // focus not on the list::active item in the editor
-    "list.inactiveSelectionBackground": "#D8A65720",
+    "list.inactiveSelectionBackground": "#D8A65710",
     "list.inactiveSelectionForeground": "#DDC7A1",
     // focus not on the list::last selection
     "list.inactiveFocusBackground": "#1D2021A0",

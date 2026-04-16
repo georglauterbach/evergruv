@@ -43,10 +43,7 @@
     "regexp": "#{{ORANGE}}",
     "operator": "#{{ORANGE}}",
     // * -- custom token types
-    "boolean": {
-      "foreground": "#{{FG}}",
-      "italic": true
-    },
+    "boolean": "#{{FG}}",
     "builtinAttribute": "#{{RED}}",
     "builtinType": "#{{BLUE}}",
     "const": "#{{FG}}",

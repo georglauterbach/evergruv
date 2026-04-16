@@ -43,10 +43,7 @@
     "regexp": "#F57D26",
     "operator": "#F57D26",
     // * -- custom token types
-    "boolean": {
-      "foreground": "#5C6A72",
-      "italic": true
-    },
+    "boolean": "#5C6A72",
     "builtinAttribute": "#F85552",
     "builtinType": "#3A94C5",
     "const": "#5C6A72",
@@ -175,12 +172,12 @@
     "editor.rangeHighlightBackground": "#8DA10120",
     "editor.findRangeHighlightBackground": "#8DA10120",
     // * -- -- brackets
-    "editorBracketHighlight.foreground1": "#5C6A72",
-    "editorBracketHighlight.foreground2": "#5C6A72",
-    "editorBracketHighlight.foreground3": "#5C6A72",
-    "editorBracketHighlight.foreground4": "#5C6A72",
-    "editorBracketHighlight.foreground5": "#5C6A72",
-    "editorBracketHighlight.foreground6": "#5C6A72",
+    "editorBracketHighlight.foreground1": "#D69A00",
+    "editorBracketHighlight.foreground2": "#8DA101",
+    "editorBracketHighlight.foreground3": "#35A77C",
+    "editorBracketHighlight.foreground4": "#3A94C5",
+    "editorBracketHighlight.foreground5": "#DF69BA",
+    "editorBracketHighlight.foreground6": "#3A94C5",
     "editorBracketMatch.background": "#5C6A7260",
     "editorBracketMatch.border": "#00000000",
     "editorBracketPairGuide.activeBackground1": "#D69A00",
@@ -593,6 +590,13 @@
       "scope": "text",
       "settings": {
         "foreground": "#5C6A72"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": "punctuation",
+      "settings": {
+        "foreground": "#5C6A72E0"
       }
     },
     {

@@ -2,11 +2,18 @@
 
 All notable changes to this project will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/georglauterbach/evergruv/compare/0.5.1...HEAD)
+## [Unreleased](https://github.com/georglauterbach/evergruv/compare/0.5.2...HEAD)
 
 > [!NOTE]
 >
 > Changes listed in this section have not been published yet!
+
+## [0.5.2](https://github.com/georglauterbach/evergruv/releases/tag/0.5.2)
+
+- **Changed**
+  - make booleans non-italic ([`dac4c5c`](https://github.com/georglauterbach/evergruv/commit/dac4c5c))
+  - add colors again for `editorBracketHighlight` ([`03a457d`](https://github.com/georglauterbach/evergruv/commit/03a457d))
+  - _slightly_ mute brackets (when they're not colored) ([`08ac1fb`](https://github.com/georglauterbach/evergruv/commit/08ac1fb))
 
 ## [0.5.1](https://github.com/georglauterbach/evergruv/releases/tag/0.5.1)
 

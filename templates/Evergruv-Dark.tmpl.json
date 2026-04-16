@@ -593,6 +593,13 @@
       }
     },
     {
+      "name": "Punctuation",
+      "scope": "punctuation",
+      "settings": {
+        "foreground": "#{{FG}}{{T_7}}"
+      }
+    },
+    {
       "name": "Separator",
       "scope": "punctuation.separator",
       "settings": {

@@ -2,10 +2,7 @@
 
 A (VS Code) color theme based on [@sainnhe](https://github.com/sainnhe)'s excellent [Everforest Light](https://github.com/sainnhe/everforest) for the light variant, and [Gruvbox Material Dark](https://github.com/sainnhe/gruvbox-material) for the dark variant. The color palette and its application has been altered slightly.
 
-The VS Code theme is published to
-
-1. the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=georglauterbach.evergruv) and
-2. the [Open VSX Registry](https://open-vsx.org/extension/georglauterbach/evergruv).
+The VS Code theme is published to the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=georglauterbach.evergruv) and the [Open VSX Registry](https://open-vsx.org/extension/georglauterbach/evergruv).
 
 If you encounter issues with this theme, please [report them in the GitHub repository](https://github.com/georglauterbach/evergruv/issues).
 

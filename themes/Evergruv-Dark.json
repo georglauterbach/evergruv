@@ -209,8 +209,8 @@
     "editorGroupHeader.noTabsBackground": "#141617",
     "editorGroupHeader.border": "#1D2021",
     "editorGroupHeader.tabsBorder": "#1D2021",
-    "editorGroup.border": "#00000000",
-    "editorGroup.focusedEmptyBorder": "#D8A65780",
+    "editorGroup.border": "#DDC7A10C",
+    "editorGroup.focusedEmptyBorder": "#DDC7A10C",
     "editorGroup.dropBackground": "#D8A65710",
     // * -- tabs
     "tab.border": "#00000000",
@@ -376,7 +376,7 @@
     "progressBar.background": "#D8A657",
     // ! Sash
     //   -- note: divider bar to resize adjacent UI elements
-    "sash.hoverBorder": "#00000000",
+    "sash.hoverBorder": "#DDC7A108",
     // ! Selections (Outside of the Editor)
     "selection.background": "#DDC7A140",
     // ! Settings

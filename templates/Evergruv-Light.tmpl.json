@@ -50,6 +50,9 @@
     "*.deprecated": {
       "strikethrough": true
     },
+    "comment.documentation": {
+      "foreground": "#{{FG}}{{T_6}}", // ~~~
+    },
     "*.documentation": {
       "bold": true,
       "italic": false

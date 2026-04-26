@@ -50,6 +50,9 @@
     "*.deprecated": {
       "strikethrough": true
     },
+    "comment.documentation": {
+      "foreground": "#DDC7A180", // ~~~
+    },
     "*.documentation": {
       "bold": true,
       "italic": false

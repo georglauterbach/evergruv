@@ -12,6 +12,7 @@ dictionaries:
 words: []
 
 ignoreWords:
+  - btop
   - coolors
   - Everforest
   - Evergruv

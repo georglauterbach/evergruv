@@ -9,8 +9,9 @@ All notable changes to this project will be documented in this file. The format 
 > Changes listed in this section have not been published yet!
 
 - **Changed**
-  - renamed files to accommodate for other themes, not just VS Code, as well ([`9d434e9`](https://github.com/georglauterbach/evergruv/commit/9d434e9)) 0136d65
-  - updated assets and [`README.md`](./README.md) ([`0136d65`](https://github.com/georglauterbach/evergruv/commit/0136d65))
+  - renamed files to accommodate for other themes, not just VS Code, as well ([`9d434e9`](https://github.com/georglauterbach/evergruv/commit/9d434e9))
+  - updated assets and [`README.md`](./README.md) ([`0136d65`](https://github.com/georglauterbach/evergruv/commit/0136d65) & [`703b30f`](https://github.com/georglauterbach/evergruv/commit/703b30f))
+  - lower version requirement for VS Code theme ([`31d291e`](https://github.com/georglauterbach/evergruv/commit/31d291e))
 
 ## [0.5.3](https://github.com/georglauterbach/evergruv/releases/tag/0.5.3)
 

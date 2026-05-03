@@ -2,11 +2,13 @@
 
 All notable changes to this project will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/georglauterbach/evergruv/compare/0.5.3...HEAD)
+## [Unreleased](https://github.com/georglauterbach/evergruv/compare/0.5.4...HEAD)
 
 > [!NOTE]
 >
 > Changes listed in this section have not been published yet!
+
+## [0.5.4](https://github.com/georglauterbach/evergruv/releases/tag/0.5.4)
 
 - **Changed**
   - renamed files to accommodate for other themes, not just VS Code, as well ([`9d434e9`](https://github.com/georglauterbach/evergruv/commit/9d434e9))

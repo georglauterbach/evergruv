@@ -29,18 +29,18 @@
       {
         "label": "Evergruv (Everforest) Light",
         "uiTheme": "vs",
-        "path": "./themes/Evergruv-Light.json"
+        "path": "./themes/vs_code.light.json"
       },
       {
         "label": "Evergruv (Gruvbox Material) Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/Evergruv-Dark.json"
+        "path": "./themes/vs_code.dark.json"
       }
     ]
   },
   "keywords": [
-    "gruvbox material",
-    "everforest",
+    "gruvbox material dark",
+    "everforest light",
     "theme"
   ],
   "galleryBanner": {

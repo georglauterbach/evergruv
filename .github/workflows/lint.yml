@@ -10,14 +10,14 @@ on: # yamllint disable-line rule:truthy
     branches: [ '**' ]
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
 
 permissions:
   contents: read
 
 jobs:
-  linting:
+  lint:
     name: Lint
     runs-on: ubuntu-latest
 

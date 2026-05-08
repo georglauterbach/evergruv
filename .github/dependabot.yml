@@ -8,3 +8,7 @@ updates:
       default-days: 7
     schedule:
       interval: monthly
+    assignees: [ georglauterbach ]
+    labels:
+      - kind::update
+      - area::ci

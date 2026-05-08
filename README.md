@@ -1,6 +1,6 @@
 # Evergruv
 
-A color theme based on [@sainnhe](https://github.com/sainnhe)'s excellent [Everforest Light](https://github.com/sainnhe/everforest) for the light variant, and [Gruvbox Material Dark](https://github.com/sainnhe/gruvbox-material) for the dark variant. The color palette and its application has been altered slightly. If you encounter issues with this theme, please [report them in the GitHub repository](https://github.com/georglauterbach/evergruv/issues).
+A color theme based on [@sainnhe](https://github.com/sainnhe)'s excellent [Everforest Light](https://github.com/sainnhe/everforest) for the light variant, and [Gruvbox Material Dark](https://github.com/sainnhe/gruvbox-material) for the dark variant. The color palette and its application has been altered. If you encounter issues with this theme, please [report them in the GitHub repository](https://github.com/georglauterbach/evergruv/issues).
 
 ## Variants
 

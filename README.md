@@ -14,6 +14,9 @@ A color theme based on [@sainnhe](https://github.com/sainnhe)'s excellent [Everf
 
 ## Theme Applications
 
-1. Wallpapers: Published to [`georglauterbach/desktop`](https://github.com/georglauterbach/desktop) in [`data/.config/sway/theme/`](https://github.com/georglauterbach/desktop/tree/main/data/.config/sway/theme)
-2. VS Code Theme: Published to the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=georglauterbach.evergruv) and the [Open VSX Registry](https://open-vsx.org/extension/georglauterbach/evergruv)
-3. `btop` Theme: Published to [`georglauterbach/hermes`](https://github.com/georglauterbach/hermes) in [`data/config/btop/themes/`](https://github.com/georglauterbach/hermes/tree/main/data/config/btop/themes)
+| What | Where |
+| :--- | :---- |
+| VS Code Theme | [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=georglauterbach.evergruv) & [Open VSX Registry](https://open-vsx.org/extension/georglauterbach/evergruv) |
+| System Theme | [`github.com/georglauterbach/desktop`](https://github.com/georglauterbach/desktop#theme) |
+| Wallpapers | [`github.com/georglauterbach/desktop/data/.config/sway/theme/`](https://github.com/georglauterbach/desktop/tree/main/data/.config/sway/theme) |
+| `btop` Theme | [`github.com/georglauterbach/hermes/data/config/btop/themes/`](https://github.com/georglauterbach/hermes/tree/main/data/config/btop/themes) |

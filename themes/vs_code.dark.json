@@ -445,21 +445,21 @@
     "symbolIcon.textForeground": "#DDC7A1",
     // ! Terminal
     "terminalOverviewRuler.border": "#00000000",
-    "terminal.ansiBlack": "#141617",
+    "terminal.ansiBlack": "#141617", // ~~~
     "terminal.ansiBlue": "#7DAEA3",
-    "terminal.ansiBrightBlack": "#928374", // ~~~
+    "terminal.ansiBrightBlack": "#1D2021", // ~~~
     "terminal.ansiBrightBlue": "#8CB0A8", // ~~~
     "terminal.ansiBrightCyan": "#98B593", // ~~~
     "terminal.ansiBrightGreen": "#ABB578", // ~~~
     "terminal.ansiBrightMagenta": "#D699A9", // ~~~
     "terminal.ansiBrightRed": "#E3746F", // ~~~
-    "terminal.ansiBrightWhite": "#DCCDB5", // ~~~
+    "terminal.ansiBrightWhite": "#F0D8AF", // ~~~
     "terminal.ansiBrightYellow": "#D6AC67", // ~~~
     "terminal.ansiCyan": "#89B482",
     "terminal.ansiGreen": "#A9B665",
     "terminal.ansiMagenta": "#D3869B",
     "terminal.ansiRed": "#EA6962",
-    "terminal.ansiWhite": "#DDC7A1",
+    "terminal.ansiWhite": "#DDC7A1", // ~~~
     "terminal.ansiYellow": "#D8A657",
     "terminal.background": "#1D2021",
     "terminal.foreground": "#DDC7A1",

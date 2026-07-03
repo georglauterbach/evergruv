@@ -445,21 +445,21 @@
     "symbolIcon.textForeground": "#{{FG}}",
     // ! Terminal
     "terminalOverviewRuler.border": "#{{T_0}}",
-    "terminal.ansiBlack": "#{{BG_DIM}}",
+    "terminal.ansiBlack": "#{{BG_DIM}}", // ~~~
     "terminal.ansiBlue": "#{{BLUE}}",
-    "terminal.ansiBrightBlack": "#928374", // ~~~
+    "terminal.ansiBrightBlack": "#{{BG}}", // ~~~
     "terminal.ansiBrightBlue": "#8CB0A8", // ~~~
     "terminal.ansiBrightCyan": "#98B593", // ~~~
     "terminal.ansiBrightGreen": "#ABB578", // ~~~
     "terminal.ansiBrightMagenta": "#D699A9", // ~~~
     "terminal.ansiBrightRed": "#E3746F", // ~~~
-    "terminal.ansiBrightWhite": "#DCCDB5", // ~~~
+    "terminal.ansiBrightWhite": "#F0D8AF", // ~~~
     "terminal.ansiBrightYellow": "#D6AC67", // ~~~
     "terminal.ansiCyan": "#{{CYAN}}",
     "terminal.ansiGreen": "#{{GREEN}}",
     "terminal.ansiMagenta": "#{{PURPLE}}",
     "terminal.ansiRed": "#{{RED}}",
-    "terminal.ansiWhite": "#{{FG}}",
+    "terminal.ansiWhite": "#{{FG}}", // ~~~
     "terminal.ansiYellow": "#{{YELLOW}}",
     "terminal.background": "#{{BG}}",
     "terminal.foreground": "#{{FG}}",

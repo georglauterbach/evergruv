@@ -447,14 +447,14 @@
     "terminalOverviewRuler.border": "#00000000",
     "terminal.ansiBlack": "#5C6A72", // ~~~
     "terminal.ansiBlue": "#3A94C5",
-    "terminal.ansiBrightBlack": "#EBEBE4", // ~~~
-    "terminal.ansiBrightBlue": "#3A94C5", // ~~~
-    "terminal.ansiBrightCyan": "#35A77C", // ~~~
-    "terminal.ansiBrightGreen": "#8DA101", // ~~~
-    "terminal.ansiBrightMagenta": "#DF69BA", // ~~~
-    "terminal.ansiBrightRed": "#F85552", // ~~~
-    "terminal.ansiBrightWhite": "#5C6A72", // ~~~
-    "terminal.ansiBrightYellow": "#D69A00", // ~~~
+    "terminal.ansiBrightBlack": "#677780", // ~~~
+    "terminal.ansiBrightBlue": "#3FA3D9", // ~~~
+    "terminal.ansiBrightCyan": "#3CBD8C", // ~~~
+    "terminal.ansiBrightGreen": "#9FB802", // ~~~
+    "terminal.ansiBrightMagenta": "#F071C7", // ~~~
+    "terminal.ansiBrightRed": "#FF5754", // ~~~
+    "terminal.ansiBrightWhite": "#F5F5F2", // ~~~
+    "terminal.ansiBrightYellow": "#E8A600", // ~~~
     "terminal.ansiCyan": "#35A77C",
     "terminal.ansiGreen": "#8DA101",
     "terminal.ansiMagenta": "#DF69BA",

@@ -445,7 +445,7 @@
     "symbolIcon.textForeground": "#{{FG}}",
     // ! Terminal
     "terminalOverviewRuler.border": "#{{T_0}}",
-    "terminal.ansiBlack": "#{{BG_DIM}}",
+    "terminal.ansiBlack": "#{{FG}}", // ~~~
     "terminal.ansiBlue": "#{{BLUE}}",
     "terminal.ansiBrightBlack": "#{{BG_DIM}}", // ~~~
     "terminal.ansiBrightBlue": "#{{BLUE}}", // ~~~
@@ -459,7 +459,7 @@
     "terminal.ansiGreen": "#{{GREEN}}",
     "terminal.ansiMagenta": "#{{PURPLE}}",
     "terminal.ansiRed": "#{{RED}}",
-    "terminal.ansiWhite": "#{{FG}}",
+    "terminal.ansiWhite": "#{{BG_DIM}}", // ~~~
     "terminal.ansiYellow": "#{{YELLOW}}",
     "terminal.background": "#{{BG}}",
     "terminal.foreground": "#{{FG}}",

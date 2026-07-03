@@ -2,11 +2,18 @@
 
 All notable changes to this project will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/georglauterbach/evergruv/compare/0.5.4...HEAD)
+## [Unreleased](https://github.com/georglauterbach/evergruv/compare/0.5.5...HEAD)
 
 > [!NOTE]
 >
 > Changes listed in this section have not been published yet!
+
+## [0.5.5](https://github.com/georglauterbach/evergruv/releases/tag/0.5.5)
+
+- **Fixed**
+  - corrected the terminal's ANSI white colors (they were black) ([`2ed7170`](https://github.com/georglauterbach/evergruv/commit/2ed7170))
+- **Changed**
+  - updated bright terminal colors for light variant ([`d0aa28b`](https://github.com/georglauterbach/evergruv/commit/d0aa28b))
 
 ## [0.5.4](https://github.com/georglauterbach/evergruv/releases/tag/0.5.4)
 

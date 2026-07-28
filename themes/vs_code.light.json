@@ -445,25 +445,25 @@
     "symbolIcon.textForeground": "#5C6A72",
     // ! Terminal
     "terminalOverviewRuler.border": "#00000000",
-    "terminal.ansiBlack": "#5C6A72", // ~~~
+    "terminal.ansiBlack": "#363E42", // ~~~
     "terminal.ansiBlue": "#3A94C5",
-    "terminal.ansiBrightBlack": "#677780", // ~~~
-    "terminal.ansiBrightBlue": "#3FA3D9", // ~~~
-    "terminal.ansiBrightCyan": "#3CBD8C", // ~~~
-    "terminal.ansiBrightGreen": "#9FB802", // ~~~
-    "terminal.ansiBrightMagenta": "#F071C7", // ~~~
-    "terminal.ansiBrightRed": "#FF5754", // ~~~
-    "terminal.ansiBrightWhite": "#F5F5F2", // ~~~
-    "terminal.ansiBrightYellow": "#E8A600", // ~~~
+    "terminal.ansiBrightBlack": "#7E919C", // ~~~
+    "terminal.ansiBrightBlue": "#3A94C5",
+    "terminal.ansiBrightCyan": "#35A77C",
+    "terminal.ansiBrightGreen": "#8DA101",
+    "terminal.ansiBrightMagenta": "#DF69BA",
+    "terminal.ansiBrightRed": "#F85552",
+    "terminal.ansiBrightWhite": "#FCFCFA", // ~~~
+    "terminal.ansiBrightYellow": "#D69A00",
     "terminal.ansiCyan": "#35A77C",
     "terminal.ansiGreen": "#8DA101",
     "terminal.ansiMagenta": "#DF69BA",
     "terminal.ansiRed": "#F85552",
-    "terminal.ansiWhite": "#EBEBE4", // ~~~
+    "terminal.ansiWhite": "#999997", // ~~~
     "terminal.ansiYellow": "#D69A00",
     "terminal.background": "#F5F5F2",
     "terminal.foreground": "#5C6A72",
-    "terminalCursor.foreground": "#5C6A72",
+    "terminalCursor.foreground": "#8DA101",
     // ! Testing
     // * -- icons
     "testing.iconErrored": "#F85552",

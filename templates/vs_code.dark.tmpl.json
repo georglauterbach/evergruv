@@ -445,25 +445,25 @@
     "symbolIcon.textForeground": "#{{FG}}",
     // ! Terminal
     "terminalOverviewRuler.border": "#{{T_0}}",
-    "terminal.ansiBlack": "#{{BG_DIM}}", // ~~~
+    "terminal.ansiBlack": "#{{BG_DIM}}",
     "terminal.ansiBlue": "#{{BLUE}}",
-    "terminal.ansiBrightBlack": "#{{BG}}", // ~~~
-    "terminal.ansiBrightBlue": "#8CB0A8", // ~~~
-    "terminal.ansiBrightCyan": "#98B593", // ~~~
-    "terminal.ansiBrightGreen": "#ABB578", // ~~~
-    "terminal.ansiBrightMagenta": "#D699A9", // ~~~
-    "terminal.ansiBrightRed": "#E3746F", // ~~~
-    "terminal.ansiBrightWhite": "#F0D8AF", // ~~~
-    "terminal.ansiBrightYellow": "#D6AC67", // ~~~
-    "terminal.ansiCyan": "#{{CYAN}}",
+    "terminal.ansiBrightBlack": "#2B2A29", // ~~~
+    "terminal.ansiBrightBlue": "#{{BLUE}}",
+    "terminal.ansiBrightCyan": "#7BB674", // ~~~
+    "terminal.ansiBrightGreen": "#{{GREEN}}",
+    "terminal.ansiBrightMagenta": "#{{PURPLE}}",
+    "terminal.ansiBrightRed": "#{{RED}}",
+    "terminal.ansiBrightWhite": "#FFE6BA", // ~~~
+    "terminal.ansiBrightYellow": "#{{YELLOW}}",
+    "terminal.ansiCyan": "#7BB674", // ~~~
     "terminal.ansiGreen": "#{{GREEN}}",
     "terminal.ansiMagenta": "#{{PURPLE}}",
     "terminal.ansiRed": "#{{RED}}",
-    "terminal.ansiWhite": "#{{FG}}", // ~~~
+    "terminal.ansiWhite": "#A39377", // ~~~
     "terminal.ansiYellow": "#{{YELLOW}}",
     "terminal.background": "#{{BG}}",
     "terminal.foreground": "#{{FG}}",
-    "terminalCursor.foreground": "#{{FG}}",
+    "terminalCursor.foreground": "#{{ACCENT}}",
     // ! Testing
     // * -- icons
     "testing.iconErrored": "#{{RED}}",

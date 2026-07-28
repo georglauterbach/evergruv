@@ -2,11 +2,17 @@
 
 All notable changes to this project will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/georglauterbach/evergruv/compare/0.5.6...HEAD)
+## [Unreleased](https://github.com/georglauterbach/evergruv/compare/0.6.0...HEAD)
 
 > [!NOTE]
 >
 > Changes listed in this section have not been published yet!
+
+## [0.6.0](https://github.com/georglauterbach/evergruv/releases/tag/0.6.0)
+
+- **Changed**
+  - updated terminal colors to align better with recent changes in [`github.com/georglauterbach/desktop`](https://github.com/georglauterbach/desktop/commit/510ea658605334161a35a9c29a756380d4327221)
+  - updated linter image in the CI and `AGENTS.md`
 
 ## [0.5.6](https://github.com/georglauterbach/evergruv/releases/tag/0.5.6)
 

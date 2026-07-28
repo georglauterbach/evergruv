@@ -4,6 +4,8 @@ This project defines a color scheme based on Everforest Light & Gruvbox Material
 
 This repository defines the colors and provides a VS Code extension. Other projects, like hermes (see below), implement the color scheme for other tools.
 
+The VS Code themes are templated; the templates can be found in [`templates/`](./templates). The theme files are generated with [`generate.sh`](./generate.sh). When you make changes, update the templates and generate the new theme.
+
 ## Associated Projects
 
 1. [`github.com/georglauterbach/hermes`](https://github.com/georglauterbach/hermes): Like desktop, but for the command line

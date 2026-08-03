@@ -1,5 +1,5 @@
 # -----------------------------------------------
-# ----  GitAttributes  --------------------------
+# ----  gitattributes  --------------------------
 # ----  https://git-scm.com/docs/gitattributes  -
 # -----------------------------------------------
 
@@ -12,12 +12,64 @@
 
 * text=auto eol=lf
 
-.gitattributes !filter !diff
-.gitignore     !filter !diff
+.gitattributes !filter !diff export-ignore
+.gitignore     !filter !diff export-ignore
+.gitkeep       !filter !diff export-ignore
+
+# -----------------------------------------------
+# ----  IDEs  -----------------------------------
+# -----------------------------------------------
+
+.vscode/*.json linguist-language=JSON-with-Comments
 
 # -----------------------------------------------
 # ----  Languages  ------------------------------
 # -----------------------------------------------
 
-*.md     text    diff=markdown
-**.json          linguist-language=JSON-with-Comments
+*.bash  text diff=bash
+*.c     text diff=cpp
+*.cc    text diff=cpp
+*.h     text diff=cpp
+*.hh    text diff=cpp
+*.md    text diff=markdown
+*.mdc   text diff=markdown
+*.py    text diff=python
+*.rs    text diff=rust
+*.sh    text diff=bash
+
+# -----------------------------------------------
+# ----  Other Formats  --------------------------
+# -----------------------------------------------
+
+*.lock  text
+*.json  text diff=json
+*.jsonc text diff=json
+*.toml  text diff=toml
+*.yml   text diff=yaml
+*.yaml  text diff=yaml
+
+# -----------------------------------------------
+# ----  Archives  -------------------------------
+# -----------------------------------------------
+
+*.7z    binary
+*.bz    binary
+*.bz2   binary
+*.gz    binary
+*.lz    binary
+*.tar   binary
+*.xz    binary
+*.zip   binary
+
+# -----------------------------------------------
+# ----  Graphics  -------------------------------
+# -----------------------------------------------
+
+*.png   binary
+*.jpg   binary
+*.jpeg  binary
+*.gif   binary
+*.tif   binary
+*.tiff  binary
+*.ico   binary
+*.svg   text

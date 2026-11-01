@@ -2,12 +2,20 @@
 themes:
   light:
     based on: Everforest (Hard) <https://github.com/sainnhe/everforest>
-    coolors: https://coolors.co/EBEBE4-F5F5F2-5C6A72-F85552-F57D26-D69A00-8DA101-35A77C-3A94C5-DF69BA
+    coolors: https://coolors.co/EBEBE4-F5F5F2-505D65-F85552-F57D26-D69A00-8DA101-35A77C-3A94C5-DF69BA
     colors:
       # cSpell: disable
       background_dim: EBEBE4
+      background_dim_transparent: EBEBE4C0
       background: F5F5F2
-      foreground: 5C6A72
+
+      border: D5D6D6
+      border_active: A4A9AC
+
+      foreground: 505D65
+
+      shadow: 505D651A
+      shadow_inactive: 505D6510
 
       red: F85552
       orange: F57D26
@@ -24,8 +32,16 @@ themes:
     colors:
       # cSpell: disable
       background_dim: 141617
+      background_dim_transparent: 141617A0
       background: 1D2021
+
+      border: 2E2D29
+      border_active: 4D4A45
+
       foreground: DDC7A1
+
+      shadow: 141412
+      shadow_inactive: 181816
 
       red: EA6962
       orange: E78A4E

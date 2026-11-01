@@ -37,7 +37,7 @@ case "${VARIANT,,}" in
     # cspell: disable
     readonly BG_DIM='EBEBE4'
     readonly BG='F5F5F2'
-    readonly FG='5C6A72'
+    readonly FG='505D65'
     readonly RED='F85552'
     readonly ORANGE='F57D26'
     readonly YELLOW='D69A00'
@@ -49,7 +49,9 @@ case "${VARIANT,,}" in
     readonly ACCENT=${GREEN}
     readonly ACTIVE=${ACCENT}${T_1}
 
-    readonly BORDER=${FG}${T_4}
+    readonly BORDER='A4A9AC'
+    readonly BORDER_DIM='D5D6D6'
+    readonly SHADOW=${FG}1A
     readonly BORDER_COLORED=${ACCENT}${T_4}
 
     readonly VARIANT=light
@@ -72,7 +74,9 @@ case "${VARIANT,,}" in
     readonly ACCENT=${YELLOW}
     readonly ACTIVE=${ACCENT}${T_05}
 
-    readonly BORDER=${FG}${T_4}
+    readonly BORDER='4D4A45'
+    readonly BORDER_DIM='2E2D29'
+    readonly SHADOW='141412'
     readonly BORDER_COLORED=${ACCENT}${T_4}
 
     readonly VARIANT=dark
@@ -127,5 +131,7 @@ sed \
   --expression "s|{{ACCENT}}|${ACCENT}|g"                 \
   --expression "s|{{ACTIVE}}|${ACTIVE}|g"                 \
   --expression "s|{{BORDER}}|${BORDER}|g"                 \
+  --expression "s|{{BORDER_DIM}}|${BORDER_DIM}|g"         \
+  --expression "s|{{SHADOW}}|${SHADOW}|g"                 \
   --expression "s|{{BORDER_COLORED}}|${BORDER_COLORED}|g" \
   "${INPUT_FILE}" >"${OUTPUT_FILE}"

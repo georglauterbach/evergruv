@@ -82,6 +82,10 @@
     "activityBar.activeFocusBorder": "#{{T_0}}",
     "activityBar.activeBorder": "#{{T_0}}",
     "activityBar.inactiveForeground": "#{{FG}}{{T_3}}",
+    "activityBarTop.foreground": "#{{FG}}",
+    "activityBarTop.activeBackground": "#{{T_0}}",
+    "activityBarTop.activeBorder": "#{{T_0}}",
+    "activityBarTop.inactiveForeground": "#{{FG}}{{T_3}}",
     "activityBarBadge.background": "#{{ACCENT}}",
     "activityBarBadge.foreground": "#{{BG_DIM}}",
     // ! Badges
@@ -136,10 +140,10 @@
     "debugTokenExpression.boolean": "#{{FG}}",
     "debugTokenExpression.error": "#{{RED}}",
     "debugTokenExpression.name": "#{{FG}}",
-    "debugTokenExpression.number": "#{{PURPLE}}",
-    "debugTokenExpression.string": "#{{GREEN}}",
+    "debugTokenExpression.number": "#{{FG}}",
+    "debugTokenExpression.string": "#{{YELLOW}}",
     "debugTokenExpression.value": "#{{FG}}",
-    "debugTokenExpression.type": "#{{CYAN}}",
+    "debugTokenExpression.type": "#{{BLUE}}",
     // ! Dropdown Menus
     "dropdown.background": "#{{BG_DIM}}",
     "dropdown.border": "#{{BORDER_COLORED}}",
@@ -150,10 +154,15 @@
     "editor.foreground": "#{{FG}}", // applies to all editor windows
     "editorCursor.foreground": "#{{BLUE}}", // cursor color
     "editorWhitespace.foreground": "#{{FG}}{{T_1}}", // whitespace indicator color
+    "editorIndentGuide.background1": "#{{FG}}{{T_1}}",
+    "editorIndentGuide.activeBackground1": "#{{FG}}{{T_3}}",
+    "editorGhostText.foreground": "#{{FG}}{{T_4}}",
     "editorLightBulb.foreground": "#{{YELLOW}}", // light bulb color
     "editorLink.activeForeground": "#{{ACCENT}}", // CTRL+mouse -> go to definition / declaration
     // * -- sticky scroll
-    "editorStickyScroll.shadow": "#{{FG}}{{T_1}}", // ~~~
+    "editorStickyScroll.shadow": "#{{SHADOW}}",
+    "sideBarStickyScroll.shadow": "#{{SHADOW}}",
+    "panelStickyScroll.shadow": "#{{SHADOW}}",
     // * -- active lines & line numbers
     "editor.lineHighlightBackground": "#{{FG}}{{T_03}}",
     "editor.inactiveLineHighlightBackground": "#{{FG}}{{T_02}}",
@@ -209,8 +218,8 @@
     "editorGroupHeader.noTabsBackground": "#{{BG_DIM}}",
     "editorGroupHeader.border": "#{{BG}}",
     "editorGroupHeader.tabsBorder": "#{{BG}}",
-    "editorGroup.border": "#{{FG}}{{T_04}}",
-    "editorGroup.focusedEmptyBorder": "#{{FG}}{{T_04}}",
+    "editorGroup.border": "#{{BORDER_DIM}}",
+    "editorGroup.focusedEmptyBorder": "#{{BORDER_DIM}}",
     "editorGroup.dropBackground": "#{{ACTIVE}}",
     // * -- tabs
     "tab.border": "#{{T_0}}",
@@ -245,8 +254,8 @@
     "editorWidget.background": "#{{BG_DIM}}",
     "editorWidget.border": "#{{BORDER_COLORED}}",
     "editorWidget.foreground": "#{{FG}}",
-    "widget.border": "#{{FG}}{{T_04}}",
-    "widget.shadow": "#{{T_0}}",
+    "widget.border": "#{{BORDER_DIM}}",
+    "widget.shadow": "#{{SHADOW}}",
     // * -- minimap
     "minimap.infoHighlight": "#{{BLUE}}{{T_6}}",
     "minimap.warningHighlight": "#{{YELLOW}}{{T_6}}",
@@ -256,9 +265,17 @@
     "minimapGutter.addedBackground": "#{{GREEN}}{{T_7}}",
     "minimapGutter.deletedBackground": "#{{RED}}{{T_7}}",
     "minimapGutter.modifiedBackground": "#{{BLUE}}{{T_7}}",
+    // * -- overview ruler (right of the scroll bar)
+    "editorOverviewRuler.border": "#{{T_0}}",
+    "editorOverviewRuler.addedForeground": "#{{GREEN}}{{T_6}}",
+    "editorOverviewRuler.deletedForeground": "#{{RED}}{{T_6}}",
+    "editorOverviewRuler.modifiedForeground": "#{{BLUE}}{{T_6}}",
+    "editorOverviewRuler.errorForeground": "#{{RED}}",
+    "editorOverviewRuler.warningForeground": "#{{YELLOW}}",
+    "editorOverviewRuler.infoForeground": "#{{BLUE}}",
     // * -- scroll bar (top)
     "scrollbar.background": "#{{T_0}}",
-    "scrollbar.shadow": "#{{BG_DIM}}{{T_5}}",
+    "scrollbar.shadow": "#{{SHADOW}}",
     // * -- scroll bar slider
     "scrollbarSlider.background": "#{{FG}}{{T_2}}",
     "scrollbarSlider.hoverBackground": "#{{ACCENT}}{{T_2}}",
@@ -310,7 +327,7 @@
     "input.background": "#{{T_0}}",
     "input.foreground": "#{{FG}}",
     "input.border": "#{{BORDER}}",
-    "input.placeholderForeground": "#{{BORDER}}",
+    "input.placeholderForeground": "#{{FG}}{{T_4}}",
     "inputOption.activeBackground": "#{{ACCENT}}",
     "inputOption.activeBorder": "#{{T_0}}",
     "inputOption.activeForeground": "#{{BG_DIM}}",
@@ -322,7 +339,7 @@
     "inputValidation.warningForeground": "#{{YELLOW}}",
     "inputValidation.warningBorder": "#{{T_0}}",
     "inputValidation.errorBackground": "#{{T_0}}",
-    "inputValidation.errorForeground": "#{{BLUE}}",
+    "inputValidation.errorForeground": "#{{RED}}",
     "inputValidation.errorBorder": "#{{T_0}}",
     // ! Links
     "textLink.foreground": "#{{BLUE}}",
@@ -397,7 +414,7 @@
     // * -- core
     "sideBar.background": "#{{BG_DIM}}",
     "sideBar.foreground": "#{{FG}}", // ~~~
-    "sideBar.border": "#{{FG}}{{T_04}}", // ~~~
+    "sideBar.border": "#{{BORDER_DIM}}",
     "sideBarTitle.foreground": "#{{FG}}",
     "sideBarSectionHeader.background": "#{{T_0}}",
     "sideBarSectionHeader.foreground": "#{{FG}}{{T_7}}",
@@ -420,6 +437,14 @@
     "statusBarItem.remoteForeground": "#{{BG_DIM}}",
     "statusBarItem.remoteHoverBackground": "#{{FG}}",
     "statusBarItem.remoteHoverForeground": "#{{BG_DIM}}",
+    "statusBarItem.errorBackground": "#{{RED}}",
+    "statusBarItem.errorForeground": "#{{BG_DIM}}",
+    "statusBarItem.errorHoverBackground": "#{{RED}}",
+    "statusBarItem.errorHoverForeground": "#{{BG_DIM}}",
+    "statusBarItem.warningBackground": "#{{YELLOW}}",
+    "statusBarItem.warningForeground": "#{{BG_DIM}}",
+    "statusBarItem.warningHoverBackground": "#{{YELLOW}}",
+    "statusBarItem.warningHoverForeground": "#{{BG_DIM}}",
     "statusBar.debuggingBackground": "#{{BG_DIM}}",
     "statusBar.noFolderBackground": "#{{BG_DIM}}",
     // ! Symbols
@@ -453,7 +478,7 @@
     "terminal.ansiBrightGreen": "#{{GREEN}}",
     "terminal.ansiBrightMagenta": "#{{PURPLE}}",
     "terminal.ansiBrightRed": "#{{RED}}",
-    "terminal.ansiBrightWhite": "#FCFCFA", // ~~~
+    "terminal.ansiBrightWhite": "#{{BG_DIM}}",
     "terminal.ansiBrightYellow": "#{{YELLOW}}",
     "terminal.ansiCyan": "#{{CYAN}}",
     "terminal.ansiGreen": "#{{GREEN}}",
@@ -463,7 +488,10 @@
     "terminal.ansiYellow": "#{{YELLOW}}",
     "terminal.background": "#{{BG}}",
     "terminal.foreground": "#{{FG}}",
-    "terminalCursor.foreground": "#{{ACCENT}}",
+    "terminalCursor.foreground": "#{{BLUE}}",
+    "terminalCommandDecoration.defaultBackground": "#{{FG}}{{T_4}}",
+    "terminalCommandDecoration.successBackground": "#{{GREEN}}",
+    "terminalCommandDecoration.errorBackground": "#{{RED}}",
     // ! Testing
     // * -- icons
     "testing.iconErrored": "#{{RED}}",
@@ -477,6 +505,61 @@
     // * -- monospaced
     "textPreformat.foreground": "#{{FG}}",
     "textPreformat.background": "#{{T_0}}",
+    "textBlockQuote.background": "#{{BG_DIM}}",
+    "textBlockQuote.border": "#{{BORDER_COLORED}}",
+    "textCodeBlock.background": "#{{BG_DIM}}",
+    // ! Menus
+    "menu.border": "#{{BORDER_COLORED}}",
+    "menu.separatorBackground": "#{{BORDER_DIM}}",
+    // ! Quick Input (Command Palette, etc.)
+    "pickerGroup.foreground": "#{{ACCENT}}",
+    "pickerGroup.border": "#{{BORDER_DIM}}",
+    // ! Source Control Graph
+    "scmGraph.foreground1": "#{{YELLOW}}",
+    "scmGraph.foreground2": "#{{PURPLE}}",
+    "scmGraph.foreground3": "#{{ORANGE}}",
+    "scmGraph.foreground4": "#{{CYAN}}",
+    "scmGraph.foreground5": "#{{BLUE}}",
+    "scmGraph.historyItemRefColor": "#{{BLUE}}",
+    "scmGraph.historyItemRemoteRefColor": "#{{PURPLE}}",
+    "scmGraph.historyItemBaseRefColor": "#{{ORANGE}}",
+    // ! Chat
+    "chat.linesAddedForeground": "#{{GREEN}}",
+    "chat.linesRemovedForeground": "#{{RED}}",
+    "chat.slashCommandForeground": "#{{ACCENT}}",
+    "chat.slashCommandBackground": "#{{ACTIVE}}",
+    "chat.requestBorder": "#{{BORDER_DIM}}",
+    // ! Modern UI
+    //   -- note: only applies when `workbench.experimental.modernUI` is enabled
+    "modernUI.shellBackground": "#{{BG_DIM}}",
+    "modernUI.inactiveShellBackground": "#{{BG_DIM}}",
+    "surface.background": "#{{BG}}",
+    "surface.foreground": "#{{FG}}",
+    "surface.border": "#{{BORDER_DIM}}",
+    "editor.border": "#{{BORDER_DIM}}",
+    "modernPanel.border": "#{{BORDER_DIM}}",
+    "modernSash.gripForeground": "#{{FG}}{{T_3}}",
+    "modernActivityBar.background": "#{{BG_DIM}}",
+    "modernActivityBar.inactiveBackground": "#{{BG_DIM}}",
+    "modernActivityBar.border": "#{{BORDER_DIM}}",
+    "modernActivityBarItem.activeBackground": "#{{ACTIVE}}",
+    "modernActivityBarItem.activeForeground": "#{{FG}}",
+    "modernActivityBarItem.hoverBackground": "#{{FG}}{{T_04}}",
+    "modernActivityBarItem.hoverForeground": "#{{FG}}",
+    "modernTab.activeBackground": "#{{ACTIVE}}",
+    "modernTab.activeForeground": "#{{FG}}",
+    "modernTab.hoverBackground": "#{{FG}}{{T_04}}",
+    "modernTab.hoverForeground": "#{{FG}}",
+    "modernEditorTab.activeBackground": "#{{BG}}",
+    "modernEditorTab.activeActionBackground": "#{{BG}}",
+    "modernEditorTab.activeForeground": "#{{FG}}",
+    "modernEditorTab.activeHoverBackground": "#{{BG}}",
+    "modernEditorTab.activeHoverActionBackground": "#{{BG}}",
+    "modernEditorTab.inactiveBackground": "#{{BG_DIM}}",
+    "modernEditorTab.hoverBackground": "#{{BG_DIM}}",
+    "modernEditorTab.hoverActionBackground": "#{{BG_DIM}}",
+    "modernEditorTab.hoverForeground": "#{{FG}}",
+    "modernEditorTab.selectedActionBackground": "#{{BG}}",
     // ! Title Bar
     //   -- position: top-most bar
     "titleBar.activeBackground": "#{{BG}}",

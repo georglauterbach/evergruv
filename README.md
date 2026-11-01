@@ -6,7 +6,7 @@ A color theme based on [@sainnhe](https://github.com/sainnhe)'s excellent [Everf
 
 ### Light
 
-[![Gruvbox Material Dark](https://github.com/georglauterbach/evergruv/blob/main/assets/evergruv_light.png?raw=true)](https://coolors.co/EBEBE4-F5F5F2-5C6A72-F85552-F57D26-D69A00-8DA101-35A77C-3A94C5-DF69BA)
+[![Everforest Light](https://github.com/georglauterbach/evergruv/blob/main/assets/evergruv_light.png?raw=true)](https://coolors.co/EBEBE4-F5F5F2-505D65-F85552-F57D26-D69A00-8DA101-35A77C-3A94C5-DF69BA)
 
 ### Dark
 

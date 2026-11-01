@@ -2,11 +2,28 @@
 
 All notable changes to this project will be documented in this file. The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/georglauterbach/evergruv/compare/0.6.0...HEAD)
+## [Unreleased](https://github.com/georglauterbach/evergruv/compare/0.7.0...HEAD)
 
 > [!NOTE]
 >
 > Changes listed in this section have not been published yet!
+
+## [0.7.0](https://github.com/georglauterbach/evergruv/releases/tag/0.7.0)
+
+- **Changed**
+  - raised the minimum required VS Code version to `1.140.0` (the version all color keys the theme sets, including those for the Modern UI, were verified against)
+  - updated the light foreground color to `505D65` and aligned the theme with the Sway configuration in [`github.com/georglauterbach/desktop`](https://github.com/georglauterbach/desktop)
+  - borders are now opaque and use the new border colors; widgets, sticky scroll, and scroll bars use the new shadow colors
+  - updated `README.md` (light variant link and image description) and the light palette asset
+- **Fixed**
+  - `inputValidation.errorForeground` was blue instead of red
+  - aligned the terminal's cyan (dark), bright white (light), and cursor color with the Alacritty theme
+  - aligned `debugTokenExpression.*` colors with the token colors
+  - placeholder text in inputs is legible again with opaque borders
+- **Added**
+  - `theme.yaml` now contains the transparent dim background, border, active border, shadow, and inactive shadow colors
+  - colors for the top activity bar, overview ruler, status bar item errors & warnings, SCM graph, terminal command decorations, quick input groups, indent guides, ghost text, block quotes & code blocks, menus, and chat
+  - colors for the experimental Modern UI (`workbench.experimental.modernUI`)
 
 ## [0.6.0](https://github.com/georglauterbach/evergruv/releases/tag/0.6.0)
 

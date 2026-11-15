@@ -8,9 +8,12 @@ The VS Code themes are templated; the templates can be found in [`templates/`](.
 
 ## Repository Layout
 
-| Path         | Purpose                                              |
-| :----------- | :--------------------------------------------------- |
-| `.github/`   | GitHub-related content like CI/CD, issues, etc.      |
-| `assets/`    | contains "advertisement" material                    |
-| `templates/` | contains file that are updated by `generate.sh`      |
-| `themes/`    | contains an actual theme definition for VS Code      |
+|Path|Purpose|
+|:-|:-|
+|`.github/`|GitHub-related content like CI/CD, issues, etc.|
+|`CHANGELOG.md`|Keep a Changelog history|
+|`cspell.config.yaml`|Spell-check configuration|
+|`README.md`|Project description|
+|`assets/`|contains "advertisement" material|
+|`templates/`|contains file that are updated by `generate.sh`|
+|`themes/`|contains an actual theme definition for VS Code|

@@ -1,7 +1,7 @@
 // VS Code color scheme definition for the theme Evergruv
 //
-// REF https://github.com/georglauterbach/evergruv
-//     https://code.visualstudio.com/api/references/theme-color
+// > https://github.com/georglauterbach/evergruv
+//   https://code.visualstudio.com/api/references/theme-color
 {
   "$schema": "vscode://schemas/color-theme",
   "type": "dark",
@@ -9,7 +9,7 @@
   "semanticHighlighting": true,
   "semanticTokenColors": {
     // * -- standard token types
-    // REF https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide#standard-token-types-and-modifiers
+    // > https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide#standard-token-types-and-modifiers
     "namespace": "#89B482",
     "class": "#7DAEA3",
     "enum": "#7DAEA3",

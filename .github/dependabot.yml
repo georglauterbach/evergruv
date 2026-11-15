@@ -9,5 +9,4 @@ updates:
     schedule:
       interval: monthly
     assignees: [ georglauterbach ]
-    labels:
-      - area::ci
+    labels: [ area::ci ]

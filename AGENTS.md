@@ -6,12 +6,6 @@ This repository defines the colors and provides a VS Code extension. Other proje
 
 The VS Code themes are templated; the templates can be found in [`templates/`](./templates). The theme files are generated with [`generate.sh`](./generate.sh). When you make changes, update the templates and generate the new theme.
 
-## Associated Projects
-
-1. [`github.com/georglauterbach/hermes`](https://github.com/georglauterbach/hermes): Like desktop, but for the command line
-2. [`github.com/georglauterbach/desktop`](https://github.com/georglauterbach/desktop): Like hermes, but for the GUI
-3. [`github.com/georglauterbach/linter`](https://github.com/georglauterbach/linter): A composite linter for all of my projects
-
 ## Repository Layout
 
 | Path         | Purpose                                              |

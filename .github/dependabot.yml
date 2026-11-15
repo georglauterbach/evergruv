@@ -10,5 +10,4 @@ updates:
       interval: monthly
     assignees: [ georglauterbach ]
     labels:
-      - kind::update
       - area::ci
